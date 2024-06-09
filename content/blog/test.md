@@ -6,7 +6,7 @@ draft: false
 tags: [ "Certification", "Developer", "codefrydev"]
 weight: 101
 cover:
-    image: "/blog/image.png"
+    image: "blog/image.png"
 ---
 
  
