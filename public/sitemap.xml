@@ -4,20 +4,45 @@
   <url>
     <loc>http://localhost:1313/updates/blog/test/</loc>
   </url><url>
+    <loc>http://localhost:1313/updates/tags/.net-framework/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/updates/blog/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/c-sharp/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/codefrydev/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/net/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/net-core/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/ocr/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/optical-character-recognition/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/blog/ocr/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/updates/tags/certification/</loc>
   </url><url>
-    <loc>http://localhost:1313/updates/</loc>
-  </url><url>
-    <loc>http://localhost:1313/updates/tags/codefrydev/</loc>
-  </url><url>
     <loc>http://localhost:1313/updates/tags/developer/</loc>
   </url><url>
     <loc>http://localhost:1313/updates/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/updates/tags/</loc>
   </url>
 </urlset>

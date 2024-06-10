@@ -2,7 +2,9 @@ baseURL: "https://codefrydev.in/updates/"
 languageCode: en-us
 title: Code Fry Dev
 theme: PaperMod
+enableRobotsTXT: true
 
+googleAnalytics: G-VM01Q3R43D
 menu:
   main:
     - identifier: home
@@ -13,10 +15,10 @@ menu:
       name: Search
       url: /search
       weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60 
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60 
 
 params:
   # theme
@@ -25,7 +27,12 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
   # for enchanced SEO
   env: production
 
@@ -81,3 +88,16 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+minify:
+  disableXML: true
+  minifyOutput: true
+
+socialIcons:
+  - name: x
+    url: "https://x.com/codefrydev"
+  - name: stackoverflow
+    url: "https://stackoverflow.com" 
+
+analytics:
+    google:
+      SiteVerificationTag: "G-VM01Q3R43D"
