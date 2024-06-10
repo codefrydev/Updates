@@ -1,27 +1,22 @@
 ---
 title: "Tesseract OCR "
+author: "PrashantUnity"
 weight: 100
 date: 2024-06-10T11:57:15+05:30
-tags: [ "OCR", "NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
-author: "PrashantUnity"
-cover:
-    image: "blog/tesserect_ocr.png"
-showToc: true 
+#dateString: Mar 2023
 description: "Tesseract OCR is one of the most popular open-source OCR libraries for text Extraction from image. It supports a wide range of languages and can recognize text from various image formats."
 #canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false 
-ShowReadingTime: true     
 cover:
     image: "blog/tesserect_ocr.png" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
+
+tags: [ "OCR", "NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
 ---
 
 # Optical Character Recognition Using Tesseract
 
-[Tesseract OCR](https://github.com/tesseract-ocr/tesseract) is one of the most popular open-source OCR libraries. It supports a wide range of languages and can recognize text from various image formats.
+[Tesseract OCR](https://github.com/tesseract-ocr/tesseract#center) is one of the most popular open-source OCR libraries. It supports a wide range of languages and can recognize text from various image formats.
 
 ---
 

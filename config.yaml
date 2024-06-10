@@ -5,6 +5,10 @@ theme: PaperMod
 enableRobotsTXT: true
 
 googleAnalytics: G-VM01Q3R43D
+analytics:
+    google:
+      SiteVerificationTag: "G-VM01Q3R43D"
+      
 menu:
   main:
     - identifier: home
@@ -20,8 +24,10 @@ menu:
       url: /tags
       weight: 60 
 
-params:
-  # theme
+params:  
+  defaultTheme: auto
+  comments: true
+  disqusShortname: codefrydev
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
@@ -35,19 +41,8 @@ params:
   ShowRssButtonInSectionTermList: true
   # for enchanced SEO
   env: production
-
-  # Home Page
-  profileMode:
-    enabled: false
-    title: "Code Fry dev Blog"
-    subtitle: "Announce"
-    imageUrl: "home/casual-small-square.jpeg"
-    imageWidth: 220
-    imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
-
+  assets:
+    disableHLJS: false
   # List View
   hideDescriptionInList: false
 
@@ -87,17 +82,8 @@ outputs:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true 
+
 minify:
   disableXML: true
   minifyOutput: true
-
-socialIcons:
-  - name: x
-    url: "https://x.com/codefrydev"
-  - name: stackoverflow
-    url: "https://stackoverflow.com" 
-
-analytics:
-    google:
-      SiteVerificationTag: "G-VM01Q3R43D"
