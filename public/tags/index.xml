@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>Asp Net</title>
+      <link>http://localhost:1313/updates/tags/asp-net/</link>
+      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/asp-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blazor</title>
+      <link>http://localhost:1313/updates/tags/blazor/</link>
+      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/blazor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>C Sharp</title>
       <link>http://localhost:1313/updates/tags/c-sharp/</link>
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
@@ -67,6 +85,15 @@
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/optical-character-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/updates/tags/snake/</link>
+      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/snake/</guid>
       <description></description>
     </item>
     

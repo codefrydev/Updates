@@ -15,6 +15,18 @@ menu:
       name: Home
       url: /
       weight: 10
+    - identifier: application
+      name: Apps
+      url: /application
+      weight: 11
+    - identifier: games
+      name: Games
+      url: /games
+      weight: 12
+    - identifier: design
+      name: Design
+      url: /design
+      weight: 50
     - identifier: search
       name: Search
       url: /search
@@ -24,7 +36,8 @@ menu:
       url: /tags
       weight: 60 
 
-params:  
+params:
+  mainSections : ["blog","games","design","application"] # put parent directory to show in home pages
   defaultTheme: auto
   comments: true
   disqusShortname: codefrydev
