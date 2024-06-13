@@ -6,14 +6,14 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
+    --theme: #e5e9f4;
+    --entry: #e5e9f4;
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --tertiary: #e5e9f4;
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
+    --code-bg: #e5e9f4;
     --border: rgb(238, 238, 238);
 }
 
