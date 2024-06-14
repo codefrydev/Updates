@@ -6,20 +6,11 @@
     <description>Recent content in Tags on Code Fry Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>.NET Framework</title>
-      <link>http://localhost:1313/updates/tags/.net-framework/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/tags/.net-framework/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 14 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asp Net</title>
       <link>http://localhost:1313/updates/tags/asp-net/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/asp-net/</guid>
       <description></description>
@@ -28,7 +19,7 @@
     <item>
       <title>Blazor</title>
       <link>http://localhost:1313/updates/tags/blazor/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/blazor/</guid>
       <description></description>
@@ -37,7 +28,7 @@
     <item>
       <title>C Sharp</title>
       <link>http://localhost:1313/updates/tags/c-sharp/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/c-sharp/</guid>
       <description></description>
@@ -46,7 +37,7 @@
     <item>
       <title>Codefrydev</title>
       <link>http://localhost:1313/updates/tags/codefrydev/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/codefrydev/</guid>
       <description></description>
@@ -55,7 +46,7 @@
     <item>
       <title>NET</title>
       <link>http://localhost:1313/updates/tags/net/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/net/</guid>
       <description></description>
@@ -64,9 +55,27 @@
     <item>
       <title>NET Core</title>
       <link>http://localhost:1313/updates/tags/net-core/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/updates/tags/snake/</link>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/snake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.NET Framework</title>
+      <link>http://localhost:1313/updates/tags/.net-framework/</link>
+      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/.net-framework/</guid>
       <description></description>
     </item>
     
@@ -85,15 +94,6 @@
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/optical-character-recognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Snake</title>
-      <link>http://localhost:1313/updates/tags/snake/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/tags/snake/</guid>
       <description></description>
     </item>
     
