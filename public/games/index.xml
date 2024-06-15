@@ -6,7 +6,7 @@
     <description>Recent content in Games on Code Fry Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiny Fish Privacy Policy</title>
       <link>http://localhost:1313/updates/games/tinyfish/privacy-policy/</link>
@@ -23,15 +23,6 @@
       
       <guid>http://localhost:1313/updates/games/tinyfish/term-condition/</guid>
       <description>Play Tiny Term and Condition</description>
-    </item>
-    
-    <item>
-      <title>Snake Game Using Blazor </title>
-      <link>http://localhost:1313/updates/games/snake/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/games/snake/</guid>
-      <description>Play Chaotic Snake Game</description>
     </item>
     
   </channel>

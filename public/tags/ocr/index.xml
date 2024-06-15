@@ -6,22 +6,31 @@
     <description>Recent content in OCR on Code Fry Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Lense For OCR </title>
+      <link>http://localhost:1313/updates/application/ocr/google-lens-ocr/</link>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/application/ocr/google-lens-ocr/</guid>
+      <description>Library to use Google Lens OCR for free, via API used in Chromium. This doesn&amp;#39;t require running a headless browser. It&amp;#39;s set up to work without any options, there&amp;#39;s no need to be authorized (no need for Google account!).</description>
+    </item>
+    
     <item>
       <title>Tesseract For OCR </title>
-      <link>http://localhost:1313/updates/blog/tesseract/</link>
+      <link>http://localhost:1313/updates/application/ocr/tesseract/</link>
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
       
-      <guid>http://localhost:1313/updates/blog/tesseract/</guid>
+      <guid>http://localhost:1313/updates/application/ocr/tesseract/</guid>
       <description>Tesseract OCR is one of the most popular open-source OCR libraries for text Extraction from image. It supports a wide range of languages and can recognize text from various image formats.</description>
     </item>
     
     <item>
       <title>Window Media OCR library For OCR </title>
-      <link>http://localhost:1313/updates/blog/window-media-ocr/</link>
+      <link>http://localhost:1313/updates/application/ocr/window-media-ocr/</link>
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
       
-      <guid>http://localhost:1313/updates/blog/window-media-ocr/</guid>
+      <guid>http://localhost:1313/updates/application/ocr/window-media-ocr/</guid>
       <description>Window Media OCR library</description>
     </item>
     

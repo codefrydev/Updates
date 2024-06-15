@@ -6,29 +6,20 @@
     <description>Recent content in Tags on Code Fry Dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Asp Net</title>
-      <link>http://localhost:1313/updates/tags/asp-net/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      <title>.NET Framework</title>
+      <link>http://localhost:1313/updates/tags/.net-framework/</link>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
-      <guid>http://localhost:1313/updates/tags/asp-net/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blazor</title>
-      <link>http://localhost:1313/updates/tags/blazor/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/tags/blazor/</guid>
+      <guid>http://localhost:1313/updates/tags/.net-framework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C Sharp</title>
       <link>http://localhost:1313/updates/tags/c-sharp/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/c-sharp/</guid>
       <description></description>
@@ -37,16 +28,25 @@
     <item>
       <title>Codefrydev</title>
       <link>http://localhost:1313/updates/tags/codefrydev/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/codefrydev/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Google Lens</title>
+      <link>http://localhost:1313/updates/tags/google-lens/</link>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/google-lens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NET</title>
       <link>http://localhost:1313/updates/tags/net/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/net/</guid>
       <description></description>
@@ -55,34 +55,16 @@
     <item>
       <title>NET Core</title>
       <link>http://localhost:1313/updates/tags/net-core/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/net-core/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Snake</title>
-      <link>http://localhost:1313/updates/tags/snake/</link>
-      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/tags/snake/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.NET Framework</title>
-      <link>http://localhost:1313/updates/tags/.net-framework/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
-      
-      <guid>http://localhost:1313/updates/tags/.net-framework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>OCR</title>
       <link>http://localhost:1313/updates/tags/ocr/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/ocr/</guid>
       <description></description>
@@ -91,9 +73,45 @@
     <item>
       <title>Optical Character Recognition</title>
       <link>http://localhost:1313/updates/tags/optical-character-recognition/</link>
-      <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/tags/optical-character-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/updates/tags/android/</link>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fish</title>
+      <link>http://localhost:1313/updates/tags/fish/</link>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/fish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>http://localhost:1313/updates/tags/game/</link>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Godot</title>
+      <link>http://localhost:1313/updates/tags/godot/</link>
+      <pubDate>Fri, 14 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/tags/godot/</guid>
       <description></description>
     </item>
     

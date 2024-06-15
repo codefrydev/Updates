@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Google Lens on Code Fry Dev</title>
+    <link>http://localhost:1313/updates/tags/google-lens/</link>
+    <description>Recent content in Google Lens on Code Fry Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/google-lens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Lense For OCR </title>
+      <link>http://localhost:1313/updates/application/ocr/google-lens-ocr/</link>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/application/ocr/google-lens-ocr/</guid>
+      <description>Library to use Google Lens OCR for free, via API used in Chromium. This doesn&amp;#39;t require running a headless browser. It&amp;#39;s set up to work without any options, there&amp;#39;s no need to be authorized (no need for Google account!).</description>
+    </item>
+    
+  </channel>
+</rss>
