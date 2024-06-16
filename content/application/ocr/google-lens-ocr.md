@@ -68,9 +68,9 @@ foreach (var item in result)
 - **Compatibility**: The library is compatible with both .NET Core and .NET Framework, offering flexibility for different development environments.
 - **As Library** : Delete Progrma.cs file of Goole Lens project and chage project type to Class Library i.e. in Visual Studio 2022 Right Click on project and change application type to Class Library
 
-![properties](https://codefrydev.github.io/Updates/application/ocr/lensprop.png)
-![application](https://codefrydev.github.io/Updates/application/ocr/lenswhere.png)
-![option](https://codefrydev.github.io/Updates/application/ocr/lenstype.png) 
+![properties](./lensprop.png)
+![application](./lenswhere.png)
+![option](./lenstype.png)
 
 ## Why Choose Google Lens OCR?
 
