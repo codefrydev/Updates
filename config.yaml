@@ -41,6 +41,8 @@ menu:
       weight: 60 
 
 params:
+  customCSS:
+    - "css/custom.css"
   mainSections : ["blog","games","design","application"] # put parent directory to show in home pages
   defaultTheme: auto
   comments: true

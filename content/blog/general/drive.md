@@ -216,7 +216,7 @@ List<string> ExtractFileList(string html)
 
 > For More Follow below Videos
 
-<video width="480" height="360" controls>
-  <source src="./drive.mp4" type="video/mp4">
+<video width="360" height="180" controls auto="false">
+  <source src="./drive.mp4" type="video/mp4" >
   Your browser does not support the video tag.
 </video>
