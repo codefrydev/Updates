@@ -7,7 +7,7 @@ dateString: June 2024
 description: "Tesseract OCR is one of the most popular open-source OCR libraries for text Extraction from image. It supports a wide range of languages and can recognize text from various image formats."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "application/ocr/tesserect_ocr.png" # image path/url
+    image: "tesserect_ocr.png" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 

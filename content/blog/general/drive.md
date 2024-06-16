@@ -3,7 +3,7 @@ title: "Get Id of All items in Google Drive Folder"
 author: "PrashantUnity"
 weight: 100
 dateString: June 2024  
-description: ""
+description: "Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "blog/googledrive.png" # image path/url
@@ -29,7 +29,7 @@ https://drive.google.com/drive/u/4/folders/1759s8Jule46RCPypiQ5y3wLh5aCPlrK6
 ### Steps 1
 
 Open IDE Or Code Editor. Create New console App using IDE Or through this Command In Terminal
-```sh
+```sh {linenos=true}
 dotnet new console -n MyApp
 ```
 ### Steps 2
@@ -37,19 +37,19 @@ dotnet new console -n MyApp
 Install HtmlAgilityPack in project Using one of below Commands
 
 > Package Manager
-```sh
+```sh {linenos=true}
 NuGet\Install-Package HtmlAgilityPack -Version 1.11.60
 ```
 > Command Line Inter Face
-```sh
+```sh {linenos=true}
 dotnet add package HtmlAgilityPack --version 1.11.60
 ```
 > If You are using Polyglot Notebook in VS Code
-```sh
+```sh {linenos=true}
 \#r "nuget: HtmlAgilityPack, 1.11.60"
 ```
 > Right Click on Project Choose Edit Project File 
-```sh 
+```sh {linenos=true}
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
   </ItemGroup> 
@@ -57,7 +57,7 @@ dotnet add package HtmlAgilityPack --version 1.11.60
 
 ## Your .csproj file Should Look similar like this
 
-```sh
+```sh {linenos=true}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -78,7 +78,7 @@ dotnet add package HtmlAgilityPack --version 1.11.60
 
 Open Program File and add below Function Snippets.
 
-```cs
+```cs {linenos=true}
 string GetHtml(string url)
 {
     using (WebClient client = new WebClient())
@@ -88,7 +88,7 @@ string GetHtml(string url)
 }
 ``` 
 
-```cs
+```cs {linenos=true}
 List<string> ExtractFileList(string html)
 {
     var fileList = new List<string>();
@@ -123,8 +123,8 @@ List<string> ExtractFileList(string html)
 - Then Call GetHtml Function To Get Html Content
 - ExtractFileList to Get List Of Only
 
-```cs
-// Replace 'YOUR_FOLDER_ID' with the ID of your Google Drive folder
+```cs {linenos=true}
+// Replace '1759s8Jule46RCPypiQ5y3wLh5aCPlrK6' with the ID of your Google Drive folder
 string folderId = "1759s8Jule46RCPypiQ5y3wLh5aCPlrK6";
 
 // URL of the Google Drive folder
@@ -133,7 +133,7 @@ string url = $"https://drive.google.com/drive/folders/{folderId}";
 // Fetch the HTML content of the Google Drive folder link
 string html = GetHtml(url);
 
-// Extract the file IDs and names from the HTML
+// Extract the file IDs from the HTML
 var fileList = ExtractFileList(html);
 ```
 
@@ -141,7 +141,7 @@ var fileList = ExtractFileList(html);
 
 Iterating over fileList to Print it to Console.
 
-```cs
+```cs {linenos=true}
 foreach (var file in fileList)
 {
     Console.WriteLine($"File ID: {file}");
@@ -150,12 +150,12 @@ foreach (var file in fileList)
 
 ### Full Code
 
-```cs
+```cs {linenos=true}
 using HtmlAgilityPack; 
 using System.Net;
 
 
-// Replace 'YOUR_FOLDER_ID' with the ID of your Google Drive folder
+// Replace '1759s8Jule46RCPypiQ5y3wLh5aCPlrK6' with the ID of your Google Drive folder
 string folderId = "1759s8Jule46RCPypiQ5y3wLh5aCPlrK6";
 
 // URL of the Google Drive folder
@@ -164,7 +164,7 @@ string url = $"https://drive.google.com/drive/folders/{folderId}";
 // Fetch the HTML content of the Google Drive folder link
 string html = GetHtml(url);
 
-// Extract the file IDs and names from the HTML
+// Extract the file IDs from the HTML
 var fileList = ExtractFileList(html);
 
 // Output the file list
@@ -216,7 +216,7 @@ List<string> ExtractFileList(string html)
 
 > For More Follow below Videos
 
-<video width="640" height="360" controls>
+<video width="480" height="360" controls>
   <source src="./drive.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

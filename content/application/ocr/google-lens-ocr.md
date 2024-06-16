@@ -7,7 +7,7 @@ dateString: June 2024
 description: "Library to use Google Lens OCR for free, via API used in Chromium. This doesn't require running a headless browser. It's set up to work without any options, there's no need to be authorized (no need for Google account!)."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "application/ocr/lens.png" # image path/url
+    image: "lens.png" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
@@ -22,7 +22,7 @@ Extracting text from images is a handy tool for many tasks, like digitizing docu
 
 First things first, you’ll need to clone the repository to your local machine. This project is hosted on GitHub and can be easily cloned using the following command:
 
-```sh
+```sh {linenos=true}
 git clone https://github.com/codefrydev/OCR.git
 ```
 
@@ -51,7 +51,7 @@ To get started with Google Lens OCR in your .NET project, follow these steps:
 
 Here’s a quick snippet to get you started with Google Lens OCR in a .NET environment:
 
-```cs
+```cs {linenos=true}
 var path = "imagetwo.jpg";  
 var extract = new Core();
 var result = await extract.ScanByFileAsync(path);

@@ -16,7 +16,7 @@ menu:
       url: /
       weight: 10
     - identifier: application
-      name: Apps
+      name: App
       url: /application
       weight: 11
     - identifier: blog
@@ -24,7 +24,7 @@ menu:
       url: /blog
       weight: 11
     - identifier: games
-      name: Games
+      name: Game
       url: /games
       weight: 12
     - identifier: design
@@ -36,7 +36,7 @@ menu:
       url: /search
       weight: 50
     - identifier: tags
-      name: Tags
+      name: Tag
       url: /tags
       weight: 60 
 

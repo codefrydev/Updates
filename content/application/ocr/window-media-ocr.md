@@ -7,7 +7,7 @@ dateString: June 2024
 description: "Windows Media OCR, extracted from Microsoft's PowerToys repository, provides a powerful solution for text recognition by leveraging the capabilities of the Windows operating system. In this blog, we'll guide you through setting up and using Windows Media OCR in your projects."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "application/ocr/windowocr.png" # image path/url
+    image: "windowocr.png" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
@@ -22,13 +22,13 @@ Windows Media OCR is a powerful tool for extracting text from images, derived fr
 
 First, you need to clone the repository to your local machine. Use the following command:
 
-```sh
+```sh {linenos=true}
 git clone https://github.com/codefrydev/OCR.git
 ```
 
 Next, let's look at a simple example of how to use Windows Media OCR. Here’s a `Program.cs` file example from **OCR.WindowMediaOcr.NetCore**:
 
-```cs
+```cs {linenos=true}
 internal class Program
 {
     static void Main()
@@ -48,7 +48,7 @@ internal class Program
 
 To ensure your project works with Windows Media OCR, make sure it targets Windows 10 or above. Additionally, you’ll need to install the following NuGet packages:
 
-```xml
+```xml {linenos=true}
 <ItemGroup>
     <PackageReference Include="Microsoft.Windows.CsWinRT" />
     <PackageReference Include="System.ComponentModel.Composition" />
