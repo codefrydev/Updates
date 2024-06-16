@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CFD on Code Fry Dev</title>
+    <link>http://localhost:1313/updates/tags/cfd/</link>
+    <description>Recent content in CFD on Code Fry Dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/updates/tags/cfd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Id of All items in Google Drive Folder</title>
+      <link>http://localhost:1313/updates/blog/general/drive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/updates/blog/general/drive/</guid>
+      <description>Problem Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C#
+Requirement Shared Google Drive Folder id /URL https://drive.google.com/drive/u/4/folders/1759s8Jule46RCPypiQ5y3wLh5aCPlrK6 IDE Like VS Code Or Visual Studio Preffered. Leatest .NET SDK Installed. You Can Get it From Here Steps 1 Open IDE Or Code Editor.</description>
+    </item>
+    
+  </channel>
+</rss>

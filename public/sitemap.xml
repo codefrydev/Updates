@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/updates/games/tinyfish/game/</loc>
+    <lastmod>2024-06-15T11:57:15+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/updates/application/ocr/google-lens-ocr/</loc>
     <lastmod>2024-06-15T11:57:15+05:30</lastmod>
   </url><url>
@@ -17,10 +20,16 @@
     <loc>http://localhost:1313/updates/blog/</loc>
     <lastmod>2024-06-10T11:57:15+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/updates/blog/csharp/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/updates/design/</loc>
     <lastmod>2024-06-10T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/games/</loc>
+    <lastmod>2024-06-10T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/blog/general/</loc>
     <lastmod>2024-06-10T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/application/ocr/tesseract/</loc>
@@ -29,9 +38,12 @@
     <loc>http://localhost:1313/updates/application/ocr/window-media-ocr/</loc>
     <lastmod>2024-06-10T11:57:15+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/updates/blog/test/</loc>
+    <loc>http://localhost:1313/updates/blog/general/drive/</loc>
   </url><url>
     <loc>http://localhost:1313/updates/tags/.net-framework/</loc>
+    <lastmod>2024-06-15T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/android/</loc>
     <lastmod>2024-06-15T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/tags/c-sharp/</loc>
@@ -41,6 +53,15 @@
     <lastmod>2024-06-15T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/tags/codefrydev/</loc>
+    <lastmod>2024-06-15T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/fish/</loc>
+    <lastmod>2024-06-15T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/game/</loc>
+    <lastmod>2024-06-15T11:57:15+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/godot/</loc>
     <lastmod>2024-06-15T11:57:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/updates/tags/google-lens/</loc>
@@ -61,25 +82,17 @@
     <loc>http://localhost:1313/updates/tags/</loc>
     <lastmod>2024-06-15T11:57:15+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/updates/tags/android/</loc>
-    <lastmod>2024-06-14T11:57:15+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/updates/tags/fish/</loc>
-    <lastmod>2024-06-14T11:57:15+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/updates/tags/game/</loc>
-    <lastmod>2024-06-14T11:57:15+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/updates/tags/godot/</loc>
-    <lastmod>2024-06-14T11:57:15+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/updates/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/updates/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/updates/tags/certification/</loc>
+    <loc>http://localhost:1313/updates/tags/cfd/</loc>
   </url><url>
-    <loc>http://localhost:1313/updates/tags/developer/</loc>
+    <loc>http://localhost:1313/updates/tags/google-drive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/htmlagilitypack/</loc>
+  </url><url>
+    <loc>http://localhost:1313/updates/tags/id/</loc>
   </url><url>
     <loc>http://localhost:1313/updates/search/</loc>
   </url>

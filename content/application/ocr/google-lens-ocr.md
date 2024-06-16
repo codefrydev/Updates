@@ -68,9 +68,10 @@ foreach (var item in result)
 - **Compatibility**: The library is compatible with both .NET Core and .NET Framework, offering flexibility for different development environments.
 - **As Library** : Delete Progrma.cs file of Goole Lens project and chage project type to Class Library i.e. in Visual Studio 2022 Right Click on project and change application type to Class Library
 
-![properties](application/ocr/lensprop.png)
-![application](application/ocr/lenswhere.png)
-![option](application/ocr/lenstype.png)
+![properties](https://codefrydev.github.io/Updates/application/ocr/lensprop.png)
+![application](https://codefrydev.github.io/Updates/application/ocr/lenswhere.png)
+![option](https://codefrydev.github.io/Updates/application/ocr/lenstype.png) 
+
 ## Why Choose Google Lens OCR?
 
 Google Lens OCR stands out due to its accuracy and ease of use. By leveraging Google’s advanced machine learning algorithms, this library ensures precise text extraction, even from complex images. Moreover, its seamless integration with .NET Core and .NET Framework means you can use it across a wide range of applications, from web services to desktop applications.

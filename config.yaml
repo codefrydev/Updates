@@ -19,6 +19,10 @@ menu:
       name: Apps
       url: /application
       weight: 11
+    - identifier: blog
+      name: RND
+      url: /blog
+      weight: 11
     - identifier: games
       name: Games
       url: /games

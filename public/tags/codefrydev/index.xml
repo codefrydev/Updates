@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jun 2024 11:57:15 +0530</lastBuildDate><atom:link href="http://localhost:1313/updates/tags/codefrydev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About Tiny Fish Games</title>
+      <link>http://localhost:1313/updates/games/tinyfish/game/</link>
+      <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
+      
+      <guid>http://localhost:1313/updates/games/tinyfish/game/</guid>
+      <description>Play Tiny Fish Pricacy and policy</description>
+    </item>
+    
+    <item>
       <title>Google Lense For OCR </title>
       <link>http://localhost:1313/updates/application/ocr/google-lens-ocr/</link>
       <pubDate>Sat, 15 Jun 2024 11:57:15 +0530</pubDate>
@@ -49,16 +58,17 @@
       <pubDate>Mon, 10 Jun 2024 11:57:15 +0530</pubDate>
       
       <guid>http://localhost:1313/updates/application/ocr/window-media-ocr/</guid>
-      <description>Window Media OCR library</description>
+      <description>Windows Media OCR, extracted from Microsoft&amp;#39;s PowerToys repository, provides a powerful solution for text recognition by leveraging the capabilities of the Windows operating system. In this blog, we&amp;#39;ll guide you through setting up and using Windows Media OCR in your projects.</description>
     </item>
     
     <item>
-      <title>codefrydev</title>
-      <link>http://localhost:1313/updates/blog/test/</link>
+      <title>Get Id of All items in Google Drive Folder</title>
+      <link>http://localhost:1313/updates/blog/general/drive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/updates/blog/test/</guid>
-      <description>codefrydev</description>
+      <guid>http://localhost:1313/updates/blog/general/drive/</guid>
+      <description>Problem Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C#
+Requirement Shared Google Drive Folder id /URL https://drive.google.com/drive/u/4/folders/1759s8Jule46RCPypiQ5y3wLh5aCPlrK6 IDE Like VS Code Or Visual Studio Preffered. Leatest .NET SDK Installed. You Can Get it From Here Steps 1 Open IDE Or Code Editor.</description>
     </item>
     
   </channel>
