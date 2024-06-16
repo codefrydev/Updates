@@ -216,4 +216,4 @@ List<string> ExtractFileList(string html)
 
 > For More Follow below Videos
 
-![dive Video](https://codefrydev.github.io/Updates/blog/general/drive/videos/drive.mp4)
+![dive Video](./videos/drive.mp4)
