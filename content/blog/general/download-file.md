@@ -13,26 +13,20 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
 ---
 
-## Downloader
+## File Downloader Using C#
 
-Download File Using C#
+### Requirements
 
-### Requirement 
-
-- Valid File Url/ List of Url 
-- IDE Like VS Code Or Visual Studio Preffered.
-- Leatest .NET SDK Installed. [You Can Get it From Here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
+- **Valid File URL/List of URLs**
+- **IDE**: Visual Studio or Visual Studio Code (preferred)
+- **Latest .NET SDK Installed**: [Download Here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 
 ### Steps
 
-- Open visual Studio
-- Paste Below Snippets
-- replace file Url Value Based on you Requirement
-- Save File With Appropriate EExtension for example from above url png is used as it is png Image.
+#### 1. Open Visual Studio or Visual Studio Code
 
-```cs {linenos=true}
- using FileStream fileStream = File.Create($"image.png");
-```
+#### 2. Paste the Below Snippet
+
 
 ```cs {linenos=true}
 using var httpClient = new HttpClient();
@@ -48,8 +42,9 @@ try
         // Get the File stream
         using (Stream fileStreaam = await response.Content.ReadAsStreamAsync())
         {
-            // Save the file to a file
-            using FileStream fileStream = File.Create($"image.png");
+            // Save the file with appropriate extension name
+            var fileName=$"image.png"
+            using FileStream fileStream = File.Create(fileName);
             await fileStreaam.CopyToAsync(fileStream);
         }
         Console.WriteLine("File downloaded successfully.");
@@ -65,10 +60,22 @@ catch (Exception ex)
 }
 ```
 
+
+#### 3. Customize the Code
+
+- Replace `fileUrl` with the URL of the file you want to download.
+- Replace `fileName` with the desired name and extension for the downloaded file.
+
+#### 4. Run the Program
+
 ### For List of String you may use
 
 ```cs {linenos=true}
-var ls = new List<string>();
+var ls = new List<string>()
+{
+    "https://picsum.photos/200/300",
+    "https://picsum.photos/200/300"
+};
 foreach (var item in ls)
 {
     try

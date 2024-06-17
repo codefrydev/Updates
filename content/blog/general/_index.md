@@ -2,7 +2,7 @@
 title: "General Post"
 author: "Codefrydev"
 weight: 100
-date: 2024-06-10T11:57:15+05:30
-dateString: June 2024
-description: "Post For General Purpose" 
+date: 2024-06-10T11:57:15+05:30 
+description: "Post For General Purpose"  
+hideMeta: true
 ---

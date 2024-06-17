@@ -6,7 +6,7 @@ dateString: June 2024
 description: "Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "blog/googledrive.png" # image path/url
+    image: "googledrive.png" # image path/url
     alt: "Google Dive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
