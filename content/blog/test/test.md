@@ -6,7 +6,7 @@ dateString: June 2024
 description: "Guide of How To Create Blog Post, Categories And Etc"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "logo.png" # image path/url
+    image: "logo.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
@@ -111,4 +111,10 @@ cover:
 tags: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "Download File","Downloader","httpclient"]
 draft: true #make this false to publicly Available
 ---
+```
+
+#### for relate Linking of another page use below code for reference [SKiaSharp]({{< relref "blog/skiasharp/basic.md" >}})
+
+```md
+[Basic Setup]({{< relref "blog/skiasharp/basic.md" >}})
 ```
