@@ -44,6 +44,10 @@ params:
   customCSS:
     - "css/custom.css"
   mainSections : ["blog","games","design","application"] # put parent directory to show in home pages
+  images: ["android-chrome-512x512.png"]
+  keywords: ["Blog", "CFD", "NET" ,"Tutorials","Design","Games"]
+  description: "A place to learn Code using by making Game, Desing, Art using NET Technology"
+  author: "CodeFryDev"
   defaultTheme: auto
   comments: true
   disqusShortname: codefrydev
@@ -58,27 +62,36 @@ params:
   ShowBreadCrumbs: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
+  hideDescriptionInList: false
   # for enchanced SEO
   env: production
   assets:
     disableHLJS: false
-  # List View
-  hideDescriptionInList: false
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
+  label:
+    text: "CFD Post"
+    icon: "favicon.ico"
+    iconHeight: 35
+
 
   # cover image for posts
   cover:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  # socialIcons:
-  #   - name: "email"
-  #     url: "mailto:codefrydev@gmail.com"
-  #   - name: "linkedin"
-  #     url: "https://www.linkedin.com/in/codefrydev"
-  #   - name: "github"
-  #     url: "https://github.com/codefrydev"
-  #   - name: "youtube"
-  #     url: "https://www.youtube.com/c/codefrydev"
+  socialIcons:
+    - name: "email"
+      url: "mailto:codefrydev@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/codefrydev"
+    - name: "github"
+      url: "https://github.com/codefrydev"
+    - name: "youtube"
+      url: "https://www.youtube.com/c/codefrydev"
 
   # text search
   fuseOpts:

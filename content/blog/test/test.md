@@ -118,3 +118,9 @@ draft: true #make this false to publicly Available
 ```md
 [Basic Setup]({{< relref "blog/skiasharp/basic.md" >}})
 ```
+
+### Inside _index.md introduced following code
+
+```yaml
+keywords: ["Blog", "CFD", "NET" ,"Tutorials","Design","Games"]
+```
