@@ -7,7 +7,7 @@ dateString: June 2024
 description: "Windows Media OCR, extracted from Microsoft's PowerToys repository, provides a powerful solution for text recognition by leveraging the capabilities of the Windows operating system. In this blog, we'll guide you through setting up and using Windows Media OCR in your projects."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "windowocr.png" # image path/url
+    image: "cover.jpg" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 

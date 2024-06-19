@@ -1,7 +1,7 @@
 ---
 title: "Creating Cover using Skia Sharp"
 author: "PrashantUnity"
-weight: 100
+weight: 101
 dateString: June 2024  
 description: "In this Article I am Going To Give you Code Snippet of how i Generate Cover Image for this Website Using SkiaSharp Library"
 #canonicalURL: "https://canonical.url/to/page"
@@ -79,8 +79,6 @@ using (var paint = new SKPaint())
 SKFileWStream fs = new("cover.jpg");
 bmp.Encode(fs, SKEncodedImageFormat.Jpeg, quality: 50);
 bmp.Display(); 
-```
-
-#### Above code should generate image similar to below image
+``` 
 
 ![Create New File](./cover.jpg)

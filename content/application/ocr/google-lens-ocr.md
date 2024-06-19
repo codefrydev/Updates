@@ -7,7 +7,7 @@ dateString: June 2024
 description: "Library to use Google Lens OCR for free, via API used in Chromium. This doesn't require running a headless browser. It's set up to work without any options, there's no need to be authorized (no need for Google account!)."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "lens.png" # image path/url
+    image: "cover.jpg" # image path/url
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
