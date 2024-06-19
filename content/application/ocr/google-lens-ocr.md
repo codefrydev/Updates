@@ -11,7 +11,8 @@ cover:
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "OCR","Google lens" ,"NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
+tags: [ "OCR","Google lens" , "C sharp", "Optical Character Recognition"]
+keywords: [ "OCR","Google lens" ,"NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
 ---
 
 ## Harness the Power of Google Lens OCR in .NET Core and .NET Framework

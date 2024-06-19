@@ -10,7 +10,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
+tags: [ "C sharp", "Download File","Downloader","httpclient"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
 ---
 
 ## File Downloader Using C#

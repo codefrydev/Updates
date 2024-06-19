@@ -10,7 +10,8 @@ cover:
     alt: "Skia Sharp Basic Cover" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Getting Started","Basic"]
+tags: [  "C sharp","Skia Sharp","Getting Started","Basic"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Getting Started","Basic"]
 ---
 
 ## Getting Started With SkiaSharp

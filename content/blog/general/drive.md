@@ -10,7 +10,8 @@ cover:
     alt: "Google Dive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
+tags: [ "C sharp", "HtmlAgilityPack","Google Drive","ID"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
 ---
 
 ## Problem

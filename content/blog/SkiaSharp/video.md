@@ -10,7 +10,8 @@ cover:
     alt: "Skia Sharp Basic Cover" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Generate Video","Basic","FFMPEG"]
+tags: [ "C sharp", "Skia Sharp","Generate Video","Basic","FFMPEG"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Generate Video","Basic","FFMPEG"]
 draft: true
 ---
 

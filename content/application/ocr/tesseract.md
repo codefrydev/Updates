@@ -11,7 +11,8 @@ cover:
     alt: "Cover Page" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "OCR", "NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
+tags: [ "OCR", "NET", "C sharp", "Optical Character Recognition"]
+keywords: [ "OCR", "NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
 ---
 
 ## Unlocking the Power of Optical Character Recognition with Tesseract

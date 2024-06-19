@@ -10,7 +10,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
 
-tags: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "Download SDK","Download IDE","Chapter 1"]
+tags: [ "NET","C Sharp", "Download SDK","Download IDE","Chapter 1"]
+keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "Download SDK","Download IDE","Chapter 1"]
 draft: false #make this false to publicly Available
 ---
 
