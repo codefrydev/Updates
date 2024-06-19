@@ -6,7 +6,7 @@ dateString: June 2024
 description: "Write First Program in C# using Terminal(CLI)"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    image: "logo.png" # image path/url
+    image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
 
