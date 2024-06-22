@@ -46,7 +46,7 @@ params:
   mainSections : ["blog","games","design","application"] # put parent directory to show in home pages
   images: ["android-chrome-512x512.png"]
   keywords: ["Blog", "CFD", "NET" ,"Tutorials","Design","Games"]
-  description: "A place to learn Code using by making Game, Desing, Art using NET Technology"
+  description: "CodeFryDev is your ultimate destination for diverse digital content and tools. Enjoy our extensive game collection, innovative productivity apps, and micro applications for quick solutions. Access educational materials, interactive courses, and comprehensive tutorials for all skill levels. Fuel your creativity with design resources and versatile tools for efficient project completion. Visit CodeFryDev today and explore all we have to offer!"
   author: "CodeFryDev"
   defaultTheme: auto
   comments: true
