@@ -35,7 +35,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Html in Polyglot Notebook","
    - If you haven't already, download and install [VS Code](https://code.visualstudio.com/).
 
 2. **Open Your Image Folder**
-   - Navigate to the folder where your image files are located.
+   - Open Folder and Copy the image Path.
 
 3. **Open Terminal in the Folder**
    - **Windows:** Right-click in the folder, select "Show More Options," then "Open in Terminal." Alternatively, type `cmd` in the folder path and press Enter.
