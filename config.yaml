@@ -2,7 +2,7 @@ baseURL: "https://codefrydev.in/updates/"
 languageCode: en-us
 title: Code Fry Dev
 theme: PaperMod
-enableRobotsTXT: false
+enableRobotsTXT: true
 
 googleAnalytics: G-VM01Q3R43D
 analytics:
