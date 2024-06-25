@@ -2,6 +2,8 @@
 title: "Bing Index Now Using Api Key text File"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-24T00:00:00-07:00
+lastmod: 2024-06-25T23:59:59-07:00
 dateString: June 2024  
 description: "Bing IndexNow. I Will Guide you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"
@@ -45,15 +47,14 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing"
 #### Open VS Code
 
 - Create New Folder
-- Inside Folder Create three File
-    - **apidetails.json**
+- Inside Folder Create two File
     - **data.txt**
-    - **indexing.ipynb**
+    - **bing.ipynb**
     ![Search Bar New Project](26.png)
 - In data.txt File Fill all the URL in Follwing Fasion
     ![Search Bar New Project](27.png)
 
-#### Code in indexing.ipynb
+#### Code in bing.ipynb
 
 - Make Sure You Selected .Net Interactive 
 - Fill these data for Importing Library Fron Nuget Package

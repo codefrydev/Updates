@@ -2,6 +2,8 @@
 title: "String in C# | Chapter 5"
 author: ["PrashantUnity"]
 weight: 105
+date: 2024-06-19T00:00:00-07:00
+lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
 description: "A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only collection of Char objects."
 #canonicalURL: "https://canonical.url/to/page"

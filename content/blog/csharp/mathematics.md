@@ -2,6 +2,8 @@
 title: "Mathematical Operation in C# | Chapter 4"
 author: ["PrashantUnity"]
 weight: 104
+date: 2024-06-18T00:00:00-07:00
+lastmod: 2024-06-18T23:59:59-07:00
 dateString: June 2024  
 description: "In this post we will look into how mathematical Operation Work in c#"
 #canonicalURL: "https://canonical.url/to/page"

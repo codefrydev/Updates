@@ -2,6 +2,8 @@
 title: "Getting Started With Skia Sharp To Generate Video"
 author: "PrashantUnity"
 weight: 103
+date: 2024-06-24T00:00:00-07:00
+lastmod: 2024-06-24T23:59:59-07:00
 dateString: June 2024  
 description: "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
 #canonicalURL: "https://canonical.url/to/page"

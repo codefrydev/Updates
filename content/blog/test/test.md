@@ -2,6 +2,8 @@
 title: "How To"
 author: "PrashantUnity"
 weight: 1
+date: 2024-06-09T00:00:00-07:00
+lastmod: 2024-06-24T23:59:59-07:00
 dateString: June 2024  
 description: "Guide of How To Create Blog Post, Categories And Etc"
 #canonicalURL: "https://canonical.url/to/page"

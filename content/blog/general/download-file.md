@@ -2,6 +2,8 @@
 title: "Download File from internet"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-19T00:00:00-07:00
+lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
 description: "Suppose you want to download File from internet. You can Do this One Manually download or Programtically. I Will walk through you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"

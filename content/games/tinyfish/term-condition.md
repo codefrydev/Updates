@@ -2,7 +2,8 @@
 title: "Tiny Fish Term and Condition"
 author: "Abhijeet"
 weight: 100
-date: 2024-06-14T11:57:15+05:30
+date: 2024-06-15T00:00:00-07:00
+lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024
 description: "Play Tiny Term and Condition"
 #canonicalURL: "https://canonical.url/to/page"

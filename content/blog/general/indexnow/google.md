@@ -2,6 +2,8 @@
 title: "Index Now Using Google Api"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-24T00:00:00-07:00
+lastmod: 2024-06-25T23:59:59-07:00
 dateString: June 2024  
 description: "Google Indexing via Google Indexing Api.In this post I Will Guide you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"
@@ -34,13 +36,13 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing"
 
 - you can give any name and Click Create
     ![Search Bar New Project](3.png)
-- In an Moment On To Left Of Screen will show ssome thing like below Image
+- In an Moment On Top Right Of Screen will show some thing like below Image
 ![Search Bar New Project](4.png)
-- Click On Select Project
+- Click On **Select Project**
 
 ### Again Type Service Account On Search Section
 
-- Choose Service Account (IAM and admin)
+- Choose **Service Account (IAM and admin)**
     ![Search Bar New Project](5.png)
 - Then on Following Screen Click Create Service Account
     ![Search Bar New Project](6.png)
@@ -54,16 +56,17 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing"
 
 ### Generate Crediential
 
-- On Following SScreen it will show some thing Like this
+- On Following Screen it will show some thing Like this
 ![Search Bar New Project](12.png)
 - Copy mailing adress which will be like xxx@xxx.iam.gserviceaccount.com and keep some place it will be need later
-- In action Click on 3 Vertical dot and thenClick Manage Key
+- In action Click on 3 Vertical dot and then Manage Key
     ![Search Bar New Project](13.png)
 - On Following Screen Click on add Key then create new key
     ![Search Bar New Project](14.png)
-- A popup will appear select  JSON and Click Create
+- A popup will appear select  JSON and then Create
 
 ### Download of JSON File
+
 ![Search Bar New Project](15.png)
 
 ### Search Library on Search Bar
@@ -102,10 +105,10 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing"
 
 ### Requirement
 
-- VS Code 
+- VS Code
 - PolyGlot Notebook Extension
 - .Net Sdk Installed
-- if Not Please Follow Installtion step from here will Create Demo for that process.
+- if Not Please Follow Installtion process.
 
 #### Open VS Code
 

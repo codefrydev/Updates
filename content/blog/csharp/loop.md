@@ -2,6 +2,8 @@
 title: "Loop In C# | Chapter 7"
 author: ["PrashantUnity"]
 weight: 107
+date: 2024-06-19T00:00:00-07:00
+lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
 description: "Loops are used to execute a block of code repeatedly based on a condition. C# provides several looping constructs: `for`, `while`, `do-while`, and `foreach`. Each serves different use cases and provides flexibility in iteration."
 #canonicalURL: "https://canonical.url/to/page"

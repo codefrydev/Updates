@@ -2,6 +2,8 @@
 title: "Extract page from PDF"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-10T11:57:15+05:30
+lastmod: 2024-06-22T23:59:59-07:00
 dateString: June 2024  
 description: "Step-by-Step Guide to Converting Images to PDF using VS Code and Polyglot Notebooks"
 #canonicalURL: "https://canonical.url/to/page"

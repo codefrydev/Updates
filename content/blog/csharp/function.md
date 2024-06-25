@@ -2,6 +2,8 @@
 title: "Function In C# | Chapter 8"
 author: ["PrashantUnity"]
 weight: 108
+date: 2024-06-20T00:00:00-07:00
+lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
 description: "Function : It Is Series of statement contained inside code block which execute top down manner when called.It can also be call by name Method"
 #canonicalURL: "https://canonical.url/to/page"

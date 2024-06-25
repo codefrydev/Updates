@@ -2,6 +2,8 @@
 title: "Hello World Terminal(CLI) | Chapter 2"
 author: ["PrashantUnity"]
 weight: 102
+date: 2024-06-17T00:00:00-07:00
+lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
 description: "Write First Program in C# using Terminal(CLI)"
 #canonicalURL: "https://canonical.url/to/page"

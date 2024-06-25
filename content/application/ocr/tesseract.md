@@ -2,7 +2,8 @@
 title: "Tesseract For OCR "
 author: "PrashantUnity"
 weight: 100
-date: 2024-06-10T11:57:15+05:30
+date: 2024-06-15T00:00:00-07:00
+lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024  
 description: "Tesseract OCR is one of the most popular open-source OCR libraries for text Extraction from image. It supports a wide range of languages and can recognize text from various image formats."
 #canonicalURL: "https://canonical.url/to/page"

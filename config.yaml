@@ -20,7 +20,7 @@ menu:
       url: /application
       weight: 11
     - identifier: blog
-      name: RND
+      name: NET
       url: /blog
       weight: 11
     - identifier: games
@@ -28,7 +28,7 @@ menu:
       url: /games
       weight: 12
     - identifier: design
-      name: Design
+      name: DSN
       url: /design
       weight: 50
     - identifier: search
@@ -38,6 +38,10 @@ menu:
     - identifier: tags
       name: Tag
       url: /tags
+      weight: 60 
+    - identifier: archives
+      name: ARC
+      url: /archives
       weight: 60 
 
 params:

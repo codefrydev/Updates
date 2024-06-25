@@ -2,6 +2,8 @@
 title: "Generating CFD Logo using Skia Sharp"
 author: "PrashantUnity"
 weight: 102
+date: 2024-06-17T00:00:00-07:00
+lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
 description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate CFD LOGO for this Website Using SkiaSharp Library"
 #canonicalURL: "https://canonical.url/to/page"

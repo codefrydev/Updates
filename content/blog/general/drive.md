@@ -2,6 +2,8 @@
 title: "Get Id of All items in Google Drive Folder"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-13T00:00:00-07:00
+lastmod: 2024-06-13T23:59:59-07:00
 dateString: June 2024  
 description: "Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C# "
 #canonicalURL: "https://canonical.url/to/page"

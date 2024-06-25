@@ -2,6 +2,8 @@
 title: "Create Maze using SkiaSharp"
 author: "PrashantUnity"
 weight: 102
+date: 2024-06-19T00:00:00-07:00
+lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
 description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate maze"
 #canonicalURL: "https://canonical.url/to/page"

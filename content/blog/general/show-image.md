@@ -2,6 +2,8 @@
 title: "How To Display C# string value as Html in Polyglot Notebook ?"
 author: "PrashantUnity"
 weight: 100
+date: 2024-06-23T00:00:00-07:00
+lastmod: 2024-06-23T23:59:59-07:00
 dateString: June 2024  
 description: "This Post is about step by step guide of How To Display C# string value as Html in Polyglot Notebook"
 #canonicalURL: "https://canonical.url/to/page"

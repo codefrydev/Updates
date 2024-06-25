@@ -2,6 +2,8 @@
 title: "If Else in C# | Chapter 6"
 author: ["PrashantUnity"]
 weight: 106
+date: 2024-06-20T00:00:00-07:00
+lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
 description: "Conditional statements allow you to make decisions in your code based on certain conditions. The most commonly used conditional statements in C# are **if**, **else if**, and **else**."
 #canonicalURL: "https://canonical.url/to/page"
