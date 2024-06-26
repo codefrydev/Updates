@@ -14,6 +14,6 @@ cover:
 
 tags: [ "NET","C Sharp", "Chapter 11","Linear Data"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 11","Linear Data"]
-draft: true #make this false to publicly Available
+draft: false #make this false to publicly Available
 ---
 

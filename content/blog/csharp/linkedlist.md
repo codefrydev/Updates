@@ -1,7 +1,7 @@
 ---
 title: "Linked List | Chapter 13"
 author: ["PrashantUnity"]
-weight: 104
+weight: 1013
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-26T23:59:59-07:00
 dateString: June 2024  
@@ -530,7 +530,7 @@ draft: false #make this false to publicly Available
         } 
     }
     ```
+
 Thats all for now Will see you any another post.
 
-
-### [Previous Chapter]({{< relref "/blog/csharp/class.md" >}}) Class 
+### [Previous Chapter]({{< relref "/blog/csharp/class.md" >}}) Class
