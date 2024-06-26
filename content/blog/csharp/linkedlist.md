@@ -14,7 +14,7 @@ cover:
 
 tags: [ "NET","C Sharp","Chapter 13","Data Structure","Linked List"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 13","Linked List","Data Structure"]
-draft: true #make this false to publicly Available
+draft: false #make this false to publicly Available
 ---
 
 ## Linked List
