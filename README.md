@@ -133,6 +133,19 @@ hugo new site blog
 
 ---
 
+### use of Mermaid
+```
+{{< mermaid >}}
+    classDiagram
+        class Person{
+            +Name
+            +Age
+            +IsCoding()
+        } 
+{{< /mermaid >}}
+
+```
+
 Dummy Code For Setup Replace Youtube id with appropriate youtubeid
 
 ```yaml 

@@ -19,18 +19,18 @@ draft: false #make this false to publicly Available
 
 ## Linked List
 
-- I Will Use Vs Code With Polyglot.
-- Why ? => I Easier to Show/Visualise to other With Polyglot Notebook
-- You are Free to use any of Code Editor or IDE of your choice.
-- I will recomment VS Code. Because to Visualize Code i can Directly call code without any following c# Syntax. I will give you compile time error if you imple same code in Other Editor.
-- I Will Point out which will give error and you can remove that specific line of Code.
+- I will use VS Code with Polyglot Notebook.
+- Why? It is easier to show and visualize to others using Polyglot Notebook.
+- You are free to use any code editor or IDE of your choice.
+- I recommend VS Code because it allows for direct code execution without adhering strictly to C# syntax, facilitating easier visualization. Attempting to implement the same code in another editor may result in compile-time errors.
+- I will identify lines that cause errors, and you can remove those specific lines of code.
 
 ### Create One Class Name **CodeFrydev**
 
-- If You Don't Know About Class Please Follow this Post then only you will able to understand.
-- Give One Property **UserName** of data type string
-- Give Another Property **Rank** of data type int
-- You will have Class as Following
+- If you are not familiar with classes, please follow this post first; only then will you be able to understand.
+- Create a property named **UserName** of data type string.
+- Create another property named **Rank** of data type int.
+- Your class will look as follows:
 
     ```csharp
     public class CodefryDev
@@ -42,7 +42,7 @@ draft: false #make this false to publicly Available
 
 #### Create An **Object** of the **Codefrydev**
 
-- Below Code Shows Creating an Instance of Codefrydev Class Object/Instance
+- The code below demonstrates how to create an instance of the `Codefrydev` class:
 
     ```csharp
     var myself = new CodefryDev(); 
@@ -53,218 +53,231 @@ draft: false #make this false to publicly Available
 
     ![Object Of Codefrydev With no any assigneed value](./1.png)
 
-- In An Instance we See That Object Have two field on string with null(default value in c#) value and another int with 0 as it should be.
-- Now asssign Some Value To Object.
+- In an instance, we see that the object has two fields: one string with a null (default value in C#) and another int with a value of 0, as it should be.
+- Now, assign some values to the object:
 
     ```csharp
-    myself.Rank=1;
-    myself.UserName="firstUser";
+    Codefrydev myself = new Codefrydev();
+    myself.Rank = 1;
+    myself.UserName = "firstUser";
 
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
+    // The line below will only work in VS Code using Polyglot Notebook.
+    // You can remove this line for other IDEs.
     myself
     ```
 
-- We will have object UserName value **firstUser** and Rank value 1
+- We will have an object with the `UserName` value **firstUser** and the `Rank` value 1.
 
-    ![Object Of Codefrydev With with assigned value](./2.png)
+    ![Object Of Codefrydev With assigned value](./2.png)
 
-### Modification in Codefrydev class
+### Modifications in the Codefrydev Class
 
-- Introduction a field/ properties whose data type will be Codefrydev.
+- Introduce a field/property whose data type will be `Codefrydev`.
 
     ```csharp
     public class CodefryDev
     {
-        public string UserName {get;set;}
-        public int Rank {get;set;}
-        public CodefryDev RelatedPerson {get;set;}
+        public string UserName { get; set; }
+        public int Rank { get; set; }
+        public CodefryDev RelatedPerson { get; set; }
     }
     ```
+#### Create an **Object** of the **CodefryDev** Class Again
 
-#### Again Create An **Object** of the **Codefrydev**
-
-- Code Of Creating An instance of Codefrydev calss
+- Code for creating an instance of the CodefryDev class:
 
     ```csharp
     var myself = new CodefryDev(); 
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
+    // The line below will only work in VS Code using Polyglot Notebook.
+    // You can remove this line for other IDEs.
     myself
     ```
 
-- It will Show Something like this
+- It will show something like this:
 
-    ![Object Of Codefrydev With with assigned value](./4.png)
+    ![Object Of Codefrydev With assigned value](./4.png)
 
-- See we have result as earlier but one extra field RelatedPerson will null value. As value are not assigned.
+- As we see, the result is similar to before but with one extra field `RelatedPerson` having a null value since no value has been assigned.
 
-#### Lets Create another user of Codefrydev 
+#### Create Another User of CodefryDev
 
-- Code for second user. It dosen't have anything to do with first user
+- Code for the second user, which doesn't interact with the first user:
 
     ```csharp
     var otherPerson = new CodefryDev(); 
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
+    // The line below will only work in VS Code using Polyglot Notebook.
+    // You can remove this line for other IDEs.
     otherPerson
     ```
 
-- And in vs Code On running code it will Show Some thing like this
+- In VS Code, running the code will show something like this:
 
-![Object Of Codefrydev With with assigned value](./6.png)
+    ![Object Of Codefrydev With assigned value](./6.png)
 
-- On assigning some values.
+- On assigning some values:
 
     ```csharp
-    otherPerson.Rank=2;
-    otherPerson.UserName="secondUser";
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
+    otherPerson.Rank = 2;
+    otherPerson.UserName = "secondUser";
+    // The line below will only work in VS Code using Polyglot Notebook.
+    // You can remove this line for other IDEs.
     otherPerson
     ```
 
-- In vs Code it will Output Some thing like below image
+- In VS Code, the output will look something like the image below:
 
-    ![Object Of Codefrydev With with assigned value](./7.png)
+    ![Object Of Codefrydev With assigned value](./7.png)
+### Linking One Object to Another
 
-### Liking One Object To Another Data
-
-- Now Assign otherperson Instance to myself object RelatedPerson Field as follow
+- Now, assign the `otherPerson` instance to the `myself` object's `RelatedPerson` field as follows:
 
     ```csharp
     myself.RelatedPerson = otherPerson;
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
+    // The line below will only work in VS Code using Polyglot Notebook.
+    // You can remove this line for other IDEs.
     myself
     ```
 
-- In Vs Code it will show Some thing like this image
-    ![Object Of Codefrydev With with assigned value](./7.png)
+- In VS Code, it will show something like this:
 
-- You Will find that myself value is not null and it point to RelatedPerson.
-- This in nutshell is Main Logic Behing Linked List.
-- i.e. One Object point to another object which in turn points another object. and So on..
-- For Example take below snippet.
+    ![Object Of Codefrydev With assigned value](./8.png)
 
-    - Creating another **intance** of **Codefrydev** calss with name **thirdPerson**
-    - Assigning Value And Linking to **otherPerson**
+- You will find that the `myself` value is not null and it points to `RelatedPerson`.
+- This, in a nutshell, is the main logic behind a linked list.
+- One object points to another object, which in turn points to another object, and so on.
+- For example, consider the snippet below:
+
+    - Creating another **instance** of the **CodefryDev** class with the name **thirdPerson**.
+    - Assigning values and linking to **otherPerson**.
 
         ```csharp
         var thirdPerson = new CodefryDev(); 
-        thirdPerson.Rank=3;
-        thirdPerson.UserName="thirdUser";
-        otherPerson.RelatedPerson=thirdPerson;
+        thirdPerson.Rank = 3;
+        thirdPerson.UserName = "thirdUser";
+        otherPerson.RelatedPerson = thirdPerson;
         myself
         ```
 
-    - In VS Code it Will Show Some thing Like This.
-        ![Object Of Codefrydev With with assigned value](./9.png)
-    - i.e third user is linked with second user and seconduser is Linked with firstuser.
-    - In Similar Fasion You can Created another inatance and link.
+    - In VS Code, it will show something like this:
 
-### So now we know main logic  linking one object with another Object.
+    ![Object Of Codefrydev With assigned value](./9.png)
 
-- As as this will not be fesiable to work with creating again and again instace And Link to previous.
-- To Solve this Issue I will Introdce you to new Class Will do all heavy stuff Automagically.
+    - This means the third user is linked with the second user, and the second user is linked with the first user.
+    - In a similar fashion, you can create another instance and link it.
 
-### Create A Class name **Node** which will be the Data type of LinkedList.
+### Understanding the Main Logic of Linking Objects
 
-- This Will have two fields and on constructor. For More about class follow calss Tutorials post.
+Now that we understand the main logic of linking one object with another object, it's clear that manually creating and linking instances repeatedly isn't feasible. To solve this issue, I'll introduce you to a new class that will handle all heavy lifting automatically.
 
-    ```csharp {linenos=true}
-    public class Node
+### Create a Class Named **Node** which will be the Data Type of LinkedList
+
+This class will have two fields and a constructor. For more details about classes, you can follow class tutorials.
+
+```csharp
+public class Node
+{
+    public int value;
+    public Node next;
+
+    public Node(int value)
     {
-        public int value;
-        public Node next;
-
-        public Node(int value)
-        {
-            this.value = value;
-        }
+        this.value = value;
     }
-    ```
+}
+```
+### Create Another Class Named **LinkedList** which will hold the Data Type **Node**
 
-### Create Another Class name **LinkedList** which will hold the Data type **Node**.
+This class will handle all the methods and fields required for a linked list to perform all the heavy lifting.
 
-- This Class will have all the method and field for the thing required for linked list to do all heavy lifting.
+```csharp
+public class LinkedList
+{
+    public Node Head;
+    private Node Tail;
+    private int size;
 
-    ```csharp
-    public class LinkedList
+    public void AddLast(int item)
     {
-        public Node Head;
-        private Node Tail;
-        private int size;
-
-        public void AddLast(int item)
-        {
-            var node = new Node(item); 
-            if (Head == null) 
-            {    
-                Head = Tail = node;
-            }
-            else
-            {
-                Tail.next = node;
-                Tail = node;
-            } 
-            size++;
-        } 
-    }
-    ```
-
-- This Class have field **Head** which will point first object instance similar to myself/firstperson object we had in Earlier example.
-- **Tail** will point to another instance of **Node** class object if any or it will null by default
-- **size** will hold how many value have been added to the linkd list
-- **AddLast** method takes one parameter.
-    - On calling this method it will
-        - Create a new onject of Node Class with value 
-        - if it is first time called means the head value will be null so it will assign new object to head
-        - If it is not first call it will assign value to the tail Next value. and Update tail to point to this newly created object.
-     
-
-#### Creating Instance of LinkedList Class
-
-- Creating an Instace and adding value to Linked List
-
-    ```csharp
-    var ll = new LinkedList();
-    ll.AddLast(1);
-    ll.AddLast(2);
-    ll.AddLast(3);
-    ll.AddLast(4);
-    ll.AddLast(5);
-    // Below line of Code will only work on VS Code Using Polyglot Notebook. 
-    // You can Remove this line for other IDE
-    ll
-    ```
-
-- In Vs Code it will show something like this
-
-    ![Real LinkedList](./10.png)
-
-#### Adding another method which will add Data To First of Linked List
-
-- Introduce below code to the Linked List Class
-- Code is staright Forward similar to prevous
-- Instead of changing tail object we are changing head object
-
-    ```csharp
-    public void AddFirst(int item)
-    {
-        var node = new Node(item);
-
-        if (Head == null)
+        var node = new Node(item); 
+        if (Head == null) 
+        {    
             Head = Tail = node;
+        }
         else
         {
-            node.next = Head;
-            Head = node;
-        }
-
+            Tail.next = node;
+            Tail = node;
+        } 
         size++;
+    } 
+}
+```
+
+In this example:
+
+- `LinkedList` class manages a linked list structure.
+- It includes a `Head` and `Tail` pointer of type `Node` to manage the start and end of the list.
+- `AddLast` method adds a new `Node` containing an `int` item to the end of the list, adjusting `Tail` and `size` accordingly.
+
+This class has a `Head` field which points to the first object instance, similar to the `myself` or `firstPerson` object we had in the earlier example. `Tail` points to another instance of the `Node` class object if any, or it will be null by default. `Size` holds how many values have been added to the linked list. The `AddLast` method takes one parameter. Upon calling this method:
+
+- It creates a new object of the `Node` class with a specified value.
+- If it is the first time called (when `Head` is null), it assigns the new object to `Head`.
+- If it is not the first call, it assigns the new object to the `Tail`'s `Next` value and updates `Tail` to point to this newly created object.
+
+#### Creating an Instance of the LinkedList Class
+
+Let's create an instance and add values to the linked list:
+
+```csharp
+var ll = new LinkedList();
+ll.AddLast(1);
+ll.AddLast(2);
+ll.AddLast(3);
+ll.AddLast(4);
+ll.AddLast(5);
+// The line below will only work in VS Code using Polyglot Notebook.
+// You can remove this line for other IDEs.
+ll
+```
+
+In VS Code, it will show something like this:
+
+![Real LinkedList](./10.png)
+
+This image represents a real linked list where each node (represented by `Node` objects) points to the next node, starting from the `Head`. Each node contains a value (`Item`) and a reference (`Next`) to the next node in the sequence.
+
+#### AddFirst Method
+
+To add a method `AddFirst` to the `LinkedList` class that inserts data at the beginning of the linked list, you can introduce the following code. This method is straightforward and operates similarly to `AddLast`, but instead of modifying the `Tail` to add at the end, it modifies the `Head` to add at the beginning:
+
+```csharp
+public void AddFirst(int item)
+{
+    var node = new Node(item);
+
+    if (Head == null)
+        Head = Tail = node;
+    else
+    {
+        node.next = Head;
+        Head = node;
     }
-    ```
+
+    size++;
+}
+```
+
+##### Explanation
+
+- **node**: Creates a new `Node` object with the specified item value.
+- **if (Head == null)**: Checks if the linked list is empty. If so, sets both `Head` and `Tail` to the new node.
+- **else**: If the linked list is not empty:
+  - Sets the `next` field of the new node to point to the current `Head`.
+  - Updates the `Head` to be the new node.
+- **size++**: Increments the `size` of the linked list to keep track of the number of elements.
+
+This method efficiently adds a new node at the beginning of the linked list, adjusting the `Head` pointer accordingly.
 
 #### Similary Adding another methods To LinkedList class
 

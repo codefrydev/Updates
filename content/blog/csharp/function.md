@@ -240,4 +240,4 @@ public static class StringExtensions
 
 ### [Previous Chapter]({{< relref "/blog/csharp/loop.md" >}}) Loop
 
-### [Next Chapter]({{< relref "/blog/csharp/lineardata.md" >}}) Linear Data
+### [Next Chapter]({{< relref "/blog/csharp/class.md" >}}) class
