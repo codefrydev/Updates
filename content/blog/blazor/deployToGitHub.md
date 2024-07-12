@@ -1,11 +1,10 @@
 ---
 title: "Deploy Blazor Webassembly to Github Pages"
-author: "PrashantUnity"
+author: ["PrashantUnity"]
 weight: 100
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-12T23:59:59-07:00
-dateString: July 2024  
-hideMeta: true
+dateString: July 2024
 description: "Deploy Blazor Webassembly To github pages" 
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
 
