@@ -8,6 +8,11 @@ dateString: July 2024
 hideMeta: true
 description: "Deploy Blazor Webassembly To github pages" 
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
+
+cover:
+    image: "cover.jpg" # image path/url
+    alt: "Download Logo" # alt text
+    #caption: "Optical Character Recognition"  #display caption under cover 
 ---
 
 
