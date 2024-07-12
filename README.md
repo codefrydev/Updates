@@ -146,6 +146,23 @@ hugo new site blog
 
 ```
 
+### Mermaid with KaTeX
+
+```
+{{< mermaid >}}
+ graph TB
+      A["$$ Sum Of Ratio = \sum_{i=1}^{n} i = \frac{n(n+1)}{2} -1$$"]
+      B["$$ ith Number = \frac{i*N}{Sum Of Ratio}$$"]
+      C["$$ ith Number = \frac{i*N}{\frac{n(n+1)}{2} -1}$$"]
+{{< /mermaid >}}
+
+```mermaid
+graph TB
+    A["$$ Sum Of Ratio = \sum_{i=1}^{n} i = \frac{n(n+1)}{2} -1$$"]
+    B["$$ ith Number = \frac{i*N}{Sum Of Ratio}$$"]
+    C["$$ ith Number = \frac{i*N}{\frac{n(n+1)}{2} -1}$$"]
+```
+
 Dummy Code For Setup Replace Youtube id with appropriate youtubeid
 
 ```yaml 

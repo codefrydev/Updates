@@ -45,6 +45,7 @@ menu:
       weight: 60 
 
 params:
+  math: true
   customCSS:
     - "css/custom.css"
   mainSections : ["blog","games","design","application"] # put parent directory to show in home pages
@@ -118,7 +119,9 @@ outputs:
 markup:
   goldmark:
     renderer:
-      unsafe: true 
+      unsafe: true
+    extensions:
+      math: true
   highlight:
     # anchorLineNos: true
     codeFences: true
