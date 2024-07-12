@@ -79,7 +79,7 @@ jobs:
         FOLDER: release/wwwroot
 ```
 
-### Change in above Cde Based On Project
+### Change in above Code Based On Project
 
 
 - On Line number 16 Change Dotnet version appropriate to you project Version
@@ -121,4 +121,6 @@ jobs:
 
 Wait For Few Moment github page will be live.
 
-{{< youtube FO0Acj3X2s8 >}}
+Live Video Demo
+
+{{< youtube M0oRKErEL6g >}}
