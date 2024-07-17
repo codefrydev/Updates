@@ -6,6 +6,7 @@ date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-12T23:59:59-07:00
 dateString: July 2024
 description: "Deploy Blazor Webassembly To github pages" 
+tags: ["blazor"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
 
 cover:
@@ -109,9 +110,8 @@ jobs:
 ![Action Tab](./action.png)
 
 - In action tab if any job is failed the Click on that job
-- 
 
-- After that Go To Page Tab 
+- After that Go To Page Tab
 
 ![Action Tab](./page.png)
 
@@ -121,6 +121,42 @@ jobs:
 
 Wait For Few Moment github page will be live.
 
-Live Video Demo
+### Few thing to Consider
+
+- Make sure brance name is matches i.e if Your Current repository branch is "master" then line no 4 should have same name
+
+```yaml
+name: DeployBlazorWebAssembly
+on:
+  push:
+    branches: [ "master" ]
+
+```
+
+- If you application require **WasmBuildNative** then include below code after line **dotnet-version: 6.0.x** in original Code
+    
+    - Case are when you are using Some Library like SkiaSharp , SqliteWasmHelper Etc.
+    - Take Like Example Of [**Challenge Repository**](https://github.com/codefrydev/Challenge/blob/master/.github/workflows/dotnet.yml)
+
+```yaml
+    #code ...
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+        
+    # Install dotnet wasm buildtools workload
+    - name: Install .NET WASM Build Tools
+      run: dotnet workload install wasm-tools
+
+    - name: Publish .NET Core Project
+      run: dotnet publish BlazorGitHubPagesDemo.csproj -c Release -o release --nologo
+    # rest Code..
+    
+```
+
+Live Fast Video Demo of Creating project using code in this webpage
 
 {{< youtube M0oRKErEL6g >}}
