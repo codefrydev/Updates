@@ -59,7 +59,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia
 
 Let's take the example of an image:
 
-- This image is made up of small boxes and has two open sides and two closed sides.
+- Image Tagged with **1** from above collection  is made up of small boxes and has two open sides and two closed sides.
 - We represent open sides as **1** and closed sides as **0**.
 - The sides are labeled as follows:
   - Left (L): 0
