@@ -18,9 +18,8 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia
 
 ## Concept
 
-Image as Bunch of small box placed at different position
+**Imagine each image as a collection of small boxes arranged in different positions. Each image has four sides, and our goal is to determine how these images can connect to one another based on the configuration of these sides.**
 
-- Take example of Below Image
 
 <style>
 .grid-container {
@@ -55,28 +54,24 @@ Image as Bunch of small box placed at different position
     <div class="grid-item"><img src="./TBL.png" alt="TBL.png" ></div>
     <div class="grid-item"><img src="./BTL.png" alt="BTL.png" ></div>
     <div class="grid-item"><img src="./T.png" alt="T.png" ></div>
-</div>  
-
-- We have each image with 4 sides
-- Now Think How is one image can be connected with other image
-- Take First image as an example
-    - It Has two opening and two close side.
-    - Lets make opening as **1** and close as **0**
-    - So we Have four side Left right Top Bottom
-        - L : 0
-        - R : 1
-        - T : 0
-        - B : 1
-    - Now 1 Image can be Connected to right side by any image which have opening in left side.
-    - So Possible condidate are 
-        - 2 , 3 , 4 , 6, 7, 10, 11, 14
-    - We can Choose randomly any element from possible
-
-- That's the main Logic Similarly can be applied to all other elements
+</div> 
 
 
+Let's take the example of an image:
 
+- This image is made up of small boxes and has two open sides and two closed sides.
+- We represent open sides as **1** and closed sides as **0**.
+- The sides are labeled as follows:
+  - Left (L): 0
+  - Right (R): 1
+  - Top (T): 0
+  - Bottom (B): 1
 
+To connect this image to another on the right side, the adjacent image must have an open left side.
+
+Therefore, images that can potentially connect are those with an opening on their left side. Examples of such images are 2, 3, 4, 6, 7, 10, 11, and 14. We can choose any of these images randomly to connect to the first image.
+
+This approach can be applied to all other images to determine possible connections, allowing us to piece together the images like a puzzle based on the arrangement of open and closed sides.
 
 ## Applying Above Concept
 
@@ -376,3 +371,5 @@ using (SKFileWStream fs = new("image.jpg"))
 bmp.Display()
 
 ```
+
+**Thumbail of This Page Is Generated using same code above + 2 Line of Code to Write Text Obviously 😁😁😁😊**
