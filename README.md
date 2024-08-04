@@ -25,7 +25,8 @@ hideMeta: true
 title: "How To"
 author: "PrashantUnity"
 weight: 1
-date: 2024-06-10T11:57:15+05:30
+date: 2024-08-03
+lastmod: 2024-08-03
 dateString: June 2024  
 description: "Guide of How To Create Blog Post, Categories And Etc"
 #canonicalURL: "https://canonical.url/to/page"
@@ -106,7 +107,8 @@ template
 title: "Name Of Page"
 author: "Codefrydev"
 weight: 100
-date: 2024-06-10T11:57:15+05:30
+date: 2024-08-03
+lastmod: 2024-08-03
 dateString: June 2024
 description: "Description Of Page" 
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Generate Video","Basic","FFMPEG"]
@@ -120,6 +122,8 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Generate Video"
 title: "Replace Me With Actual Title"
 author: ["Replace Author Name","Another Author Name"]
 weight: 100
+date: 2024-08-03
+lastmod: 2024-08-03
 dateString: June 2024  
 description: "Guide of How TO Create Blog Post, Categories AND Etc"
 #canonicalURL: "https://canonical.url/to/page"
