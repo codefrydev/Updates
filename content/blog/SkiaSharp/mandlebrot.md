@@ -1,19 +1,20 @@
 ---
-title: "Create mandlebrot using SkiaSharp"
+title: "Create Mandelbrot using SkiaSharp"
 author: "PrashantUnity"
 weight: 102
 date: 2024-06-18T00:00:00-07:00
 lastmod: 2024-06-18T23:59:59-07:00
 dateString: June 2024  
-description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate mandlebrot"
+description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate Mandelbrot"
+
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia","mandlebrot"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","mandlebrot"]
+tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia","mandelbrot"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","Mandelbrot"]
 ---
 
 ## Setup
@@ -23,7 +24,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes"
 using SkiaSharp;
 ```
 
-### Mandlebrot
+### Mandelbrot
 
 ```csharp
 // Create an image and fill it blue

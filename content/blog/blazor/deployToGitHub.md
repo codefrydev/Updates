@@ -87,7 +87,7 @@ jobs:
 
 - On Line Number 19 Change **BlazorGitHubPagesDemo.csproj** to your project name **.csproj**
 
-- on Line Number 23 Change **BlazorGitHubPagesDemo** to your project name
+- on Line Number 23 Change **BlazorGitHubPagesDemo** to your github repository name
 
 - in rest place you can change based on requirement
 
@@ -123,7 +123,7 @@ Wait For Few Moment github page will be live.
 
 ### Few thing to Consider
 
-- Make sure brance name is matches i.e if Your Current repository branch is "master" then line no 4 should have same name
+- Make sure branch name is matches i.e if Your Current repository branch is "master" then line no 4 should have same name
 
 ```yaml
 name: DeployBlazorWebAssembly
