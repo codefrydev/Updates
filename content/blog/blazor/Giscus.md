@@ -12,6 +12,9 @@ cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
+tags: [ "NET", "codefrydev", "C sharp", "CFD", "blazor" ,"GisCus"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD","blazor" ,"GisCus"]
+
 ---
 
 ### original Script generated using GISCUS
