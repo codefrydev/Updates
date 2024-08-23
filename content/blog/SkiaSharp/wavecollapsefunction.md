@@ -5,7 +5,7 @@ weight: 99
 date: 2024-07-20T00:00:00-07:00
 lastmod: 2024-07-20T23:59:59-07:00
 dateString: JUl 2024  
-description: "Discover how to make beautiful designs using the Wave Collapse Function. Inspired by quantum mechanics, this algorithm turns a grid of possibilities into cool patterns. We’ll use C# and SkiaSharp to show you how to bring these patterns to life. Join us and learn how to create art from randomness!"
+description: "Generate procedural image with basic rule"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
