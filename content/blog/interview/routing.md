@@ -88,3 +88,42 @@ public static void RegisterRoutes(RouteCollection routes)
 ```
 
 > However, it's important to manage them carefully to avoid conflicts and ensure proper routing behavior.
+
+**Explain the concept of routing in ASP.NET MVC.**
+
+### Answer
+
+Routing in ASP.NET MVC is the mechanism that maps URLs to controller actions. It determines how incoming HTTP requests are handled and which controller action method should respond to a particular URL. The routing engine in ASP.NET MVC examines the incoming URL and attempts to match it to a route defined in the application.
+
+The routing system is configured in the `RouteConfig.cs` file in the `App_Start` folder of an ASP.NET MVC project. It defines routes using the `MapRoute` method, specifying URL patterns and associating them with controller and action methods.
+
+For example, consider the following route definition:
+
+```csharp
+public class RouteConfig
+{
+    public static void RegisterRoutes(RouteCollection routes)
+    {
+        routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+        routes.MapRoute(
+            name: "Default",
+            url: "{controller}/{action}/{id}",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+        );
+    }
+}
+```
+
+In this example:
+
+- `{controller}` and `{action}` are placeholders for the controller and action names, respectively.
+- `{id}` is an optional parameter.
+- The `Default` route specifies that if a URL doesn't match any other defined routes, it defaults to the `HomeController`'s `Index` action.
+
+When an incoming URL is received by the application, the routing system matches the URL segments to the route pattern. For instance:
+
+- `https://example.com/Home/Index` would match the `Default` route, invoking the `Index` action method of the `HomeController`.
+- `https://example.com/Products/Details/5` would invoke the `Details` action method of the `ProductsController` with the `id` parameter set to `5`.
+
+Routing in ASP.NET MVC provides a powerful way to define URL patterns, enabling clean and SEO-friendly URLs, and it plays a crucial role in how requests are dispatched to controllers and actions within the MVC framework.
