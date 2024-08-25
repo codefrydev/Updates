@@ -1,5 +1,5 @@
 ---
-title: "If Yoy Know These Then You are prepared"
+title: "If You Know These Then You are prepared"
 author: "PrashantUnity"
 weight: 215
 date: 2024-08-03
