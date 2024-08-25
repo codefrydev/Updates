@@ -14,7 +14,6 @@ cover:
 
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
-draft : true
 ---
 
 ### Q1. What is C#? What is the difference between C# and .NET?
