@@ -150,7 +150,7 @@ public class Repository : DbContext
 
 ```
 
-## In Case of Design Flaws
+## In Case of Live Design/DbCreation
 
 ```cs
 
@@ -211,7 +211,13 @@ public class Program
 
 ```
 
-## DotNet Command in Order
+## dotnet command in order, for terminal
+
+> If Entity framework Tools is not installed then 
+
+```cmd
+dotnet tool install --global dotnet-ef
+```
 
 > Add SqLite to Project
 
