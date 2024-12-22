@@ -1,4 +1,51 @@
+# Instruction For Setup Project and Start Working On Local Machine
+
+## Windows
+
+> Require Winget So Download And Install
+
+```link
+https://aka.ms/getwinget
+```
+
+> Install Powershell From [here](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US)
+
+```link
+https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US
+```
+
+> Open Terminal Paste below code From [here](https://learn.microsoft.com/en-us/windows/package-manager/winget/) or belo snippet
+
+```shell
+$progressPreference = 'silentlyContinue'
+Write-Host "Installing WinGet PowerShell module from PSGallery..."
+Install-PackageProvider -Name NuGet -Force | Out-Null
+Install-Module -Name Microsoft.WinGet.Client -Force -Repository PSGallery | Out-Null
+Write-Host "Using Repair-WinGetPackageManager cmdlet to bootstrap WinGet..."
+Repair-WinGetPackageManager
+Write-Host "Done."
+```
+
+```shell
+winget install -e --id Microsoft.PowerShell
+```
+
+> Install Specific Version Of Hugo in this project i have used 0.126.0
+
+```yaml
+winget install -e --id Hugo.Hugo.Extended -v 0.126.0
+```
+
+> Clone this repo [CodeFrydev/Update](https://github.com/codefrydev/Updates)
+> Run the with hugo
+
+```shell
+hugo server -D
+```
+
+
 ## for _index.md
+
 ```yaml
 ---
 title: "2024"
