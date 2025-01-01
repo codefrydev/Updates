@@ -19,7 +19,8 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD" ,"StreamVideo"]
 
 ## Stream Video in Asp.net Core with seeking Function
 
-- Create One Controller CLass and Paste below code in side that class. 
+- Create One Controller CLass and Paste below code in side that class.
+
 ```csharp
 [HttpGet("{fileName}")]
 public IActionResult GetMedia(string fileName)
