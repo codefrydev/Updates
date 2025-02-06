@@ -1598,8 +1598,40 @@ public class Logger
     {
         LogFilePath = "logfile.txt";
     }
+    public static void Log(string message)
+    {
+        Console.WriteLine("Logging message: " + message);
+    }
 }
 ```
+
+### Live Preview of static Constructor
+
+![images](./constructorStatic.gif)
+
+> Code For Staic Class with Static Constructor
+
+```csharp
+public static class Logger
+{
+    public static string LogFilePath;
+
+    // Static constructor
+    static Logger()
+    {
+        LogFilePath = "logfile.txt";
+        Console.WriteLine("Logger static constructor");
+    }
+    public static void Log(string message)
+    {
+        Console.WriteLine("Logging message: " + message);
+    }
+}
+```
+
+### Live Preview of static Constructor and static class
+
+![images](./staticClass.gif)
 
 ### Q70. Can we have parameters or access modifiers in static constructor?
 
