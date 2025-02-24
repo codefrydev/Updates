@@ -1,7 +1,7 @@
 ---
 title: "If You Know These Then You are prepared"
 author: "PrashantUnity"
-weight: 215
+weight: 100
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
