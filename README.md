@@ -66,6 +66,14 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Generate Video"
 hideMeta: true
 ---
 ```
+
+## Points to be Noted
+
+```yaml
+date: 2024-08-03
+date: Year-Month-Day
+```
+
 ## for general .md page
 ```yaml
 ---

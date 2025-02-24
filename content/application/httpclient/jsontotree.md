@@ -2,9 +2,9 @@
 title: "Json to C sharp class"
 author: "PrashantUnity"
 weight: 110
-date: 2025-01-01
-lastmod: 2025-01-01
-dateString: January 2025  
+date: 2025-02-24
+lastmod: 2025-02-25
+dateString: February 2025  
 description: "Just a hack for json parsing to JsonDocument to Tree"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
