@@ -14,6 +14,8 @@ https://aka.ms/getwinget
 https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US
 ```
 
+### For Windows
+
 > Open Terminal Paste below code From [here](https://learn.microsoft.com/en-us/windows/package-manager/winget/) or belo snippet
 
 ```shell
@@ -38,6 +40,15 @@ winget install -e --id Hugo.Hugo.Extended -v 0.126.0
 
 > Clone this repo [CodeFrydev/Update](https://github.com/codefrydev/Updates)
 > Run the with hugo
+
+### For Mac bash
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";  
+brew install git; 
+go install github.com/gohugoio/hugo@v0.126.0
+echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bash_profile && source ~/.bash_profile
+```
 
 ```shell
 hugo server -D
