@@ -178,8 +178,23 @@ This code runs on the .NET framework.
    - *Example:*
 
    ```csharp
-   public sealed class FinalClass { }
+    public sealed class SealedClass
+    {
+        public void Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+    }
    ```
+   ```csharp
+    public class CanInHeritSealedClass :SealedClass
+    {
+
+    }
+   ```
+   - On Inheriting selaed class gives 
+   > CanlnHeritSea1edC1ass ' : cannot derive from sealed type 'SealedC1ass'
+
 
 4. **Static Classes:** Classes that cannot be instantiated and only contain static members.
    - *Example:*
@@ -207,10 +222,26 @@ Yes, you can prevent object creation by making the class `abstract` or by provid
 - **Private Constructor:**
 
   ```csharp
-  public class Singleton
-  {
-      private Singleton() { }
-  }
+    public class Singleton
+    {
+        private static readonly Singleton _instance = new Singleton();
+
+        // Private constructor prevents instantiation from other classes
+        private Singleton() { }
+
+        public static Singleton Instance
+        {
+            get
+            {
+                return _instance;
+            }
+        }
+
+        public void DoSomething()
+        {
+            Console.WriteLine("Singleton instance is working.");
+        }
+    }
   ```
 
 ### Q8. What is Property?
@@ -234,7 +265,10 @@ A property is a member of a class that provides a mechanism to read, write, or c
 ### Q9. What is the difference between Property and Function?
 
 - **Property:** Used to access or modify the value of a field. It appears like a field but is actually a method behind the scenes.
-  - *Example:* `public string Name { get; set; }`
+  - *Example:* 
+  ```csharp
+  public string Name { get; set; }
+  ```
 
 - **Function (Method):** Performs an operation and may return a value or perform a task. Methods can take parameters and may include logic that properties generally do not.
   - *Example:*
@@ -299,16 +333,32 @@ In this example, `Dog` inherits the `Eat` method from `Animal` and has its own m
 ### Q12. What are the different types of Inheritance?
 
 1. **Single Inheritance:** A class inherits from a single base class.
-   - *Example:* `class Derived : Base { }`
+   - *Example:* 
+   ```csharp
+   public class Derived : Base { }
+   ```
 
 2. **Multiple Inheritance:** A class inherits from multiple base classes. (Not supported in C# directly, but can be achieved using interfaces.)
-   - *Example:* `class Derived : IInterface1, IInterface2 { }`
+   - *Example:* 
+   ```csharp
+   public class Derived : IInterface1, IInterface2 { }
+   ```
 
 3. **Multilevel Inheritance:** A class inherits from a derived class which itself inherits from another class.
-   - *Example:* `class Grandparent { } class Parent : Grandparent { } class Child : Parent { }`
+   - *Example:* 
+   ```csharp
+   public class Grandparent { } 
+   public class Parent : Grandparent { } 
+   public class Child : Parent { }
+   ```
 
 4. **Hierarchical Inheritance:** Multiple classes inherit from a single base class.
-   - *Example:* `class Base { } class Derived1 : Base { } class Derived2 : Base { }`
+   - *Example:* 
+   ```csharp
+   public class Base { } 
+   public class Derived1 : Base { } 
+   public class Derived2 : Base { }
+   ```
 
 5. **Hybrid Inheritance:** A combination of more than one type of inheritance.
    - *Example:* Combining hierarchical and multilevel inheritance.
