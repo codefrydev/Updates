@@ -18,4 +18,3 @@ draft: true
 ---
 
 # From start to End Journey of git and jira flows
-
