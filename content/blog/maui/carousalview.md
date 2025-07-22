@@ -16,7 +16,6 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","Carousal"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "Carousal"]
 ---
 
-
 ### \#\# 1. Create the Reusable Component Files 🧱
 
 First, add a new item to your project. Choose the **.NET MAUI ContentView (XAML)** template. Name it something descriptive, like `FeaturedCarouselView.xaml`.
@@ -31,7 +30,33 @@ First, add a new item to your project. Choose the **.NET MAUI ContentView (XAML)
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:YourMauiProjectName"
              x:Class="YourMauiProjectName.FeaturedCarouselView">
-
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Color x:Key="CardBackgroundColor">#F9FAFB</Color>
+            <Color x:Key="ForegroundColor">#111827</Color>
+            <Color x:Key="MutedForegroundColor">#6B7280</Color>
+            <Color x:Key="BorderColor">#E5E7EB</Color>
+            <Color x:Key="PrimaryColor">#4A90E2</Color>
+            <Style x:Key="CardBorderStyle" TargetType="Border">
+                <Setter Property="Stroke" Value="{StaticResource BorderColor}" />
+                <Setter Property="StrokeThickness" Value="1" />
+                <Setter Property="BackgroundColor" Value="{StaticResource PageBackgroundColor}" />
+                <Setter Property="StrokeShape" Value="RoundRectangle 8" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="Shadow">
+                    <Shadow Brush="Black" Offset="2,2" Radius="5" Opacity="0.1" />
+                </Setter>
+            </Style>
+            <Style x:Key="PrimaryButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
+                <Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HeightRequest" Value="48" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Padding" Value="24,0" />
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
     <VerticalStackLayout Spacing="16" BackgroundColor="{StaticResource CardBackgroundColor}">
         <CarouselView x:Name="FeaturedCarousel"
                       IndicatorView="FeaturedIndicator"
