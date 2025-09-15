@@ -5,7 +5,7 @@ weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Guide of How To Create Blog Post, Categories And Etc"
+description: "Common interview questions about abstract classes in C# with detailed explanations and code examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,12 +16,12 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
 
-## Abstract Class Question
+## Abstract Class Interview Questions
 
-- Can abstract class will have non abstract method
-> Yes Below Example
+- Can an abstract class have non-abstract methods?
+> Yes, see the example below
 
-- Method hiding principal ( use of New KeyWord)
+- Method hiding principle (use of New keyword)
 
 
 ```csharp

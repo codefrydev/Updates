@@ -1,11 +1,11 @@
 ---
-title: "Cookie Cliker C Sharp Code"
+title: "Automated Mouse Clicker in C#"
 author: ["PrashantUnity"]
 weight: 999
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Cookie Clicker" 
+description: "Learn how to create an automated mouse clicker application in C# using Windows API for repetitive clicking tasks" 
 keywords: ["CFD","CodefryDev","Code Fry Dev","Cookies" ]
 
 cover:
@@ -14,7 +14,7 @@ cover:
     #caption: "Optical Character Recognition"  #display caption under cover 
 ---
 
-## Modify Code based on You Requirement on Dotnet Console Project
+## Implementation in .NET Console Project
 
 ```csharp
 using System.Runtime.InteropServices;

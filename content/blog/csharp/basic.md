@@ -5,7 +5,7 @@ weight: 103
 date: 2024-06-16T00:00:00-07:00
 lastmod: 2024-06-16T23:59:59-07:00
 dateString: June 2024  
-description: "Welcome to this introductory post on fundamental C# programming concepts. Understanding the basics is crucial. This Post cover how to use comments, declare variables, understand data types, and handle user input and output."
+description: "Welcome to this introductory post on fundamental C# programming concepts. Understanding the basics is crucial. This post covers how to use comments, declare variables, understand data types, and handle user input and output."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,11 +1,11 @@
 ---
-title: "Codefrydev Generally used Loading  svg animation"
+title: "CodeFryDev Loading Animation SVG"
 author: ["PrashantUnity"]
 weight: 105
 date: 2024-07-24
 lastmod: 2024-07-24
 dateString: July 2025  
-description: "CFD- Animated Loading Animated animation"
+description: "Custom animated loading SVG for CodeFryDev with CSS animations and modern design elements"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,11 +1,11 @@
 ---
-title: "Filters"
+title: "ASP.NET MVC Filters and Their Roles"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Roles Of Filters in MVC"
+description: "Learn about ASP.NET MVC filters including authentication, authorization, action, result, and exception filters with implementation examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

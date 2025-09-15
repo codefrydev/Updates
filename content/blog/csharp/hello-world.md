@@ -1,11 +1,11 @@
 ---
-title: "Hello World Visual Studio | Chapter 2"
+title: "Create Your First C# Program in Visual Studio | Chapter 2"
 author: ["PrashantUnity"]
 weight: 102
 date: 2024-06-17T00:00:00-07:00
 lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
-description: "Write First Program in C# using Visual Studio Community Edition (Free)"
+description: "Step-by-step guide to create and run your first C# console application using Visual Studio Community Edition with detailed screenshots"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -59,13 +59,13 @@ If not already open, double-click on the **Program.cs** file to open it.
 ### Step 6: Default File Structure
 Visual Studio generates a default file structure similar to the image below.
 
-![ Default File Structure](./vs6.png)
+![Default File Structure](./vs6.png)
 
 ### Step 7: Run Your Application
 1. Click on the green play button (shown as **2** in the image).
 2. Alternatively, press **Ctrl + F5** to run the application.
 
-![ Run Your Application](./vs7.png)
+![Run Your Application](./vs7.png)
 
 ### Step 8: View the Output
 Your application will run, and you should see an output window similar to the image below.

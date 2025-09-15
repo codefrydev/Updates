@@ -1,11 +1,11 @@
 ---
-title: "Set Thirteen"
+title: "ASP.NET Core MVC Interview Questions - Set 13"
 author: "PrashantUnity"
 weight: 223
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Complete tutorial guide to ASP.NET Core MVC interview questions with step-by-step explanations covering architecture, configuration, and modern web development"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

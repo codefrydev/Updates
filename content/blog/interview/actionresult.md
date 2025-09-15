@@ -1,11 +1,11 @@
 ---
-title: "ActionResult"
+title: "ASP.NET MVC ActionResult Types and Usage"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "ActionResult In Action"
+description: "Learn about different ActionResult types in ASP.NET MVC including ViewResult, JsonResult, RedirectResult, and when to use each type"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

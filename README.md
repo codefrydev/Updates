@@ -1,14 +1,14 @@
-# Instruction For Setup Project and Start Working On Local Machine
+# Project Setup Instructions for Local Development
 
 ## Windows
 
-> Require Winget So Download And Install
+> Winget is required, so download and install it first
 
 ```link
 https://aka.ms/getwinget
 ```
 
-> Install Powershell From [here](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US)
+> Install PowerShell from [here](https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US)
 
 ```link
 https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US
@@ -16,7 +16,7 @@ https://apps.microsoft.com/detail/9mz1snwt0n5d?hl=en-US&gl=US
 
 ### For Windows
 
-> Open Terminal Paste below code From [here](https://learn.microsoft.com/en-us/windows/package-manager/winget/) or belo snippet
+> Open Terminal and paste the code below from [here](https://learn.microsoft.com/en-us/windows/package-manager/winget/) or use the snippet below
 
 ```shell
 $progressPreference = 'silentlyContinue'
@@ -203,14 +203,14 @@ draft: true #make this false to publicly Available
 ---
 ```
 
-#### for relate Linking of another page use below code for reference [SKiaSharp]({{< relref "blog/skiasharp/basic.md" >}})
+#### for related Linking of another page use below code for reference [SKiaSharp]({{< relref "blog/skiasharp/basic.md" >}})
 
 ```md
 [Basic Setup]({{< relref "blog/skiasharp/basic.md" >}})
 ```
 
 
-## Some Of Comman Commands
+## Some Of Common Commands
 
 ### Run the Application In development Mode where draft is also visible
 
@@ -263,7 +263,7 @@ Dummy Code For Setup Replace Youtube id with appropriate youtubeid
 ### Install .NET SDK
 - [Visit Here And Install .NET SDK](https://dotnet.microsoft.com/en-us/download)
 - It is Straight forward for all platform.
-- For Window user Follow below video for more
+- For Windows user Follow below video for more
 
 {{< youtube EqD1H4T340A >}}
 
@@ -277,17 +277,17 @@ Dummy Code For Setup Replace Youtube id with appropriate youtubeid
 - [Download From Official Website](https://visualstudio.microsoft.com/)
 
 - Available Only for Windows User
-- Alternative is [Rider0](https://www.jetbrains.com/rider/) For Cross platform not free as of Now
+- Alternative is [Rider](https://www.jetbrains.com/rider/) For Cross platform not free as of Now
 
 
-- For Installiation Process of Visual Studio IDE on window Follow below video
+- For Installation Process of Visual Studio IDE on Windows Follow below video
 
 {{< youtube EqD1H4T340A >}}
 
 ### Install Visual Studio Code 
-- [Visit Here And Install .NET SDK](https://code.visualstudio.com/)
+- [Visit Here And Install Visual Studio Code](https://code.visualstudio.com/)
 - It is Straight forward for all platform.
-- For Window user Follow below video for more
+- For Windows user Follow below video for more
 
 {{< youtube EqD1H4T340A >}}
 

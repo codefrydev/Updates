@@ -65,9 +65,9 @@ Console.WriteLine(multiline);
 
 ### String Literal
 
-A string literal is prefixed with """ and allows you to write string in mutilple line. It's useful for multiline strings and complex string interpolation.
+A string literal is prefixed with """ and allows you to write string in multiple line. It's useful for multiline strings and complex string interpolation.
 
-- starts with tripple quote then new line and the seperate """ ends
+- starts with triple quote then new line and the separate """ ends
 
 ```csharp
 string multiline = """

@@ -1,11 +1,11 @@
 ---
-title: "Remove under Line from entry"
+title: "Remove Underline from Entry Control in .NET MAUI"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-19
 lastmod: 2024-06-19
 dateString: July 2025  
-description: "How to remove Entry underline from maui"
+description: "Learn how to create a custom Entry control in .NET MAUI to remove the default underline styling with platform-specific implementations"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls","entry"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls"]
 ---
 
-## Steps Create custom class like below
+## Create Custom Entry Control
 
 ```cs
 

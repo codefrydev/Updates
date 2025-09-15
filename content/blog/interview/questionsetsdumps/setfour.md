@@ -1,11 +1,11 @@
 ---
-title: "Set Four"
+title: "ASP.NET MVC Interview Questions - Set 4"
 author: "PrashantUnity"
 weight: 214
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Comprehensive ASP.NET MVC interview questions covering general concepts, assemblies, lifecycle, and fundamental MVC principles"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

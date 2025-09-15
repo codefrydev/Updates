@@ -1,11 +1,11 @@
 ---
-title: "Circle and Points And Lines"
+title: "Dynamic Circle and Line Patterns in SkiaSharp"
 author: "PrashantUnity"
 weight: 104
 date: 2024-08-03
 lastmod: 2024-08-03
 dateString: August 2024  
-description: "Dynamically Generating Bunch of Circle and line and Points on Canvass"
+description: "Learn how to create dynamic geometric patterns with circles, points, and lines using SkiaSharp with mathematical calculations and trigonometry"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [  "CSharp", "SkiaSharp","Polygon","Trigonometry"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Trigonometry","Polygon","Math"]
 ---
 
-## Importing Skiasharp Library from nuget package
+## Setting Up SkiaSharp
 
 ```csharp
 #r "nuget:SkiaSharp"

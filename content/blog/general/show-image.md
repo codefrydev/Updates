@@ -1,11 +1,11 @@
 ---
-title: "How To Display C# string value as Html in Polyglot Notebook ?"
+title: "Display C# String Values as HTML in Polyglot Notebook"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-23T00:00:00-07:00
 lastmod: 2024-06-23T23:59:59-07:00
 dateString: June 2024  
-description: "This Post is about step by step guide of How To Display C# string value as Html in Polyglot Notebook"
+description: "Step-by-step guide to displaying C# string values as HTML content in Polyglot Notebook with practical examples and formatting techniques"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [ "C sharp", "Polyglot","Html","Dispaly"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Html in Polyglot Notebook","Dispaly"]
 ---
 
-## Easy Steps to Convert Image to Base64 in a Jupyter Notebook
+## Display HTML Content in Polyglot Notebook
 
 ### Requirements
 

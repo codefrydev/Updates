@@ -5,7 +5,7 @@ weight: 102
 date: 2024-06-18T00:00:00-07:00
 lastmod: 2024-06-18T23:59:59-07:00
 dateString: June 2024  
-description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate Mandelbrot"
+description: "Learn how to generate the famous Mandelbrot fractal using C# and SkiaSharp graphics library with mathematical algorithms and color mapping"
 
 #canonicalURL: "https://canonical.url/to/page"
 cover:
@@ -82,9 +82,9 @@ for (int y = 0; y < height; y++)
         }
     }
 }
-SKFileWStream fs = new("mandlebrot.jpg");
+SKFileWStream fs = new("mandelbrot.jpg");
 bmp.Encode(fs, SKEncodedImageFormat.Jpeg, quality: 50);
 bmp.Display();
 ```
 
-![images](./mandlebrot.jpg)
+![images](./mandelbrot.jpg)

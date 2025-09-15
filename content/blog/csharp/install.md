@@ -5,7 +5,7 @@ weight: 101
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024  
-description: "Prerequisite For Development using C# Programming Language"
+description: "Complete guide to installing .NET SDK and development tools for C# programming across Windows, Mac, and Linux platforms"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

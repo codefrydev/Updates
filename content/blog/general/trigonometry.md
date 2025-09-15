@@ -1,11 +1,11 @@
 ---
-title: "Trigonometry Table"
+title: "Generate Trigonometry Table with SkiaSharp"
 author: "PrashantUnity"
 weight: 102
 date: 2024-08-03
 lastmod: 2024-08-03
 dateString: August 2024  
-description: ""
+description: "Learn how to generate a trigonometry table using C# and SkiaSharp graphics library with custom styling and mathematical calculations"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [  "CSharp", "SkiaSharp","Hexagon","Trigonometry table"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Trigonometry table","Trigonometry","Math"]
 ---
 
-## Concept
+## Trigonometry Table Generation
 
 - Trignonometry Table
 

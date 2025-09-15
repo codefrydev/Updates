@@ -5,7 +5,7 @@ weight: 102
 date: 2024-06-17T00:00:00-07:00
 lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
-description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate CFD LOGO for this Website Using SkiaSharp Library"
+description: "Learn how to create custom logos using SkiaSharp with step-by-step guide to generating the CodeFryDev logo with text, shapes, and styling"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate LOGO","
 ---
 
 
-## Generate LOGO With SkiaSharp
+## Creating Logos with SkiaSharp
 
 LOGO on this website is generated using SkiaSharp Only
 

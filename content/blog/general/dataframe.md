@@ -1,11 +1,11 @@
 ---
-title: "Show Table in Polyglot Notebook"
+title: "Display Data as Tables in Polyglot Notebook"
 author: "PrashantUnity"
 weight: 115
 date: 2025-03-14
 lastmod: 2025-03-14
 dateString: March 2025  
-description: "Show list as Table in Polyglot note book using dataframe"
+description: "Learn how to display lists and data collections as formatted tables in Polyglot Notebook using Microsoft.Data.Analysis DataFrame"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD","Table","Dataframe"]
 hideMeta: true
 ---
 
-## Create .ipynb file using selwct .net Enviroment and select C# in cell for execution
+## Setup Polyglot Notebook Environment
 
 ### Import nuget package
 
@@ -56,7 +56,7 @@ var data = new List<RedirectEntry>
 
 ```
 
-### Create Generic Function for anytype of list incection
+### Create Generic Function for any type of list injection
 
 ```cs
 DataFrame ShowTable<T>(List<T> items)

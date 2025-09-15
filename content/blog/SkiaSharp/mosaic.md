@@ -5,7 +5,7 @@ weight: 102
 date: 2024-06-20T00:00:00-07:00
 lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
-description: "In this Article I am Going To show you Code Snippet of how I used SkiaSharp to Generate basic Mosaic"
+description: "Learn how to create mosaic patterns using SkiaSharp with geometric shapes, color variations, and artistic tile arrangements"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -24,7 +24,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes"
 using SkiaSharp;
 ```
 
-### Code fro Mosaic 
+### Mosaic Generation Code 
 
 ```csharp
 // Create an image and fill it blue

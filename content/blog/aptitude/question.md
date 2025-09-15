@@ -36,7 +36,7 @@ draft: true #make this false to publicly Available
       C["$$ ith Number = \frac{i*N}{\frac{n(n+1)}{2} -1}$$"]
 {{< /mermaid >}}
 
-## Drect Proportion
+## Direct Proportion
 
 When two parameters are in direct proportion if one parameter
 increases the other one will also increase and if one parameter decreases

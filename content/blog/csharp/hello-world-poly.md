@@ -1,11 +1,11 @@
 ---
-title: "Hello World PolyGLot NoteBook| Chapter 2"
+title: "Create Your First C# Program in Polyglot Notebook | Chapter 2"
 author: ["PrashantUnity"]
 weight: 102
 date: 2024-06-17T00:00:00-07:00
 lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
-description: "Write First Program in C# using PolyGLot NoteBook"
+description: "Learn how to set up and use Polyglot Notebook in VS Code to write and execute C# code interactively with step-by-step instructions"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

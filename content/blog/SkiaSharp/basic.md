@@ -1,11 +1,11 @@
 ---
-title: "Getting Started With Skia Sharp"
+title: "Getting Started with SkiaSharp Graphics Library"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-14T00:00:00-07:00
 lastmod: 2024-06-14T23:59:59-07:00
 dateString: June 2024  
-description: "SkiaSharp is a cross-platform 2D graphics API for .NET platforms based on Google's Skia Graphics Library. It provides a comprehensive 2D API that can be used across mobile, server and desktop models to render images."
+description: "Complete beginner's guide to SkiaSharp - a cross-platform 2D graphics library for .NET with setup instructions and basic drawing examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

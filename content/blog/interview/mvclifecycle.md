@@ -1,11 +1,11 @@
 ---
-title: "MVC Life Cycle"
+title: "ASP.NET MVC Application Lifecycle"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Different Stages of Asp Net Core MVC Life Cycle"
+description: "Comprehensive guide to ASP.NET MVC application lifecycle stages including request processing, routing, controller execution, and response generation"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,19 +1,19 @@
 ---
-title: "Carousal View in maui"
+title: "Auto-Changing Carousel View in .NET MAUI"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-23
 lastmod: 2024-06-23
 dateString: July 2025  
-description: "Code snippet for maui auto change carousal view component"
+description: "Learn how to create an auto-changing carousel view component in .NET MAUI with XAML and C# code examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","Carousal"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "Carousal"]
+tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","Carousel"]
+keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "Carousel"]
 ---
 
 ### \#\# 1. Create the Reusable Component Files 🧱

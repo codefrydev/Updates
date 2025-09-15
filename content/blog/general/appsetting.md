@@ -1,11 +1,11 @@
 ---
-title: "App setting in dotnet"
+title: "Configuration Management in .NET Core"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "How To Configure or read from app setting in asp.net core application"
+description: "Learn how to configure and read from appsettings.json in ASP.NET Core applications with dependency injection and configuration binding"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD","appsetting"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","appsetting"]
 ---
 
-## Reading data from appsetting.json file
+## Reading Configuration from appsettings.json
 
 ```cs
 var config = new ConfigurationBuilder()
@@ -25,7 +25,7 @@ var config = new ConfigurationBuilder()
            .Build();
 var val =config["randomString"];
 ```
-## assigning value to static readonly class element from appsettings.json
+## Binding Configuration to Static Classes
 ```cs
 public static class RandomClass
 {

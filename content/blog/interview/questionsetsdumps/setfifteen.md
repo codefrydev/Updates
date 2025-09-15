@@ -1,11 +1,11 @@
 ---
-title: "Set Fifteen"
+title: ".NET Framework vs .NET Core Interview Questions - Set 15"
 author: "PrashantUnity"
 weight: 225
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Step-by-step comparison of .NET Framework vs .NET Core with easy explanations covering differences, dependency injection, Kestrel, and middleware concepts"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

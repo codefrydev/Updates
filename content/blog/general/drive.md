@@ -1,64 +1,64 @@
 ---
-title: "Get Id of All items in Google Drive Folder"
+title: "Extract All File IDs from a Google Drive Folder"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-13T00:00:00-07:00
 lastmod: 2024-06-13T23:59:59-07:00
 dateString: June 2024  
-description: "Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C# "
+description: "Learn how to programmatically extract file IDs from a Google Drive folder using C# and HtmlAgilityPack. Perfect for bulk operations and automation tasks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "googledrive.png" # image path/url
-    alt: "Google Dive Logo" # alt text
+    alt: "Google Drive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
 tags: [ "C sharp", "HtmlAgilityPack","Google Drive","ID"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
 ---
 
-## Problem
-Suppose you want to Extract Id of all the items resides in a Folder of Goolge Drive. There are many ways to Do this like Manually Copying from each file or Programtically . I Will Guide you How to Do this using program in C#   
+## Overview
+Suppose you want to extract the ID of all items that reside in a folder of Google Drive. There are many ways to do this, like manually copying from each file or programmatically. I will guide you on how to do this using a program in C#   
 
 
-### Requirement 
+### Requirements 
 - Shared Google Drive Folder id /URL
 ```
 https://drive.google.com/drive/u/4/folders/1759s8Jule46RCPypiQ5y3wLh5aCPlrK6
 ```
-- IDE Like VS Code Or Visual Studio Preffered.
-- Leatest .NET SDK Installed. [You Can Get it From Here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
+- IDE like VS Code or Visual Studio preferred.
+- Latest .NET SDK installed. [You can get it from here](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 
 
 ### Steps 1
 
-Open IDE Or Code Editor. Create New console App using IDE Or through this Command In Terminal
+Open IDE or code editor. Create a new console app using IDE or through this command in terminal
 ```sh {linenos=true}
 dotnet new console -n MyApp
 ```
 ### Steps 2
 
-Install HtmlAgilityPack in project Using one of below Commands
+Install HtmlAgilityPack in project using one of the below commands
 
 > Package Manager
 ```sh {linenos=true}
 NuGet\Install-Package HtmlAgilityPack -Version 1.11.60
 ```
-> Command Line Inter Face
+> Command Line Interface
 ```sh {linenos=true}
 dotnet add package HtmlAgilityPack --version 1.11.60
 ```
-> If You are using Polyglot Notebook in VS Code
+> If you are using Polyglot Notebook in VS Code
 ```sh {linenos=true}
 \#r "nuget: HtmlAgilityPack, 1.11.60"
 ```
-> Right Click on Project Choose Edit Project File 
+> Right-click on project and choose Edit Project File 
 ```sh {linenos=true}
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
   </ItemGroup> 
 ```
 
-## Your .csproj file Should Look similar like this
+## Your .csproj file should look similar to this
 
 ```sh {linenos=true}
 <Project Sdk="Microsoft.NET.Sdk">
@@ -79,7 +79,7 @@ dotnet add package HtmlAgilityPack --version 1.11.60
 
 ### Steps 3
 
-Open Program File and add below Function Snippets.
+Open Program file and add the below function snippets.
 
 ```cs {linenos=true}
 string GetHtml(string url)

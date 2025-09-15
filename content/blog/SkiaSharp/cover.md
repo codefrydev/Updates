@@ -5,7 +5,7 @@ weight: 101
 date: 2024-06-14T00:00:00-07:00
 lastmod: 2024-06-14T23:59:59-07:00
 dateString: June 2024  
-description: "In this Article I am Going To Give you Code Snippet of how i Generate Cover Image for this Website Using SkiaSharp Library"
+description: "Learn how to create custom cover images and thumbnails using SkiaSharp with text, shapes, gradients, and professional design elements"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate Thumbna
 ---
 
 
-## Generate Thumbnail/Cover With SkiaSharp
+## Creating Cover Images with SkiaSharp
 
 Cover on this website is generated using SkiaSharp Only
 

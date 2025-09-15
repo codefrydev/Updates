@@ -1,11 +1,11 @@
 ---
-title: "Middleware"
+title: "ASP.NET Core Middleware Interview Questions"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Middleware in ASP.NET Core is software components that are assembled into the HTTP request pipeline to handle requests and responses. Each middleware component performs a specific function and can process an incoming HTTP request, generate a response, or pass the request to the next middleware in the pipeline."
+description: "Essential interview questions about ASP.NET Core middleware with detailed explanations of request pipeline, custom middleware creation, and best practices"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

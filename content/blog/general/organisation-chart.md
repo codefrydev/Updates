@@ -1,11 +1,11 @@
 ---
-title: "Organizational Chart"
+title: "Create an Organizational Chart with Tailwind CSS"
 author: "PrashantUnity"
 weight: 115
 date: 2025-09-15
 lastmod: 2025-09-15
 dateString: September 2025
-description: "A simple Organizational chart using tailwind css"
+description: "Learn how to create a modern, responsive organizational chart using Tailwind CSS with HTML structure and styling examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

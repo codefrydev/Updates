@@ -1,11 +1,11 @@
 ---
-title: "Wave Collapse Function"
+title: "Wave Collapse Function for Procedural Generation"
 author: "PrashantUnity"
 weight: 99
 date: 2024-07-20T00:00:00-07:00
 lastmod: 2024-07-20T23:59:59-07:00
 dateString: JUl 2024  
-description: "Generate procedural image with basic rule"
+description: "Learn how to implement the Wave Collapse Function algorithm using C# and SkiaSharp for procedural image generation with constraint-based rules"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,11 +1,11 @@
 ---
-title: "Routing"
+title: "ASP.NET MVC Routing Interview Questions"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Routing In MVC"
+description: "Comprehensive interview questions about ASP.NET MVC routing with detailed explanations of URL mapping, route configuration, and request handling"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

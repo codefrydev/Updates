@@ -1,11 +1,11 @@
 ---
-title: "Set Twenty"
+title: "ASP.NET Core vs ASP.NET Interview Questions - Set 20"
 author: "PrashantUnity"
 weight: 230
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Step-by-step comparison of ASP.NET Core vs ASP.NET with beginner-friendly explanations covering cross-platform development, performance, and modern web development concepts"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

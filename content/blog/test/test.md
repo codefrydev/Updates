@@ -15,9 +15,9 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
 draft: true
 ---
-## Some Of Comman Commands
+## Some Of Common Commands
 
-### Run the Application In development Mode whre draft is also visible
+### Run the Application In development Mode where draft is also visible
 
 ```sh
 hugo server -D
@@ -115,7 +115,7 @@ draft: true #make this false to publicly Available
 ---
 ```
 
-#### for relate Linking of another page use below code for reference [SKiaSharp]({{< relref "blog/skiasharp/basic.md" >}})
+#### for related Linking of another page use below code for reference [SKiaSharp]({{< relref "blog/skiasharp/basic.md" >}})
 
 ```md
 [Basic Setup]({{< relref "blog/skiasharp/basic.md" >}})

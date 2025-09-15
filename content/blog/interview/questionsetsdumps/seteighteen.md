@@ -1,11 +1,11 @@
 ---
-title: "Set Eighteen"
+title: ".NET Core Framework Interview Questions - Set 18"
 author: "PrashantUnity"
 weight: 228
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Complete tutorial guide to .NET Core framework with step-by-step explanations covering web applications, microservices, IoT development, and modern features"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

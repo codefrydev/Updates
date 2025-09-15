@@ -1,11 +1,11 @@
 ---
-title: "Common Blazor Code Snippet"
+title: "Common Blazor Code Snippets and Examples"
 author: ["PrashantUnity"]
 weight: 200
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Some of most Common Blazor Code Snippet Used in blazor Project" 
+description: "Collection of useful Blazor code snippets including string interpolation, file uploads, version detection, and common development patterns" 
 tags: ["blazor"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
 

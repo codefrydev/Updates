@@ -5,7 +5,7 @@ weight: 1013
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-26T23:59:59-07:00
 dateString: June 2024  
-description: "In this post we will look Linked List Data Structure"
+description: "Learn about linked list data structure implementation in C# with step-by-step examples using Polyglot Notebook for better visualization"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

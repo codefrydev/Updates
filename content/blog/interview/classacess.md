@@ -1,11 +1,11 @@
 ---
-title: "Class Access Level"
+title: "C# Class Access Modifiers and Accessibility Levels"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "In C#, the accessibility level of a class determines how and where the class can be accessed from other parts of your code."
+description: "Complete guide to C# access modifiers including public, private, protected, internal, and protected internal with accessibility matrix and examples"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,11 +1,11 @@
 ---
-title: "Use Image Inside In SkiaSharp"
+title: "Import and Use Images in SkiaSharp Canvas"
 author: "PrashantUnity"
 weight: 102
 date: 2024-07-20T00:00:00-07:00
 lastmod: 2024-07-20T23:59:59-07:00
 dateString: JUl 2024  
-description: "In this Article I am Going To show you how to use SkiaSharp to to Import Image Into Canvas"
+description: "Learn how to import, load, and manipulate images in SkiaSharp canvas with file handling, scaling, and drawing techniques"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [  "C sharp", "SkiaSharp","Use Image","Skia","Image"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia","Import Image"]
 ---
 
-## Requirement
+## Requirements
 
 - VS Code with Polyglot Notebook
 - .Net Installed
@@ -25,7 +25,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia
 
 - create new File Image.ipynb
 
-### Import Skiasharp Library
+### Import SkiaSharp Library
 
 - Open Image.ipynb File select .Net Interactive as Kernel
 - Create cell inside File

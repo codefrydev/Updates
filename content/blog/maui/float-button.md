@@ -1,11 +1,11 @@
 ---
-title: "Bottom right float button"
+title: "Create a Floating Action Button in .NET MAUI"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-19
 lastmod: 2024-06-19
 dateString: July 2025  
-description: "Code snippet for maui Bottom right float button"
+description: "Learn how to create a floating action button positioned at the bottom right in .NET MAUI using AbsoluteLayout and Border controls"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

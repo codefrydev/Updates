@@ -1,27 +1,27 @@
 ---
-title: "Github Workfows to Run Program"
+title: "GitHub Actions Workflows for Automated Tasks"
 author: "PrashantUnity"
 weight: 103
 date: 2024-07-28T00:00:00-07:00
 lastmod: 2024-07-28T23:59:59-07:00
 dateString: July 2024  
-description: "How Run Server Side Code on GitHub CICD to do Some Task for Free and store in same Repository"
+description: "Learn how to set up GitHub Actions workflows to run automated tasks, process data, and store results in your repository using CI/CD pipelines"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
-    alt: "Google Dive Logo" # alt text
+    alt: "Google Drive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
 tags: [ "C sharp", "CICD","GitHub"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "CICD","GitHub"]
 ---
 
-## Create new Console Project
+## Create a New Console Project
 
-I am going to create dotnet project to demonstrate this but applicable for all ather programming also
+I am going to create a dotnet project to demonstrate this, but it is applicable for all other programming languages as well
 
-- Open any folder, In there Open Terminal
-- In Terminal Create new dotnet console Project using below command
+- Open any folder, then open Terminal
+- In Terminal, create a new dotnet console project using the below command
 
 ```yaml
 dotnet new console -n GitCiCd

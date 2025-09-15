@@ -1,11 +1,11 @@
 ---
-title: "Convert C# list to Excel Data"
+title: "Convert C# Lists to Excel Files with Multiple Sheets"
 author: "PrashantUnity"
 weight: 115
 date: 2025-03-14
 lastmod: 2025-03-14
 dateString: March 2025  
-description: "Generate multi-sheet Excel files in C sharp using OpenXML"
+description: "Learn how to generate multi-sheet Excel files from C# lists using OpenXML SDK with custom sheet naming and data formatting"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

@@ -1,11 +1,11 @@
 ---
-title: "Deploy Blazor Webassembly to Github Pages"
+title: "Deploy Blazor WebAssembly to GitHub Pages"
 author: ["PrashantUnity"]
 weight: 100
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-12T23:59:59-07:00
 dateString: July 2024
-description: "Deploy Blazor Webassembly To github pages" 
+description: "Complete guide to deploying Blazor WebAssembly applications to GitHub Pages using GitHub Actions with automated build and deployment workflows" 
 tags: ["blazor"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
 
@@ -16,7 +16,7 @@ cover:
 ---
 
 
-## Steps
+## Deployment Steps
 
 - Create Blazor Webassembly Project using cli or using Visual Studio [CLI Source Link](https://learn.microsoft.com/en-us/aspnet/core/blazor/tooling?view=aspnetcore-8.0&pivots=cli)
 - Create **.github** Folder

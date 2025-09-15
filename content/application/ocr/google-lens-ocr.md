@@ -1,11 +1,11 @@
 ---
-title: "Google Lense For OCR "
+title: "Google Lens OCR Integration in .NET"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024  
-description: "Library to use Google Lens OCR for free, via API used in Chromium. This doesn't require running a headless browser. It's set up to work without any options, there's no need to be authorized (no need for Google account!)."
+description: "Learn how to integrate Google Lens OCR into .NET applications for free text extraction from images without requiring Google account authentication"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

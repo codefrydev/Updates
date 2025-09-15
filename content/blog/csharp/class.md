@@ -233,15 +233,15 @@ myself.From = "CodefryDev Website";
 myself.Name = "CodefryDev User";
 
 
-Person freind = new Person();
-freind.Age = 1;
-freind.From = "Mars";
-freind.Name = "Terminal";
+Person friend = new Person();
+friend.Age = 1;
+friend.From = "Mars";
+friend.Name = "Terminal";
 
-Console.WriteLine("Freind Object Holding value");
-Console.WriteLine("From {0}", freind.From);
-Console.WriteLine("Name {0}", freind.Name);
-Console.WriteLine("Age {0}", freind.Age);
+Console.WriteLine("Friend Object Holding value");
+Console.WriteLine("From {0}", friend.From);
+Console.WriteLine("Name {0}", friend.Name);
+Console.WriteLine("Age {0}", friend.Age);
 
 Console.WriteLine("myself Object Holding value");
 Console.WriteLine("From {0}",myself.From);

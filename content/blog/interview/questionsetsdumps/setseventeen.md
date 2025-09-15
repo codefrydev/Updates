@@ -1,11 +1,11 @@
 ---
-title: "Set Seventeen"
+title: ".NET Core Platform Standards Interview Questions - Set 17"
 author: "PrashantUnity"
 weight: 227
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Beginner-friendly guide to .NET Core platform standards with simple explanations covering cross-platform development, modular architecture, and modern application building"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

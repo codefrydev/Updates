@@ -5,7 +5,7 @@ weight: 110
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-24T23:59:59-07:00
 dateString: June 2024  
-description: "Linear data structures store elements in a sequential manner and provide various ways to access, add, or remove elements. C# offers several built-in linear data structures, including arrays, lists, queues, stacks, and linked lists."
+description: "Learn about Dictionary and HashSet collections in C# with practical examples, performance characteristics, and use cases for key-value pairs and unique elements"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

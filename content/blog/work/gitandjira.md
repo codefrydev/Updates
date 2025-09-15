@@ -1,11 +1,11 @@
 ---
-title: "Git and jira"
+title: "Git and Jira Workflow Process"
 author: ["PrashantUnity"]
 weight: 110
 date: 2025-05-01
 lastmod: 2025-05-01
 dateString: March 2024  
-description: "General Proccess of git and jira flows"
+description: "Complete workflow guide for integrating Git version control with Jira project management for efficient development processes"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,4 +17,4 @@ keywords: [ "codefrydev", "Java", "CFD"]
 draft: true
 ---
 
-# From start to End Journey of git and jira flows
+# Complete Git and Jira Workflow Journey

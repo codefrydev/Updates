@@ -1,11 +1,11 @@
 ---
-title: "ViewBag, ViewData, TempData ?"
+title: "ViewBag, ViewData, and TempData in ASP.NET MVC"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Data Flow In Asp Net Core MVC via ViewBag ViewData TempData and From"
+description: "Learn about data passing mechanisms in ASP.NET MVC including ViewBag, ViewData, TempData, and form data with practical examples and use cases"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD", "DataFlow","Interview"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","Interview"]
 ---
 
-## How Do we pass data from view to Controller
+## Data Passing Between Controller and View
 
 - Using Form Like POST Method
 

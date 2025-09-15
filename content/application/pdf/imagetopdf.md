@@ -1,11 +1,11 @@
 ---
-title: "IMAGE TO PDF"
+title: "Convert Images to PDF Using C# and PdfSharp"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-10T11:57:15+05:30
 lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
-description: "Step-by-Step Guide to Converting Images to PDF using VS Code and Polyglot Notebooks"
+description: "Complete guide to converting images to PDF documents using C#, PdfSharp library, and Polyglot Notebooks with step-by-step instructions"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

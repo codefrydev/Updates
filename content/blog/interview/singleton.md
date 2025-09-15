@@ -1,11 +1,11 @@
 ---
-title: "Singleton"
+title: "Singleton Design Pattern Implementation in C#"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Different ways to create Singleton"
+description: "Learn various approaches to implement the Singleton design pattern in C# with thread-safe implementations and best practices"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
 
 
-## Straight Forward
+## Basic Implementation
 
 ```csharp
 Singleton singleton = Singleton.Instance; 

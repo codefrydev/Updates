@@ -1,11 +1,11 @@
 ---
-title: "Ado Net"
+title: "ADO.NET Database Connectivity Interview Questions"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Ado Net To Connect ith Database"
+description: "Essential ADO.NET interview questions covering database connectivity, DataSet vs DataReader, connection management, and data access patterns"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

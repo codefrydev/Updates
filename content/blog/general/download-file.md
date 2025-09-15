@@ -1,11 +1,11 @@
 ---
-title: "Download File from internet"
+title: "Download Files from the Internet Using C#"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-19T00:00:00-07:00
 lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
-description: "Suppose you want to download File from internet. You can Do this One Manually download or Programtically. I Will walk through you How to Do this using program in C# "
+description: "Learn how to programmatically download files from the internet using C# and HttpClient. Includes examples for single files and batch downloads with error handling."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "download-logo.png" # image path/url
@@ -28,7 +28,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader",
 
 #### 1. Open Visual Studio or Visual Studio Code
 
-#### 2. Paste the Below Snippet
+#### 2. Paste the below snippet
 
 
 ```cs {linenos=true}
@@ -43,12 +43,12 @@ try
     if (response.IsSuccessStatusCode)
     {
         // Get the File stream
-        using (Stream fileStreaam = await response.Content.ReadAsStreamAsync())
+        using (Stream fileStream = await response.Content.ReadAsStreamAsync())
         {
             // Save the file with appropriate extension name
             var fileName=$"image.png"
             using FileStream fileStream = File.Create(fileName);
-            await fileStreaam.CopyToAsync(fileStream);
+            await fileStream.CopyToAsync(fileStream);
         }
         Console.WriteLine("File downloaded successfully.");
     }

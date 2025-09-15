@@ -1,11 +1,11 @@
 ---
-title: "Stream Video"
+title: "Video Streaming in ASP.NET Core with Seek Functionality"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-23
 dateString: August 2024  
-description: "How To Stream Video In ASP.NET Core application with seek function Like video Player"
+description: "Learn how to implement video streaming in ASP.NET Core with seek functionality, range requests, and proper media handling for video players"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD" ,"StreamVideo"]
 ---
 
 
-## Stream Video in Asp.net Core with seeking Function
+## Video Streaming Implementation
 
 - Create One Controller CLass and Paste below code in side that class.
 

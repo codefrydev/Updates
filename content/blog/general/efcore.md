@@ -1,11 +1,11 @@
 ---
-title: "Code For Sqlite using Entity framework core library"
+title: "SQLite with Entity Framework Core Implementation"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Basic Minimal way to create project using sqlite and Ef Core"
+description: "Complete guide to implementing SQLite database with Entity Framework Core in .NET applications with minimal setup and best practices"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
 
 
-## Model
+## Data Model
 
 ```cs
 public class User

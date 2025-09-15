@@ -1,11 +1,11 @@
 ---
-title: "Skiasharp in  Blazor WASM Code Snippet"
+title: "SkiaSharp Graphics in Blazor WebAssembly"
 author: ["PrashantUnity"]
 weight: 200
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Skiasharp Code Snippet Used in blazor Project" 
+description: "Learn how to integrate SkiaSharp graphics library into Blazor WebAssembly applications for advanced 2D graphics rendering" 
 tags: ["blazor","Skiasharp"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ,"Skiasharp"]
 
@@ -16,7 +16,7 @@ cover:
 ---
 
 
-## Code Snippet
+## Implementation Code
 
 ```csharp
 @page "/"

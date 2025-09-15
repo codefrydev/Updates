@@ -1,11 +1,11 @@
 ---
-title: "Json to C sharp class"
+title: "Convert JSON to Tree Structure in C#"
 author: "PrashantUnity"
 weight: 110
 date: 2025-02-24
 lastmod: 2025-02-25
 dateString: February 2025  
-description: "Just a hack for json parsing to JsonDocument to Tree"
+description: "Learn how to parse dynamic JSON structures into tree nodes in C# for handling variable property names with consistent depth levels"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,7 +17,7 @@ keywords: [ "NET", "codefrydev", "C sharp", "CFD","JSON"]
 ---
 
 
-# Suppose you have json text which changes it's name each time ? but depth level remains same, What would you do ?
+# Handling Dynamic JSON with Variable Property Names
 
 ## Here is one way you can solve it 😁.
 
