@@ -1,11 +1,11 @@
 ---
-title: "Organisation Chart"
+title: "Organizational Chart"
 author: "PrashantUnity"
 weight: 115
 date: 2025-09-15
 lastmod: 2025-09-15
 dateString: September 2025
-description: "A simple organisation chart using tailwind css"
+description: "A simple Organizational chart using tailwind css"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -17,9 +17,9 @@ keywords: [ "Tailwind CSS", "Organisation Chart", "codefrydev", "CFD"]
 hideMeta: true
 ---
 
-# Organisation Chart
+# Organizational Chart
 
-A simple organisation chart using tailwind css
+A simple Organizational chart using tailwind css
 
 ```html
 <!DOCTYPE html>
