@@ -122,6 +122,14 @@ Unity is one of the most popular game development platforms, and C# is its prima
      - Performance optimization
      - Professional development workflows
 
+         - [GameDev.tv — Unity 2D RPG (Udemy)](https://www.udemy.com/course/unity-2d-rpg/?couponCode=UDEAFFHP22025) - A practical project-based course focused on 2D RPG development. Key topics include:
+            - Tilemaps and level design
+            - Player movement and combat systems
+            - Enemy AI and pathfinding
+            - Inventory and item systems
+            - Dialogue systems and quest management
+            - Polishing, UI, and game publishing tips
+
 ### Advanced Topics
 
 Once you're comfortable with the basics, these resources will help you dive into more complex C# concepts and real-world applications. These topics are essential for building sophisticated applications and understanding advanced programming patterns.
