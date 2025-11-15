@@ -705,11 +705,13 @@ var cardSchema = new Dictionary<string, CollectionSchema>
 };
 ```
 
-
+#### Create Schema for Cards Collection
 
 ```cs
 await crud.CreateMasterSchemaTypeByCollectionNameIfNotExistAsync("Cards", cardSchema);
 ```
+
+#### Add Documents with Reference
 
 ```cs
 var driverId = await crud.AddAsync("Drivers", new Dictionary<string, object>
@@ -720,6 +722,8 @@ var driverId = await crud.AddAsync("Drivers", new Dictionary<string, object>
 });
 ```
 
+#### Add Documents with Reference
+
 ```cs
 var cardId = await crud.AddAsync("Cards", new Dictionary<string, object>
 {
@@ -727,4 +731,78 @@ var cardId = await crud.AddAsync("Cards", new Dictionary<string, object>
     { "IssuedDate", DateTime.UtcNow },
     { "DriverId", driverId }  // auto-converted to DocumentReference based on schema
 });
+```
+
+<hr/>
+
+## Minimal Working Example
+
+Here is a minimal working example that demonstrates how to use the Firestore CRUD implementation in a .NET application. This example includes connecting to Firestore, defining collection schemas, and performing CRUD operations.
+
+```cs
+// --- 1. Connect to Firestore using Service Account (NEW METHOD) ---
+Console.WriteLine("Connecting to Firestore...");
+
+string projectId = "brickssimpledatabase";
+string credentialPath = "admin.json"; // <-- MAKE SURE THIS FILE IS IN YOUR RUN DIRECTORY
+
+FirestoreDb db;
+ try
+{
+    // Open the file as a stream
+    using (var stream = new FileStream(credentialPath, FileMode.Open, FileAccess.Read))
+    {
+        // Create the credential from the stream
+        var credential = GoogleCredential.FromStream(stream);
+
+        db = new FirestoreDbBuilder
+        {
+            ProjectId = projectId,
+            Credential = credential,
+            EmulatorDetection = EmulatorDetection.None
+        }.Build();
+    }
+
+    Console.WriteLine($"✅ Successfully connected to project '{projectId}'!");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"❌ Connection failed: {ex.Message}");
+    Console.WriteLine("\nMake sure 'serviceAccount.json' is in the correct folder.");
+    return;
+}
+
+DocumentReference docRef = await db.Collection("Demo").AddAsync(new
+{
+    Name = "Item A",
+    Category = "Electronics",
+    Price = Convert.ToDouble(99.99m),
+    Stock = 10,
+    Description = "Sample item",
+    ProfilePhotoUrl = "https://example.com/photo.jpg"
+});
+
+DocumentSnapshot snap = await db.Collection("Demo").Document(docRef.Id).GetSnapshotAsync();
+
+if (snap.Exists)
+{
+    var data = snap.ToDictionary();
+    Console.WriteLine(data["Name"]);
+}
+QuerySnapshot allSnap = await db.Collection("Demo").GetSnapshotAsync();
+
+foreach (var doc in allSnap.Documents)
+{
+    Console.WriteLine($"{doc.Id} => {doc.ToDictionary()["Name"]}");
+}
+
+await db.Collection("Demo").Document(docRef.Id).UpdateAsync(new Dictionary<string, object>
+{
+    { "Price", Convert.ToDouble(129.99m) },
+    { "Stock", 5 }
+});
+
+Console.WriteLine("Updated");
+await db.Collection("Demo").Document(docRef.Id).DeleteAsync();
+Console.WriteLine("Deleted");
 ```
