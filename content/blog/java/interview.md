@@ -3,7 +3,7 @@ title: "Prepare for Java Interview"
 author: "Aayush Bhardwaj"
 weight: 110
 date: 2025-11-12
-lastmod: 2025-11-12
+lastmod: 2025-11-16
 dateString: November 2025  
 description: "General Question"
 #canonicalURL: "https://canonical.url/to/page"
@@ -39,6 +39,7 @@ static final int hash(Object key) {
 When key is null, it computes hash as 0 and stores it in bucket 0. There's only one null key slot, so you get one null key maximum.
 
 **Why this matters:**
+
 - **Hashtable (legacy):** Fail-fast approach—null is an error, catch it early.
 - **HashMap (modern):** Permissive approach—handle nulls gracefully in code.
 
@@ -152,6 +153,7 @@ set.add("apple"); // Won't add; uses compareTo() instead of hashCode()
 ### 4️⃣ What's the difference between fail-fast and fail-safe iterators?
 
 **Short Answer:**
+
 - **Fail-fast:** Throws `ConcurrentModificationException` if collection is modified during iteration.
 - **Fail-safe:** Creates a copy; safe to modify original collection during iteration (but you iterate over old data).
 
@@ -184,10 +186,12 @@ for (String item : list) {
 ```
 
 **Why Fail-Fast?**
+
 - Catches bugs early—helps you find concurrent modification issues.
 - Better performance (no copying overhead).
 
 **Why Fail-Safe?**
+
 - Multi-threaded environments where locks are expensive.
 - Trade-off: memory overhead and slightly stale data.
 
@@ -214,6 +218,7 @@ map.put("mango", 3);
 ```
 
 **Properties:**
+
 - **O(log n) operations:** Put, get, remove all take logarithmic time (balanced tree).
 - **Sorted:** Iterating keys always returns in sorted order.
 - **Comparable or Comparator:** Keys must be comparable.
@@ -239,6 +244,7 @@ map.put("balloon", 3); // length 7
 ```
 
 **When to Use:**
+
 - Need sorted keys with guaranteed order.
 - Range queries (e.g., `tailMap()`, `headMap()`).
 - Avoid if you only care about speed; HashMap is faster for non-sorted data.
@@ -283,6 +289,7 @@ Multiple threads       | Serialized| Parallelized
 ```
 
 **Key Insight:**
+
 - **Hashtable:** Thread-safe but bottleneck—one lock for entire map.
 - **ConcurrentHashMap:** Thread-safe with throughput—distributed locks.
 
@@ -362,6 +369,7 @@ set.size(); // ✅ 1 (correct!)
 ```
 
 **The Contract:**
+
 - If `a.equals(b)` is true, then `a.hashCode() == b.hashCode()`.
 - Always override both together or neither.
 
@@ -437,6 +445,7 @@ Synchronized List:
 ```
 
 **Decision Matrix:**
+
 - **Read-heavy (100:1):** Use `CopyOnWriteArrayList`.
 - **Balanced (1:1):** Use `Collections.synchronizedList()`.
 - **Write-heavy (1:100):** Use regular `ArrayList` + manual sync if needed.
@@ -526,6 +535,7 @@ cache.put("user3", "data3"); // Removes user2 (LRU)
 ```
 
 **Performance:**
+
 - **O(1) get/put:** HashMap performance (doubly-linked list is constant overhead).
 - **Ordered iteration:** Slight memory overhead (pointers for each node).
 
@@ -628,26 +638,11 @@ while (!scheduler.isEmpty()) {
 ```
 
 **Complexity:**
+
 - **add():** O(log n) — bubble up.
 - **poll():** O(log n) — bubble down.
 - **peek():** O(1) — no change.
 - **Creation from array:** O(n) — heapify.a Interview"
-author: "Aayush Bhardwaj"
-weight: 110
-date: 2025-03-01
-lastmod: 2025-03-01
-dateString: March 2024  
-description: "General Question"
-#canonicalURL: "https://canonical.url/to/page"
-cover:
-    image: "cover.jpg" # image path/url
-    alt: "Download Logo" # alt text
-    #caption: "Optical Character Recognition"  display caption under cover 
-
-tags: [  "codefrydev", "Java", "CFD"]
-keywords: [ "codefrydev", "Java", "CFD"]
----
-
 1️⃣ Why does HashMap allow one null key but Hashtable doesn’t?
 2️⃣ What happens internally when we call put() in a HashMap?
 3️⃣ How does a Set actually prevent duplicates?
@@ -659,11 +654,6 @@ keywords: [ "codefrydev", "Java", "CFD"]
 9️⃣ How does LinkedHashMap maintain insertion order?
 🔟 How does PriorityQueue work internally?
 
-
-
-
-
-
 ---
 
 ## Advanced Java Concepts
@@ -671,6 +661,7 @@ keywords: [ "codefrydev", "Java", "CFD"]
 ### 1. What is Eager and Lazy Loading in Java?
 
 **Short Answer:**
+
 - **Eager Loading:** Load resources immediately when application starts.
 - **Lazy Loading:** Load resources on-demand (when first accessed).
 
@@ -1138,6 +1129,7 @@ public final class ImmutableStudent {
 ```
 
 **Benefits:**
+
 - **Thread-safe:** No synchronization needed.
 - **Can be cached:** Immutable objects can be reused.
 - **Hashable:** Safe to use as HashMap keys or in HashSet.
@@ -1651,6 +1643,7 @@ Always override both together!
 ### 7. What are OAuth and JWT authentications?
 
 **Short Answer:**
+
 - **OAuth:** Authorization protocol (grants access without sharing passwords).
 - **JWT:** Token format (securely transmits user identity).
 
@@ -1814,6 +1807,7 @@ OAuth gets an authorization code → Exchange for JWT → Use JWT for API calls.
 ### 9. What is the purpose of @Qualifier and @Primary annotations in Spring?
 
 **Short Answer:**
+
 - **@Primary:** Marks the default bean when multiple of same type exist.
 - **@Qualifier:** Explicitly selects which bean to inject by name.
 
