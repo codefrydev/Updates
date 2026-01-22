@@ -53,7 +53,7 @@ Before installing devtunnel, ensure you meet the following requirements:
 winget install --id Microsoft.devtunnel
 devtunnel --version
 devtunnel login
-devtunnel host -p 6001
+devtunnel host -p 6001 -a
 
 ```
 
