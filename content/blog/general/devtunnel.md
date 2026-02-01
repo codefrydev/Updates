@@ -101,11 +101,13 @@ devtunnel --version
 ```
 
 Expected output:
+
 ```
 devtunnel version 2.x.x
 ```
 
 If the command is not recognized:
+
 - Restart your terminal/command prompt
 - Verify the installation path is in your system PATH
 - Try using the full path to the executable
@@ -135,6 +137,7 @@ curl -fsSL https://aka.ms/devtunnels/download | bash
 ```
 
 This script will:
+
 - Download the appropriate binary for your Mac architecture
 - Install it to `/usr/local/bin/devtunnel`
 - Make it executable
@@ -160,6 +163,7 @@ devtunnel --version
 ```
 
 If you get a "command not found" error:
+
 - Check that `/usr/local/bin` is in your PATH: `echo $PATH`
 - Add it if needed: `export PATH=$PATH:/usr/local/bin`
 - Restart your terminal
@@ -199,12 +203,14 @@ sudo chmod +x /usr/local/bin/devtunnel
 Some Linux distributions may have devtunnel in their repositories. Check your distribution's package manager:
 
 **For Debian/Ubuntu:**
+
 ```bash
 # Check if available
 apt search devtunnel
 ```
 
 **For Fedora/RHEL:**
+
 ```bash
 # Check if available
 dnf search devtunnel
@@ -219,6 +225,7 @@ devtunnel --version
 ```
 
 If the command is not found:
+
 - Check PATH: `echo $PATH`
 - Verify the binary exists: `ls -la /usr/local/bin/devtunnel`
 - Add to PATH if needed: `export PATH=$PATH:/usr/local/bin`
@@ -253,7 +260,7 @@ This shows your current authentication status (will prompt login if not authenti
 
 ### Common Verification Issues
 
-- **Command not found:** 
+- **Command not found:**
   - Restart your terminal
   - Verify PATH includes the installation directory
   - Use full path to executable
@@ -279,6 +286,7 @@ devtunnel login
 ```
 
 This will:
+
 1. Open your default web browser
 2. Prompt you to sign in with your Microsoft account or Azure AD account
 3. Complete the authentication flow
@@ -287,11 +295,13 @@ This will:
 ### Login Options
 
 **Interactive login (default):**
+
 ```bash
 devtunnel login
 ```
 
 **Login with specific account:**
+
 ```bash
 devtunnel login --allow-no-browser
 ```
@@ -307,6 +317,7 @@ devtunnel user show
 ```
 
 This displays:
+
 - Your authenticated user account
 - Account type (Microsoft Account or Azure AD)
 - Authentication status
@@ -349,6 +360,7 @@ devtunnel host -p 6001 -a
 ```
 
 **Flags explained:**
+
 - `-p 6001`: Forwards local port 6001
 - `-a`: Makes tunnel accessible without authentication (anonymous/public)
 
@@ -369,22 +381,26 @@ Press `Ctrl+C` in the terminal where the tunnel is running.
 ### Common Usage Examples
 
 **Expose a web application:**
+
 ```bash
 # Your app runs on localhost:3000
 devtunnel host -p 3000
 ```
 
 **Expose multiple ports:**
+
 ```bash
 devtunnel host -p 3000 -p 5000
 ```
 
 **Create a named tunnel:**
+
 ```bash
 devtunnel host -p 6001 --tunnel-id my-tunnel-name
 ```
 
 **Set tunnel protocol:**
+
 ```bash
 devtunnel host -p 6001 --protocol https
 ```
@@ -394,16 +410,19 @@ devtunnel host -p 6001 --protocol https
 ### Managing Tunnels
 
 **List all tunnels:**
+
 ```bash
 devtunnel list
 ```
 
 **Delete a tunnel:**
+
 ```bash
 devtunnel delete <tunnel-id>
 ```
 
 **Show tunnel details:**
+
 ```bash
 devtunnel show <tunnel-id>
 ```
@@ -411,6 +430,7 @@ devtunnel show <tunnel-id>
 ### Tunnel Configuration
 
 **Set tunnel access:**
+
 ```bash
 # Private tunnel (requires authentication)
 devtunnel host -p 6001
@@ -420,6 +440,7 @@ devtunnel host -p 6001 -a
 ```
 
 **Configure port forwarding:**
+
 ```bash
 # Forward to different host
 devtunnel host -p 6001 --host localhost
@@ -444,21 +465,25 @@ export DEVTUNNEL_LOG_LEVEL=debug
 #### Windows
 
 **winget not found:**
+
 - Update Windows to the latest version
 - Install winget manually from [Microsoft Store](https://aka.ms/getwinget)
 - Use alternative installation methods (PowerShell script or direct download)
 
 **Permission denied:**
+
 - Run terminal as Administrator
 - Check antivirus software isn't blocking installation
 
 #### macOS
 
 **Homebrew not found:**
+
 - Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - Use the installation script method instead
 
 **Binary not executable:**
+
 ```bash
 chmod +x /usr/local/bin/devtunnel
 ```
@@ -466,11 +491,13 @@ chmod +x /usr/local/bin/devtunnel
 #### Linux
 
 **Permission denied:**
+
 ```bash
 sudo chmod +x /usr/local/bin/devtunnel
 ```
 
 **Binary architecture mismatch:**
+
 - Download the correct binary for your CPU architecture
 - Check architecture: `uname -m`
 - Use x64 for 64-bit Intel/AMD, ARM64 for ARM processors
@@ -478,39 +505,46 @@ sudo chmod +x /usr/local/bin/devtunnel
 ### Authentication Issues
 
 **Login fails:**
+
 - Ensure you have an active internet connection
 - Try logging out and logging back in: `devtunnel logout` then `devtunnel login`
 - Clear browser cache and cookies
 - Check if your organization requires specific Azure AD permissions
 
 **Browser doesn't open:**
+
 - Use `--allow-no-browser` flag: `devtunnel login --allow-no-browser`
 - Manually copy the authentication URL from terminal output
 
 **Authentication expired:**
+
 - Re-authenticate: `devtunnel login`
 - Check system time is correct (authentication relies on accurate time)
 
 ### Tunnel Creation Issues
 
 **No public endpoint printed:**
+
 - Verify your local service is running on the specified port
 - Check firewall settings aren't blocking connections
 - Ensure you have internet connectivity
 - Try a different port number
 
 **Port already in use:**
+
 - Find the process using the port:
   - **Windows:** `netstat -ano | findstr :6001`
   - **macOS/Linux:** `lsof -i :6001` or `netstat -tulpn | grep 6001`
 - Stop the conflicting process or use a different port
 
 **Connection refused:**
+
 - Verify your local service is listening on `localhost` or `127.0.0.1`
 - Check if your service binds to `0.0.0.0` (all interfaces)
 - Ensure the service is actually running
 
 **Tunnel disconnects frequently:**
+
 - Check network stability
 - Verify firewall/antivirus isn't interfering
 - Check for proxy settings that might affect connections
@@ -520,32 +554,38 @@ sudo chmod +x /usr/local/bin/devtunnel
 #### Windows
 
 **Firewall blocking:**
+
 - Add devtunnel to Windows Firewall exceptions
 - Allow inbound connections for the tunnel port
 
 **Antivirus interference:**
+
 - Add devtunnel to antivirus exclusions
 - Temporarily disable to test if it's the cause
 
 #### macOS
 
 **Gatekeeper blocking:**
+
 ```bash
 # Remove quarantine attribute
 xattr -d com.apple.quarantine /usr/local/bin/devtunnel
 ```
 
 **System Integrity Protection (SIP):**
+
 - If installing to protected directories, you may need to disable SIP (not recommended)
 - Install to user directory instead: `~/bin/devtunnel`
 
 #### Linux
 
 **Missing dependencies:**
+
 - Install required libraries: `sudo apt-get install libssl-dev` (Debian/Ubuntu)
 - Check distribution-specific requirements
 
 **SELinux blocking:**
+
 - Configure SELinux policies if needed
 - Or set SELinux to permissive mode for testing (not recommended for production)
 
