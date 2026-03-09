@@ -20,6 +20,10 @@ keywords: [ "devtunnel", "Microsoft", "tunneling", "CLI", "development", "Azure"
 
 Microsoft devtunnel is a CLI tool that allows you to create secure tunnels to expose your local development services to the internet. This guide provides comprehensive setup instructions for installing and configuring devtunnel on Windows, macOS, and Linux.
 
+```
+devtunnel host -p 6001 --protocol https -a
+```
+
 ## Prerequisites
 
 Before installing devtunnel, ensure you meet the following requirements:
