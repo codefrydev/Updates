@@ -8,7 +8,7 @@ dateString: February 2026
 description: ""
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    # image: "devtunnel.png" # image path/url
+    image: "cover.jpg"
     alt: "Docs" # alt text
     #caption: "Microsoft Dev Tunnels"  display caption under cover 
 

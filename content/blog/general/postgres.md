@@ -8,7 +8,7 @@ dateString: March 2026
 description: "Set up PostgreSQL in Docker using the official image, a named volume for persistence, and Docker Compose. Includes run, verify, connect, and cleanup commands."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    # image: "postgres.png" # image path/url
+    image: "cover.jpg"
     alt: "PostgreSQL database" # alt text
     #caption: "PostgreSQL on Docker"  display caption under cover
 

@@ -8,7 +8,7 @@ dateString: January 2026
 description: "Complete guide to installing and setting up Microsoft devtunnel CLI on Windows, macOS, and Linux. Learn how to create secure development tunnels for local services."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
-    # image: "devtunnel.png" # image path/url
+    image: "cover.jpg"
     alt: "Dev Tunnel Logo" # alt text
     #caption: "Microsoft Dev Tunnels"  display caption under cover 
 

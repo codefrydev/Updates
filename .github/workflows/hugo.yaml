@@ -43,6 +43,14 @@ jobs:
       - name: Verify PaperMod theme
         run: test -f themes/PaperMod/theme.toml
 
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Generate missing cover images (SkiaSharp)
+        run: dotnet run --project tools/GenerateCovers --configuration Release --
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

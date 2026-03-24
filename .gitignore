@@ -25,6 +25,12 @@ Desktop.ini
 # .vscode/
 # .idea/
 
+# .NET — GenerateCovers tool (build / publish artifacts)
+tools/GenerateCovers/bin/
+tools/GenerateCovers/obj/
+tools/GenerateCovers/out/
+tools/GenerateCovers/publish-test/
+
 # Logs & temp
 *.log
 *.tmp
