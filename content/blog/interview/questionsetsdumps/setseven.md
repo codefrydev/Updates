@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 7"
+title: "MVC interview — Set 7"
 author: "PrashantUnity"
 weight: 217
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Comprehensive ASP.NET MVC interview questions covering return types, action methods, model binding, and advanced MVC concepts with detailed explanations"
+description: "Return types, model binding, actions."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 1. **Mention what does Model-View-Controller represent in an MVC application?**  
    - **Model**: Represents the data and business logic of the application.
    - **View**: Represents the UI or presentation layer that displays the model's data.

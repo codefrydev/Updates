@@ -1,11 +1,11 @@
 ---
-title: "Tiny Fish Term and Condition"
+title: "Terms of use"
 author: "Abhijeet"
 weight: 300
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024
-description: "Play Tiny Term and Condition"
+description: "Rules for playing Tiny Fish."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "games/tinyfish/tinyfish.png" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "Game", "codefrydev", "Godot","Fish" ,"Android"]
 draft: false
 ---
-
 **Terms & Conditions**  
 
 These terms and conditions applies to the Tiny Fish app (hereby referred to as "Application") for mobile devices that was created by Codefrydev (hereby referred to as "Service Provider") as a Freemium service.

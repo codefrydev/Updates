@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 8"
+title: "MVC interview — Set 8"
 author: "PrashantUnity"
 weight: 218
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Advanced ASP.NET MVC interview questions covering design patterns, action return types, model binding, and architectural best practices"
+description: "Patterns, binding, action results."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 1. **What is MVC?**  
    MVC (Model-View-Controller) is a design pattern used to separate an application into three main components: the Model, the View, and the Controller. This separation helps manage complex applications by separating the input logic, business logic, and UI logic while providing a clear structure for the development.
 

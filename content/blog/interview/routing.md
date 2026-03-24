@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Routing Interview Questions"
+title: "MVC routing Q&A"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Comprehensive interview questions about ASP.NET MVC routing with detailed explanations of URL mapping, route configuration, and request handling"
+description: "URLs, defaults, and constraints."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ## How is routing carried out in the MVC pattern?
 
 The routing mechanism in ASP.NET MVC is responsible for determining which controller and action should handle a particular request based on the URL of the request. The routing process typically involves the following steps:

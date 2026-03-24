@@ -1,11 +1,11 @@
 ---
-title: "ADO.NET Database Connectivity Interview Questions"
+title: "ADO.NET Q&A"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Essential ADO.NET interview questions covering database connectivity, DataSet vs DataReader, connection management, and data access patterns"
+description: "Connections, DataReader vs DataSet, patterns."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","adonet"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","adonet"]
 ---
-
 ### 1. What is ADO.NET?
 
 ADO.NET (ActiveX Data Objects) is a data access technology in the .NET framework used to interact with data sources, such as databases. It provides a set of classes for connecting to databases, executing commands (queries, updates), and retrieving results into datasets or data readers.

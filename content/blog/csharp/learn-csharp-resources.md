@@ -1,11 +1,11 @@
 ---
-title: "C# Leaning Resources - Link and Tutorials for Getting Started with C# Dev for Beginners | Code Fry Dev"
+title: "Learn C# — links"
 author: ["PrashantUnity"]
 weight: 111
 date: 2025-10-19
 lastmod: 2024-10-19
 dateString: October 2025
-description: "Link and Tutorials for Getting Started with C# Dev for Beginners as Game Development and App Development and more."
+description: "Curated tutorials for apps, games, and fundamentals."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Learning","Beginner","Resources"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Learning","Beginner","Resources"]
 draft: false #make this false to publicly Available
 ---
-
 ## C# Learning Resources for Beginners
 
 Welcome to this comprehensive guide of C# programming resources! Whether you're interested in game development, web applications, or general software development, these carefully curated resources will help you start your C# journey. This guide is organized by topic, from basic setup to advanced concepts, making it easy to find exactly what you need at each stage of your learning process.

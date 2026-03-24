@@ -1,11 +1,11 @@
 ---
-title: "Convert Images to PDF Using C# and PdfSharp"
+title: "Images to PDF"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-10T11:57:15+05:30
 lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
-description: "Complete guide to converting images to PDF documents using C#, PdfSharp library, and Polyglot Notebooks with step-by-step instructions"
+description: "Build PDFs from images with PdfSharp."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [  "C sharp","PdfSharp","PDF","Image TO PDF","polyglot"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "PdfSharp","PDF","Image TO PDF","polyglot"]
 ---
-
 ## Steps
 
 ### Requirements

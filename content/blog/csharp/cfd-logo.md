@@ -1,11 +1,11 @@
 ---
-title: "CodeFryDev Loading Animation SVG"
+title: "CFD loading SVG"
 author: ["PrashantUnity"]
 weight: 105
 date: 2024-07-24
 lastmod: 2024-07-24
 dateString: July 2025  
-description: "Custom animated loading SVG for CodeFryDev with CSS animations and modern design elements"
+description: "Animated loader markup and CSS."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Input","output","Chapter 3","Comment","variable"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp"]
 draft: false #make this false to publicly Available
 ---
-
 ## Loading Animation
 
 ```svg

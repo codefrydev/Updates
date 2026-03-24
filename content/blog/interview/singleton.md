@@ -1,11 +1,11 @@
 ---
-title: "Singleton Design Pattern Implementation in C#"
+title: "Singleton in C#"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Learn various approaches to implement the Singleton design pattern in C# with thread-safe implementations and best practices"
+description: "Thread-safe patterns and trade-offs."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## Basic Implementation
 
 ```csharp

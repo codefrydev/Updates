@@ -1,11 +1,11 @@
 ---
-title: "Google Indexing API Integration with C#"
+title: "Google Indexing API"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-25T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to integrate Google Indexing API with C# to programmatically submit URLs for faster search engine indexing and SEO optimization"
+description: "Notify Google about new or updated URLs."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "C sharp","IndexNow","Google","SEO"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing","Google Index","SEO"]
 ---
-
-
 ## Google Cloud Console Setup
 
 ### Go To [Google Console](https://console.cloud.google.com/welcome)

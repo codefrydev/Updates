@@ -1,11 +1,11 @@
 ---
-title: "Getting Started with Basic C# Concepts | Chapter 3"
+title: "C# basics (Ch. 3)"
 author: ["PrashantUnity"]
 weight: 103
 date: 2024-06-16T00:00:00-07:00
 lastmod: 2024-06-16T23:59:59-07:00
 dateString: June 2024  
-description: "Welcome to this introductory post on fundamental C# programming concepts. Understanding the basics is crucial. This post covers how to use comments, declare variables, understand data types, and handle user input and output."
+description: "Comments, variables, types, and console I/O."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,8 +16,6 @@ tags: [ "NET","C Sharp", "Input","output","Chapter 3","Comment","variable"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "Input","output","Chapter 3","Comment","variable"]
 draft: false #make this false to publicly Available
 ---
-
-
 ## Comments in C#
 
 Comments are essential for making your code understandable. They can explain what your code does, which is helpful for anyone reading it (including yourself).

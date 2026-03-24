@@ -1,11 +1,11 @@
 ---
-title: "Triangle Illusion in SkiaSharp"
+title: "Triangle illusions"
 author: "PrashantUnity"
 weight: 102
 date: 2024-06-23T00:00:00-07:00
 lastmod: 2024-06-23T23:59:59-07:00
 dateString: June 2024  
-description: "Create optical illusion patterns using triangles in C# and SkiaSharp with mathematical positioning and color gradients"
+description: "Optical patterns with color and layout."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","Triangle","Illusion"]
 ---
-
-
 ## Setup
 
 ```csharp

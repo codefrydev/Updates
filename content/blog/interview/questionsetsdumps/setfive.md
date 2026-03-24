@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 5"
+title: "MVC interview — Set 5"
 author: "PrashantUnity"
 weight: 215
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Advanced ASP.NET MVC interview questions covering MVC 5 features, routing, filters, and architectural patterns with detailed explanations"
+description: "MVC 5, routing, filters, architecture."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### ASP.NET MVC Overview
 
 1. **What is ASP.NET MVC?**

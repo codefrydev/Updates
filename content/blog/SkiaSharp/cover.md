@@ -1,11 +1,11 @@
 ---
-title: "Creating Cover using Skia Sharp"
+title: "Cover art in SkiaSharp"
 author: "PrashantUnity"
 weight: 101
 date: 2024-06-14T00:00:00-07:00
 lastmod: 2024-06-14T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to create custom cover images and thumbnails using SkiaSharp with text, shapes, gradients, and professional design elements"
+description: "Text, shapes, and gradients for thumbnails."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "C sharp", "SkiaSharp","Generate Thumbnail","Skia"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate Thumbnail","Skia"]
 ---
-
-
 ## Creating Cover Images with SkiaSharp
 
 Cover on this website is generated using SkiaSharp Only

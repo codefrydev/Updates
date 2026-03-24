@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 4"
+title: "MVC interview — Set 4"
 author: "PrashantUnity"
 weight: 214
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Comprehensive ASP.NET MVC interview questions covering general concepts, assemblies, lifecycle, and fundamental MVC principles"
+description: "Lifecycle, assemblies, core concepts."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### General MVC Concepts
 
 1. **What is Model-View-Controller?**

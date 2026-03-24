@@ -1,11 +1,11 @@
 ---
-title: ".NET Framework vs .NET Core Interview Questions - Set 15"
+title: ".NET vs .NET Core — Set 15"
 author: "PrashantUnity"
 weight: 225
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Step-by-step comparison of .NET Framework vs .NET Core with easy explanations covering differences, dependency injection, Kestrel, and middleware concepts"
+description: "Framework compare: DI, Kestrel, middleware."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### 1. What's the difference between .NET and .NET Framework?
 - **.NET Framework**: A Windows-only framework for building web, desktop, and other applications. It has been around since the early 2000s and is deeply integrated with Windows.
 - **.NET** (formerly known as .NET Core): A cross-platform, open-source framework that can run on Windows, macOS, and Linux. It is more modular and designed with modern development practices in mind, making it suitable for cloud and microservices architectures.

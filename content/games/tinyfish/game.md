@@ -1,11 +1,11 @@
 ---
-title: "About Tiny Fish Games"
+title: "Tiny Fish"
 author: "Abhijeet"
 weight: 300
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024
-description: "Learn about Tiny Fish game development, privacy policy, and game mechanics built with Godot engine for Android platforms"
+description: "Godot-built casual game for Android."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "games/tinyfish/tinyfish.png" # image path/url

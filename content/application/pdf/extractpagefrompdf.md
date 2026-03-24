@@ -1,11 +1,11 @@
 ---
-title: "Extract page from PDF"
+title: "Extract PDF pages"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-10T11:57:15+05:30
 lastmod: 2024-06-22T23:59:59-07:00
 dateString: June 2024  
-description: "Step-by-Step Guide to Converting Images to PDF using VS Code and Polyglot Notebooks"
+description: "Pull pages from a PDF with Polyglot Notebook."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [  "C sharp","PdfSharp","PDF","Image TO PDF","polyglot"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "PdfSharp","PDF","Image TO PDF","polyglot"]
 draft: true
 ---
-
 ```csharp
 #r "nuget: itextsharp, 5.5.13.2"
 

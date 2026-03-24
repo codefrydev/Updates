@@ -1,11 +1,11 @@
 ---
-title: "Create an Organizational Chart with Tailwind CSS"
+title: "Org chart with Tailwind"
 author: "PrashantUnity"
 weight: 115
 date: 2025-09-15
 lastmod: 2025-09-15
 dateString: September 2025
-description: "Learn how to create a modern, responsive organizational chart using Tailwind CSS with HTML structure and styling examples"
+description: "Responsive hierarchy with utility CSS."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "Tailwind CSS", "Organisation Chart", "codefrydev", "CFD"]
 keywords: [ "Tailwind CSS", "Organisation Chart", "codefrydev", "CFD"]
 hideMeta: true
 ---
-
 # Organizational Chart
 
 A simple Organizational chart using tailwind css

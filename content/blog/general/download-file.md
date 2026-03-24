@@ -1,11 +1,11 @@
 ---
-title: "Download Files from the Internet Using C#"
+title: "Download files in C#"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-19T00:00:00-07:00
 lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to programmatically download files from the internet using C# and HttpClient. Includes examples for single files and batch downloads with error handling."
+description: "HttpClient patterns for single and batch files."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "download-logo.png" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "C sharp", "Download File","Downloader","httpclient"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
 ---
-
 ## File Downloader Using C#
 
 ### Requirements

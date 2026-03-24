@@ -1,11 +1,11 @@
 ---
-title: "Video Streaming in ASP.NET Core with Seek Functionality"
+title: "Video streaming in ASP.NET Core"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-23
 dateString: August 2024  
-description: "Learn how to implement video streaming in ASP.NET Core with seek functionality, range requests, and proper media handling for video players"
+description: "Range requests and seek-friendly media."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD" ,"StreamVideo"]
 ---
-
-
 ## Video Streaming Implementation
 
 - Create One Controller CLass and Paste below code in side that class.

@@ -1,11 +1,11 @@
 ---
-title: "Abstract Class Interview Questions"
+title: "Abstract class Q&A"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Common interview questions about abstract classes in C# with detailed explanations and code examples"
+description: "C# abstract types in interviews."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ## Abstract Class Interview Questions
 
 - Can an abstract class have non-abstract methods?

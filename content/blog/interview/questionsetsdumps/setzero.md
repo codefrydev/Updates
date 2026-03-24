@@ -1,11 +1,11 @@
 ---
-title: "Set Zero"
+title: "MVC set — starter"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Common Question Interview Sets of MVC Collected from Internet"
+description: "Mixed MVC questions from the wild."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### What is ASP.NET MVC Core?
 
 ASP.NET MVC Core is a modern, open-source, cross-platform framework for building web applications. It is a part of the larger ASP.NET Core framework and follows the Model-View-Controller (MVC) architecture pattern. MVC Core is designed to offer greater performance, scalability, and flexibility compared to its predecessors. It allows developers to create web applications that can run on various platforms (Windows, Linux, macOS) and supports cloud-based deployment. Key features include:

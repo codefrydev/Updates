@@ -1,11 +1,11 @@
 ---
-title: "SQLite Database Integration in .NET MAUI"
+title: "SQLite in MAUI"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-19
 lastmod: 2024-06-19
 dateString: July 2025  
-description: "Complete guide to implementing SQLite database in .NET MAUI applications using Entity Framework Core with step-by-step setup instructions"
+description: "EF Core setup for mobile/desktop apps."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls","entry"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls"]
 ---
-
 ## Implementation Steps
 
 ### Install/ Add Microsoft.EntityFrameworkCore.Sqlite to Project

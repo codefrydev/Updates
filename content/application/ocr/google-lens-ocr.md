@@ -1,11 +1,11 @@
 ---
-title: "Google Lens OCR Integration in .NET"
+title: "Google Lens OCR in .NET"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to integrate Google Lens OCR into .NET applications for free text extraction from images without requiring Google account authentication"
+description: "Extract text from images without a Google account."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "OCR","Google lens" , "C sharp", "Optical Character Recognition"]
 keywords: [ "OCR","Google lens" ,"NET", "codefrydev", "C sharp","NET Core" ,".NET Framework" , "Optical Character Recognition"]
 ---
-
 ## Harness the Power of Google Lens OCR in .NET Core and .NET Framework
 
 Extracting text from images is a handy tool for many tasks, like digitizing documents, automating data entry, and improving accessibility. Google Lens OCR, now available for both .NET Core and .NET Framework, makes this process easy and accurate. Google Lens OCR is derived from the **[Chrome Lens OCR project ](https://github.com/dimdenGD/chrome-lens-ocr)**, this library is a powerful tool for developers. In this post, I'll show you how to set it up and use it in your projects.

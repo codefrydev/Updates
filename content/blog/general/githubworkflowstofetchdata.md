@@ -1,11 +1,11 @@
 ---
-title: "GitHub Actions Workflows for Automated Tasks"
+title: "GitHub Actions data jobs"
 author: "PrashantUnity"
 weight: 103
 date: 2024-07-28T00:00:00-07:00
 lastmod: 2024-07-28T23:59:59-07:00
 dateString: July 2024  
-description: "Learn how to set up GitHub Actions workflows to run automated tasks, process data, and store results in your repository using CI/CD pipelines"
+description: "Automate fetch/store tasks in CI."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "C sharp", "CICD","GitHub"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "CICD","GitHub"]
 ---
-
 ## Create a New Console Project
 
 I am going to create a dotnet project to demonstrate this, but it is applicable for all other programming languages as well

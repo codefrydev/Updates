@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET Core MVC Interview Questions - Set 13"
+title: "ASP.NET Core MVC — Set 13"
 author: "PrashantUnity"
 weight: 223
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Complete tutorial guide to ASP.NET Core MVC interview questions with step-by-step explanations covering architecture, configuration, and modern web development"
+description: "Architecture, config, Core MVC."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ### ASP.NET MVC Core Overview
 ASP.NET MVC Core, often referred to simply as ASP.NET Core, is a cross-platform, high-performance framework for building modern, cloud-based, and internet-connected applications. It combines the features of ASP.NET MVC and ASP.NET Web API into a single programming model. ASP.NET Core is open-source and can run on Windows, macOS, and Linux.
 

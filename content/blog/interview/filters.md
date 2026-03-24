@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Filters and Their Roles"
+title: "MVC filters"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Learn about ASP.NET MVC filters including authentication, authorization, action, result, and exception filters with implementation examples"
+description: "Auth, action, result, and exception filters."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## What do you understand by filters in MVC?
 
 > Filters are components that enable developers to inject logic into the request processing pipeline at various stages.

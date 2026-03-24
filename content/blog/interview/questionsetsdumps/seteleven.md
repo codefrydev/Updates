@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET Core MVC Interview Questions - Set 11"
+title: "ASP.NET Core MVC — Set 11"
 author: "PrashantUnity"
 weight: 221
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Easy-to-understand ASP.NET Core MVC interview questions with step-by-step explanations covering ViewData, startup process, and modern MVC concepts"
+description: "ViewData, startup, Core MVC flow."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ### 1. What is ViewData?
 **ViewData** is a dictionary object in ASP.NET Core MVC used to pass data from a controller to a view. It is a type of key-value pair dictionary where the key is a string, and the value is an object. ViewData is useful for passing small amounts of data between a controller and a view but lacks type safety and requires typecasting.
 

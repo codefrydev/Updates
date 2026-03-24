@@ -1,11 +1,11 @@
 ---
-title: "Run PostgreSQL 16 with Docker Compose"
+title: "Postgres 16 in Docker"
 author: "PrashantUnity"
 weight: 103
 date: 2026-03-24
 lastmod: 2026-03-24
 dateString: March 2026  
-description: "Set up PostgreSQL in Docker using the official image, a named volume for persistence, and Docker Compose. Includes run, verify, connect, and cleanup commands."
+description: "Compose file, volume, connect, and cleanup."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg"
@@ -15,7 +15,6 @@ cover:
 tags: [ "PostgreSQL", "Docker", "Docker Compose", "database", "development", "codefrydev" ]
 keywords: [ "PostgreSQL", "Docker", "Docker Compose", "postgres", "container", "codefrydev", "CFD", "local development" ]
 ---
-
 ## Overview
 
 This guide shows how to run [PostgreSQL](https://www.postgresql.org/) 16 locally using the official Docker image and Docker Compose. You get a default database user and database, port `5432` on your machine mapped into the container, and a **named volume** so data survives container restarts.

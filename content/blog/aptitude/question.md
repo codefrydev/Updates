@@ -1,11 +1,11 @@
 ---
-title: "Ratio Proportion"
+title: "Ratio & proportion"
 author: ["PrashantUnity"]
 weight: 111
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-12T23:59:59-07:00
 dateString: July 2024  
-description: "Understanding Ratio Proportion"
+description: "Aptitude drill with worked intuition."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -14,8 +14,6 @@ cover:
 keywords: [ "general","aptitude", "ratio","number","first"]
 draft: true #make this false to publicly Available
 ---
-
-
 ## Splitting a number in the given Ratio
 
 ### Example 720 in the ratio 2:3

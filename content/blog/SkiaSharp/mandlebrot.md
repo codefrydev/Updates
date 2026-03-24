@@ -1,11 +1,11 @@
 ---
-title: "Create Mandelbrot using SkiaSharp"
+title: "Mandelbrot in SkiaSharp"
 author: "PrashantUnity"
 weight: 102
 date: 2024-06-18T00:00:00-07:00
 lastmod: 2024-06-18T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to generate the famous Mandelbrot fractal using C# and SkiaSharp graphics library with mathematical algorithms and color mapping"
+description: "Escape-time coloring and zoom-friendly rendering."
 
 #canonicalURL: "https://canonical.url/to/page"
 cover:
@@ -16,7 +16,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia","mandelbrot"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","Mandelbrot"]
 ---
-
 ## Setup
 
 ```csharp

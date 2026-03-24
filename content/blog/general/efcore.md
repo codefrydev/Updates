@@ -1,11 +1,11 @@
 ---
-title: "SQLite with Entity Framework Core Implementation"
+title: "SQLite + EF Core"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Complete guide to implementing SQLite database with Entity Framework Core in .NET applications with minimal setup and best practices"
+description: "Minimal setup for local relational data."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## Data Model
 
 ```cs

@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 10"
+title: "MVC interview — Set 10"
 author: "PrashantUnity"
 weight: 220
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Complete tutorial-style ASP.NET MVC interview questions covering MVC 4 features, asynchronous controllers, and practical implementation examples"
+description: "MVC 4, async controllers, practical bits."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 1. **What is ASP.NET MVC?**  
    ASP.NET MVC (Model-View-Controller) is a web application framework developed by Microsoft. It implements the MVC pattern to separate an application into three main components: Model (data and business logic), View (user interface), and Controller (handles user input and updates the Model). This separation helps in managing complexity, improving testability, and making code more maintainable.
 

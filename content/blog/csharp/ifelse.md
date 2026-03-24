@@ -1,11 +1,11 @@
 ---
-title: "If Else in C# | Chapter 6"
+title: "If / else (Ch. 6)"
 author: ["PrashantUnity"]
 weight: 106
 date: 2024-06-20T00:00:00-07:00
 lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
-description: "Learn C# conditional statements including if, else if, and else with practical examples and control flow patterns for decision-making in code"
+description: "Branching and boolean logic."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

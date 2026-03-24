@@ -1,21 +1,19 @@
 ---
-title: "SkiaSharp Graphics in Blazor WebAssembly"
+title: "SkiaSharp + Blazor WASM"
 author: ["PrashantUnity"]
 weight: 200
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Learn how to integrate SkiaSharp graphics library into Blazor WebAssembly applications for advanced 2D graphics rendering" 
+description: "Canvas rendering in the browser."
 tags: ["blazor","Skiasharp"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ,"Skiasharp"]
 
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
-    #caption: "Optical Character Recognition"  #display caption under cover 
+    #caption: "Optical Character Recognition"  #display caption under cover
 ---
-
-
 ## Implementation Code
 
 ```csharp

@@ -1,11 +1,11 @@
 ---
-title: "Generate QR Code in .NET Applications"
+title: "QR codes in .NET"
 author: "PrashantUnity"
 weight: 106
 date: 2025-11-16
 lastmod: 2025-11-16
 dateString: November 2024  
-description: "Generate QR Code in .NET Applications for dynamic data type. for any type of data."
+description: "Generate codes for any payload type."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "QRCode","QR Code","Generate","Generate QR Code"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "QRCode","QR Code","Generate","Generate QR Code"]
 ---
-
-
 ## Generate QR Code in .NET Applications
 
 This comprehensive guide demonstrates how to create beautiful, customizable QR codes in .NET applications. We'll build a QR code generator with advanced features including:

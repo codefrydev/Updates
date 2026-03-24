@@ -1,11 +1,11 @@
 ---
-title: "Create Maze using SkiaSharp"
+title: "Mazes in SkiaSharp"
 author: "PrashantUnity"
 weight: 102
 date: 2024-06-19T00:00:00-07:00
 lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to generate procedural mazes using C# and SkiaSharp with recursive backtracking algorithms and visual rendering"
+description: "Backtracking generation and clean line art."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia","maze"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","maze"]
 ---
-
-
 ## Setup
 
 ```csharp

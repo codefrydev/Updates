@@ -1,11 +1,11 @@
 ---
-title: "Extract All File IDs from a Google Drive Folder"
+title: "Drive folder IDs"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-13T00:00:00-07:00
 lastmod: 2024-06-13T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to programmatically extract file IDs from a Google Drive folder using C# and HtmlAgilityPack. Perfect for bulk operations and automation tasks."
+description: "Pull file IDs from a folder with C#."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "googledrive.png" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "C sharp", "HtmlAgilityPack","Google Drive","ID"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
 ---
-
 ## Overview
 Suppose you want to extract the ID of all items that reside in a folder of Google Drive. There are many ways to do this, like manually copying from each file or programmatically. I will guide you on how to do this using a program in C#   
 

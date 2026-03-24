@@ -1,11 +1,11 @@
 ---
-title: "Install SDK and IDE | Chapter 1"
+title: "Install SDK & IDE (Ch. 1)"
 author: ["PrashantUnity"]
 weight: 101
 date: 2024-06-15T00:00:00-07:00
 lastmod: 2024-06-15T23:59:59-07:00
 dateString: June 2024  
-description: "Complete guide to installing .NET SDK and development tools for C# programming across Windows, Mac, and Linux platforms"
+description: "Cross-platform setup for C# development."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Download SDK","Download IDE","Chapter 1"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "Download SDK","Download IDE","Chapter 1"]
 draft: false #make this false to publicly Available
 ---
-
 ## For PC/Mac/Linux Users
 
 ### Install the Software Development Kit (SDK)

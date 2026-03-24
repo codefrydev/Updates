@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 3"
+title: "MVC interview — Set 3"
 author: "PrashantUnity"
 weight: 213
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Advanced ASP.NET MVC interview questions covering return types, action methods, filters, and advanced MVC concepts with comprehensive answers"
+description: "Return types, filters, advanced MVC."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### 1. **Explain Model, View, and Controller in Brief**
    - **Model**: Represents the data and the business logic of the application. It interacts with the database, retrieves, and stores information.
    - **View**: Responsible for displaying the data provided by the model. It represents the user interface of the application.

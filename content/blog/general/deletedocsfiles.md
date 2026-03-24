@@ -1,11 +1,11 @@
 ---
-title: "Aumatically Bulk Delete 'Recent Documents' Shared with You on Google Docs Homescreen Using JavaScript"
+title: "Bulk-clear Google Docs recents"
 author: "PrashantUnity"
 weight: 109
 date: 2026-02-24
 lastmod: 2025-02-24
 dateString: February 2026  
-description: ""
+description: "JS snippet for the shared-doc clutter list."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg"
@@ -15,7 +15,6 @@ cover:
 tags: [ "google docs", "automation", "javascript", "productivity" ]
 keywords: [ "Google Docs", "automation", "JavaScript", "productivity", "bulk delete", "recent documents", "shared files", "codefrydev", "CFD"]
 ---
-
 # How to Bulk Delete "Recent Documents" shared with you on the Google Docs Homescreen Using JavaScript
 
 If you've ever tried to clean up your Google Docs homescreen by removing old or shared documents, you know how tedious it can be. Google doesn't provide a built-in way to bulk delete files from the "Recent Documents" section, and the interface is designed to make it difficult to accidentally delete files. This means you have to click through each file's 3-dot menu and select "Remove" one by one.

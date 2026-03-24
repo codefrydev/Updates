@@ -1,11 +1,11 @@
 ---
-title: "If You Know These Then You are prepared"
+title: "Spot-check: are you ready?"
 author: "PrashantUnity"
 weight: 100
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "See If can Answer all the Question, Only Then You are prepared for Dotnet Interview "
+description: "Hard .NET trivia — can you answer them all?"
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### Q1. What is C#? What is the difference between C# and .NET?
 
 **C# (C-Sharp)** is a modern, object-oriented programming language developed by Microsoft. It is part of the .NET framework and is used for developing a wide range of applications, from web and mobile apps to desktop applications.

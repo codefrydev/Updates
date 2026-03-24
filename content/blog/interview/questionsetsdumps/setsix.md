@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 6"
+title: "MVC interview — Set 6"
 author: "PrashantUnity"
 weight: 216
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Essential ASP.NET MVC interview questions covering MVC fundamentals, advantages, routing, and core architectural concepts with comprehensive answers"
+description: "Fundamentals, advantages, routing."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 1. **What is MVC?**  
    MVC stands for **Model-View-Controller**, which is a software architectural pattern used to develop web applications. It separates an application into three main components:
    - **Model**: Represents the application's data and business logic. It directly manages the data, logic, and rules of the application.

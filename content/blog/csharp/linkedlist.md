@@ -1,11 +1,11 @@
 ---
-title: "Linked List | Chapter 13"
+title: "Linked lists (Ch. 13)"
 author: ["PrashantUnity"]
 weight: 1013
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-26T23:59:59-07:00
 dateString: June 2024  
-description: "Learn about linked list data structure implementation in C# with step-by-step examples using Polyglot Notebook for better visualization"
+description: "Nodes and pointers with notebook examples."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp","Chapter 13","Data Structure","Linked List"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 13","Linked List","Data Structure"]
 draft: false #make this false to publicly Available
 ---
-
 ## Linked List
 
 - I will use VS Code with Polyglot Notebook.

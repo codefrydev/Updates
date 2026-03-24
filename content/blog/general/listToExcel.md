@@ -1,11 +1,11 @@
 ---
-title: "Convert C# Lists to Excel Files with Multiple Sheets"
+title: "Lists to Excel"
 author: "PrashantUnity"
 weight: 115
 date: 2025-03-14
 lastmod: 2025-03-14
 dateString: March 2025  
-description: "Learn how to generate multi-sheet Excel files from C# lists using OpenXML SDK with custom sheet naming and data formatting"
+description: "Multi-sheet workbooks with OpenXML."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD", "Excel","List"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 hideMeta: true
 ---
-
 # Creating Excel File from List<T> With Different Sheet With Naming
 
 > nuget package used [OpenXML](https://github.com/dotnet/Open-XML-SDK?tab=readme-ov-file#documentation)

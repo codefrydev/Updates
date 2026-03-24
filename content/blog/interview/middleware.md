@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET Core Middleware Interview Questions"
+title: "ASP.NET Core middleware"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Essential interview questions about ASP.NET Core middleware with detailed explanations of request pipeline, custom middleware creation, and best practices"
+description: "Pipeline order and custom middleware."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,9 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","middleware"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","middleware"]
 ---
-
-
-
 ### How does middleware differ from HTTP modules in ASP.NET?
 
 Middleware in ASP.NET Core is a more flexible and lightweight approach compared to HTTP modules in traditional ASP.NET. Middleware can be added or removed easily in the application's startup configuration. It allows for better control over the request pipeline and can be organized into a pipeline of components, whereas HTTP modules are more tightly coupled and don't offer the same level of flexibility.

@@ -1,11 +1,11 @@
 ---
-title: "Firestore Crud Operations"
+title: "Firestore CRUD"
 author: "PrashantUnity"
 weight: 210
 date: 2025-11-15
 lastmod: 2025-11-15
 dateString: November 2024  
-description: "Firestore Crud Operations in .NET Applications for dynamic data type. for any type of data."
+description: "Generic CRUD patterns for .NET clients."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "Firestore","Firebase","Google","CRUD","Crud"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Firestore","Firebase","Google","CRUD","Crud"]
 ---
-
 ## Overview
 
 Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform. It is a NoSQL document database that lets you easily store, sync, and query data for your applications at a global scale.

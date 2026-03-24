@@ -1,11 +1,11 @@
 ---
-title: "Quick Interview Preparation Guide"
+title: "Last-minute interview prep"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-23
 dateString: August 2024  
-description: "Essential programming and technical interview questions for last-minute preparation covering arrays, strings, algorithms, and system design"
+description: "Arrays, strings, and core CS hits."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ### **Programming Questions**
 
 #### 1. Array Manipulation:

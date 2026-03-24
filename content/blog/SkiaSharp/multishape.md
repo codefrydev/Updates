@@ -1,11 +1,11 @@
 ---
-title: "Multishape in SkiaSharp"
+title: "Multishape patterns"
 author: "PrashantUnity"
 weight: 102
 date: 2024-06-21T00:00:00-07:00
 lastmod: 2024-06-21T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to create complex multi-shape patterns using SkiaSharp with color sets, geometric combinations, and advanced drawing techniques"
+description: "Layered geometry and palette tricks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate shapes","Skia","Multishape"]
 ---
-
-
 ## Setup
 
 ```csharp

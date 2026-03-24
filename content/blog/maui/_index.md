@@ -1,10 +1,10 @@
 ---
-title: ".NET Maui World"
+title: ".NET MAUI"
 author: "Codefrydev"
 weight: 106
 date: 2025-07-19
 lastmod: 2025-07-19
 hideMeta: true
-description: "Some of the common maui snippet used in Maui" 
+description: "Snippets for controls, layout, and local data."
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","Linq" ]
 ---

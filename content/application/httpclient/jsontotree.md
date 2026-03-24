@@ -1,11 +1,11 @@
 ---
-title: "Convert JSON to Tree Structure in C#"
+title: "JSON to tree in C#"
 author: "PrashantUnity"
 weight: 110
 date: 2025-02-24
 lastmod: 2025-02-25
 dateString: February 2025  
-description: "Learn how to parse dynamic JSON structures into tree nodes in C# for handling variable property names with consistent depth levels"
+description: "Parse dynamic JSON into a tree when property names vary."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","JSON"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","JSON"]
 ---
-
-
 # Handling Dynamic JSON with Variable Property Names
 
 ## Here is one way you can solve it 😁.

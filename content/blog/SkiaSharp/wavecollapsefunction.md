@@ -1,11 +1,11 @@
 ---
-title: "Wave Collapse Function for Procedural Generation"
+title: "Wave collapse art"
 author: "PrashantUnity"
 weight: 99
 date: 2024-07-20T00:00:00-07:00
 lastmod: 2024-07-20T23:59:59-07:00
 dateString: JUl 2024  
-description: "Learn how to implement the Wave Collapse Function algorithm using C# and SkiaSharp for procedural image generation with constraint-based rules"
+description: "Constraint-based procedural images in C#."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Use Image","Skia","Image"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia","Import Image"]
 ---
-
 ## Concept
 
 **Imagine each image as a collection of small boxes arranged in different positions. Each image has four sides, and our goal is to determine how these images can connect to one another based on the configuration of these sides.**

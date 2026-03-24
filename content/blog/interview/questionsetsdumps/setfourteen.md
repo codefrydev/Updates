@@ -1,11 +1,11 @@
 ---
-title: ".NET Core Interview Questions - Set 14"
+title: ".NET Core — Set 14"
 author: "PrashantUnity"
 weight: 224
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Easy-to-understand .NET Core interview questions with clear explanations covering platform differences, architecture, and modern development concepts"
+description: "Platform differences and modern stack."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### What is .NET Core?
 .NET Core is a free, open-source, cross-platform framework developed by Microsoft. It is designed to be a high-performance, modular, and scalable platform for building applications that can run on Windows, macOS, and Linux. It supports the development of console applications, web apps, APIs, and microservices.
 

@@ -1,11 +1,11 @@
 ---
-title: "Generating a Hexagonal Grid with SkiaSharp in C#"
+title: "Hex grid in SkiaSharp"
 author: "PrashantUnity"
 weight: 102
 date: 2024-08-03
 lastmod: 2024-08-03
 dateString: August 2024  
-description: "This guide explains how to generate a hexagonal grid using the SkiaSharp library in C#. It covers the basic concepts of hexagon geometry, provides functions to calculate hexagon points from a single coordinate, and demonstrates how to draw a complete hexagonal grid on a canvas. The tutorial includes code snippets and explanations to ensure the implementation is easily understandable and modifiable by reader."
+description: "Axial coords, corner math, and drawing a honeycomb."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [  "CSharp", "SkiaSharp","Hexagon","Hexagonal Grid"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Hexagon","Hexagonal Grid","Skia"]
 ---
-
-
 ## Concept
 
 - A hexagon consists of six vertices.

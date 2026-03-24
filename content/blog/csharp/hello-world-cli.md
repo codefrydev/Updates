@@ -1,11 +1,11 @@
 ---
-title: "Create Your First C# Program Using Command Line | Chapter 2"
+title: "First app with CLI (Ch. 2)"
 author: ["PrashantUnity"]
 weight: 102
 date: 2024-06-17T00:00:00-07:00
 lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
-description: "Step-by-step guide to creating and running your first C# console application using the command line interface with .NET CLI"
+description: "dotnet new console and your first run."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "First Program","Hello World","Chapter 2"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "First Program","Hello World","Chapter 2"]
 draft: false #make this false to publicly Available
 ---
-
 ## Create a C# Console Application Using the CLI
 
 Follow these steps to create and run a simple C# console application using the command line.

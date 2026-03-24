@@ -1,11 +1,11 @@
 ---
-title: "Dynamically Update Youtube Video Title and Description using YouTube Data API in .NET Applications"
+title: "YouTube API updates"
 author: "PrashantUnity"
 weight: 106
 date: 2025-12-23
 lastmod: 2025-12-23
 dateString: December 2025  
-description: "Learn how to dynamically update YouTube video titles and descriptions using the YouTube Data API in .NET applications. This guide provides step-by-step instructions and code examples to help you manage your YouTube content programmatically."
+description: "Change titles and descriptions from .NET."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
 ---
-
 ## YouTube Data API Sample in .NET Interactive Notebooks
 
 This sample demonstrates how to use the YouTube Data API to update video metadata (title, description, tags, etc.) in bulk using .NET Interactive Notebooks. It covers OAuth2 authentication, fetching uploaded videos, generating new metadata using an AI model, and updating the videos via the API.

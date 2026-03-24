@@ -1,11 +1,11 @@
 ---
-title: "Display Data as Tables in Polyglot Notebook"
+title: "Tables in Polyglot"
 author: "PrashantUnity"
 weight: 115
 date: 2025-03-14
 lastmod: 2025-03-14
 dateString: March 2025  
-description: "Learn how to display lists and data collections as formatted tables in Polyglot Notebook using Microsoft.Data.Analysis DataFrame"
+description: "DataFrame display for lists and grids."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET", "codefrydev", "C sharp", "CFD", "Table","Polyglotnotebook","Dataf
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","Table","Dataframe"]
 hideMeta: true
 ---
-
 ## Setup Polyglot Notebook Environment
 
 ### Import nuget package

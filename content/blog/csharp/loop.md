@@ -1,11 +1,11 @@
 ---
-title: "Loops in C# | Chapter 7"
+title: "Loops (Ch. 7)"
 author: ["PrashantUnity"]
 weight: 107
 date: 2024-06-19T00:00:00-07:00
 lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
-description: "Comprehensive guide to C# looping constructs including for, while, do-while, and foreach loops with practical examples and use cases"
+description: "for, while, foreach — control repetition."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Chapter 7","Loops"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 7","Loops"]
 draft: false #make this false to publicly Available
 ---
-
 ## Understanding Loops in C#
 
 Loops are fundamental programming constructs that allow you to execute a block of code repeatedly. They're essential for:

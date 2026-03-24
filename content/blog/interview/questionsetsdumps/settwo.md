@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 2"
+title: "MVC interview — Set 2"
 author: "PrashantUnity"
 weight: 212
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Essential ASP.NET MVC interview questions covering MVC architecture, advantages, routing, and core concepts with detailed explanations"
+description: "Architecture, routing, MVC basics."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### 1. **What is MVC (Model View Controller)?**
    - MVC is a design pattern used for developing web applications. It separates the application into three interconnected components:
      - **Model**: Represents the application's data and business logic.

@@ -1,11 +1,11 @@
 ---
-title: ".NET Core Platform Standards Interview Questions - Set 17"
+title: ".NET Core standards — Set 17"
 author: "PrashantUnity"
 weight: 227
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Beginner-friendly guide to .NET Core platform standards with simple explanations covering cross-platform development, modular architecture, and modern application building"
+description: "Platform layout and modular apps."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### What is .NET Core?
 .NET Core is a free, open-source, cross-platform framework developed by Microsoft. It is designed to be a high-performance, modular, and scalable platform for building applications that can run on Windows, macOS, and Linux. It supports the development of console applications, web apps, APIs, and microservices.
 

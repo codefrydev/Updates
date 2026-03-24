@@ -1,22 +1,19 @@
 ---
-title: "Framework for Answering Interview Questions"
+title: "Interview framework"
 author: ["PrashantUnity"]
 weight: 101
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "A comprehensive framework for approaching coding interview questions with systematic problem-solving strategies" 
+description: "A simple pattern for coding interviews."
 tags: ["Interview"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Interview" ]
 
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
-    #caption: "Optical Character Recognition"  #display caption under cover 
+    #caption: "Optical Character Recognition"  #display caption under cover
 ---
-
-
-
 ## Define Input and Output Requirements
 
 * How is the input stored?

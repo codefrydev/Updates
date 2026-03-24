@@ -1,11 +1,11 @@
 ---
-title: ".NET Core Framework Interview Questions - Set 18"
+title: ".NET Core stack — Set 18"
 author: "PrashantUnity"
 weight: 228
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Complete tutorial guide to .NET Core framework with step-by-step explanations covering web applications, microservices, IoT development, and modern features"
+description: "Web, services, IoT-flavored questions."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### 1. What is .NET Core Framework?
 .NET Core is a free, open-source, cross-platform framework developed by Microsoft for building modern applications. It is a modular framework that can run on Windows, macOS, and Linux, providing the flexibility to develop and deploy applications across various platforms.
 

@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Application Lifecycle"
+title: "MVC request lifecycle"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Comprehensive guide to ASP.NET MVC application lifecycle stages including request processing, routing, controller execution, and response generation"
+description: "Routing, controller, action, result."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## Explain the MVC application life cycle
 
 > Any web application has two primary execution steps:

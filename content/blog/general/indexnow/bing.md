@@ -1,11 +1,11 @@
 ---
-title: "Bing IndexNow API Integration with C#"
+title: "Bing IndexNow"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-25T23:59:59-07:00
 dateString: June 2024  
-description: "Learn how to integrate Bing IndexNow API with C# to programmatically submit URLs for faster search engine indexing and improved SEO"
+description: "Submit URLs from C# for faster indexing."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "C sharp", "Bing","IndexNow"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing","Bing Index","SEO"]
 ---
-
-
 ## Implementation Steps
 
 ### Generate API Key

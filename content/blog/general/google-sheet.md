@@ -1,11 +1,11 @@
 ---
-title: "Generic Google Sheets CRUD Service for .NET Applications"
+title: "Sheets CRUD service"
 author: "PrashantUnity"
 weight: 115
 date: 2025-09-15
 lastmod: 2025-09-15
 dateString: September 2025
-description: "A comprehensive guide to implementing a generic CRUD service for Google Sheets integration in .NET applications with automatic type mapping and error handling"
+description: "Generic Google Sheets access from .NET."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "Google Sheets", "C#", ".NET", "CRUD", "Google APIs", "codefrydev", "CFD
 keywords: [ "Google Sheets", "C#", ".NET", "CRUD", "Google APIs", "Generic Service", "Type Mapping", "codefrydev", "CFD"]
 hideMeta: true
 ---
-
 ## Overview
 
 The `GenericGoogleSheetsService` is a powerful .NET service that provides a complete CRUD (Create, Read, Update, Delete) interface for Google Sheets integration. This service eliminates the need to write boilerplate code for each entity type by using generic programming and reflection to automatically map between your C# objects and Google Sheets rows.

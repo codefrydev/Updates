@@ -1,11 +1,11 @@
 ---
-title: "Display C# String Values as HTML in Polyglot Notebook"
+title: "HTML strings in Polyglot"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-23T00:00:00-07:00
 lastmod: 2024-06-23T23:59:59-07:00
 dateString: June 2024  
-description: "Step-by-step guide to displaying C# string values as HTML content in Polyglot Notebook with practical examples and formatting techniques"
+description: "Render C# string output as HTML in notebooks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "C sharp", "Polyglot","Html","Dispaly"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Html in Polyglot Notebook","Dispaly"]
 ---
-
 ## Display HTML Content in Polyglot Notebook
 
 ### Requirements

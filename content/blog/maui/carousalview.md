@@ -1,11 +1,11 @@
 ---
-title: "Auto-Changing Carousel View in .NET MAUI"
+title: "Auto carousel in MAUI"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-23
 lastmod: 2024-06-23
 dateString: July 2025  
-description: "Learn how to create an auto-changing carousel view component in .NET MAUI with XAML and C# code examples"
+description: "Timed slides with XAML + C#."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","Carousel"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "Carousel"]
 ---
-
 ### \#\# 1. Create the Reusable Component Files 🧱
 
 First, add a new item to your project. Choose the **.NET MAUI ContentView (XAML)** template. Name it something descriptive, like `FeaturedCarouselView.xaml`.

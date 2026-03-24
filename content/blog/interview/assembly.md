@@ -1,11 +1,11 @@
 ---
-title: "Understanding .NET Assemblies"
+title: ".NET assemblies"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Learn about .NET assemblies including types, components, strong naming, and their role in application deployment and execution"
+description: "Types, strong names, and deployment."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "assembly","Interview"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","Interview"]
 ---
-
 ## Assembly Overview
 
 - Assembly is unit of deployment like EXE or a DLL

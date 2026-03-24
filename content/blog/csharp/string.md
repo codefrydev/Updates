@@ -1,11 +1,11 @@
 ---
-title: "String in C# | Chapter 5"
+title: "Strings (Ch. 5)"
 author: ["PrashantUnity"]
 weight: 105
 date: 2024-06-19T00:00:00-07:00
 lastmod: 2024-06-19T23:59:59-07:00
 dateString: June 2024  
-description: "A string is an object of type String whose value is text. Internally, the text is stored as a sequential read-only collection of Char objects."
+description: "Text, Char sequences, and common APIs."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp","Chapter 5","string"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 5","string","string methods"]
 draft: false #make this false to publicly Available
 ---
-
 ## C# String & string Manipulation
 
 ### String Basics

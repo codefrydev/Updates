@@ -1,11 +1,11 @@
 ---
-title: "Import and Use Images in SkiaSharp Canvas"
+title: "Images on a Skia canvas"
 author: "PrashantUnity"
 weight: 102
 date: 2024-07-20T00:00:00-07:00
 lastmod: 2024-07-20T23:59:59-07:00
 dateString: JUl 2024  
-description: "Learn how to import, load, and manipulate images in SkiaSharp canvas with file handling, scaling, and drawing techniques"
+description: "Load, scale, and draw bitmaps."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [  "C sharp", "SkiaSharp","Use Image","Skia","Image"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia","Import Image"]
 ---
-
 ## Requirements
 
 - VS Code with Polyglot Notebook

@@ -1,11 +1,11 @@
 ---
-title: "Create Your First C# Program in Visual Studio | Chapter 2"
+title: "First app in VS (Ch. 2)"
 author: ["PrashantUnity"]
 weight: 102
 date: 2024-06-17T00:00:00-07:00
 lastmod: 2024-06-17T23:59:59-07:00
 dateString: June 2024  
-description: "Step-by-step guide to create and run your first C# console application using Visual Studio Community Edition with detailed screenshots"
+description: "Console project in Visual Studio."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: ["NET","C Sharp", "First Program","Hello World","Chapter 2"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp", "First Program","Hello World","Chapter 2"]
 draft: false #make this false to publicly Available
 ---
-
 ## Create Your First C# Console Application in Visual Studio
 
 Follow these steps to create and run a simple C# console application in Visual Studio.

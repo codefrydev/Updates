@@ -1,11 +1,11 @@
 ---
-title: "Class in C# | Chapter 11"
+title: "Classes in C# (Ch. 11)"
 author: ["PrashantUnity"]
 weight: 111
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-27T23:59:59-07:00
 dateString: June 2024  
-description: "Understanding Classes in Programming: Foundations of Object-Oriented Design"
+description: "Objects, fields, and OOP building blocks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Chapter 11","Class","oops"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 11","class","oops"]
 draft: false #make this false to publicly Available
 ---
-
 ## Class
 
 A class represents a blueprint of an object.

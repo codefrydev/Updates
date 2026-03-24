@@ -1,11 +1,11 @@
 ---
-title: "Using Registered Services in ASP.NET Core Views"
+title: "Services in Razor views"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Learn how to access registered services in ASP.NET Core views through dependency injection, @inject directive, and service locator patterns"
+description: "@inject and DI in ASP.NET Core."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## Accessing Services in Views
 
 ### 1. **Using Dependency Injection in Views with Razor Pages**

@@ -1,11 +1,11 @@
 ---
-title: "Interfaces in C# | Chapter 12"
+title: "Interfaces (Ch. 12)"
 author: ["PrashantUnity"]
 weight: 112
 date: 2024-06-24T00:00:00-07:00
 lastmod: 2024-06-24T23:59:59-07:00
 dateString: June 2024  
-description: "Learn about C# interfaces - contracts that define methods and properties that implementing classes must provide, with examples and best practices"
+description: "Contracts, implementations, and DI-friendly design."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

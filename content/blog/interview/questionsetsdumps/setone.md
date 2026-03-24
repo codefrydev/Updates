@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC Interview Questions - Set 1"
+title: "MVC interview — Set 1"
 author: "PrashantUnity"
 weight: 211
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Comprehensive collection of ASP.NET MVC interview questions covering ViewResult, ActionResult, Partial Views, and other essential MVC concepts"
+description: "ViewResult, ActionResult, partials."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ### 1. **Difference between `ViewResult` and `ActionResult`**
 
 - **`ViewResult`**: It is a type of `ActionResult` that specifically returns a view. It is used when an action method is designed to return a rendered HTML view to the client. The `ViewResult` contains the model and view name that will be rendered.

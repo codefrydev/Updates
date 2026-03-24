@@ -1,11 +1,11 @@
 ---
-title: "How to use devtunnel using cli"
+title: "devtunnel CLI"
 author: "PrashantUnity"
 weight: 100
 date: 2026-01-22
 lastmod: 2025-12-23
 dateString: January 2026  
-description: "Complete guide to installing and setting up Microsoft devtunnel CLI on Windows, macOS, and Linux. Learn how to create secure development tunnels for local services."
+description: "Install and share localhost securely."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg"
@@ -15,7 +15,6 @@ cover:
 tags: [ "devtunnel", "tunneling", "development", "CLI", "Microsoft", "Azure"]
 keywords: [ "devtunnel", "Microsoft", "tunneling", "CLI", "development", "Azure", "codefrydev", "CFD", "local development"]
 ---
-
 ## Overview
 
 Microsoft devtunnel is a CLI tool that allows you to create secure tunnels to expose your local development services to the internet. This guide provides comprehensive setup instructions for installing and configuring devtunnel on Windows, macOS, and Linux.

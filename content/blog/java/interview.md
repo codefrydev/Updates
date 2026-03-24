@@ -1,11 +1,11 @@
 ---
-title: "Prepare for Java Interview"
+title: "Java interview prep"
 author: "Aayush Bhardwaj"
 weight: 110
 date: 2025-11-12
 lastmod: 2025-11-16
 dateString: November 2025  
-description: "General Question"
+description: "Collections, maps, and common gotchas."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,7 @@ tags: [  "codefrydev", "Java", "CFD"]
 keywords: [ "codefrydev", "Java", "CFD"]
 ---
 
-title: "Prepa## Collections Framework Deep Dive
+## Collections Framework Deep Dive
 
 ### 1️⃣ Why does HashMap allow one null key but Hashtable doesn't?
 

@@ -1,11 +1,11 @@
 ---
-title: "C# Class Access Modifiers and Accessibility Levels"
+title: "Access modifiers"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Complete guide to C# access modifiers including public, private, protected, internal, and protected internal with accessibility matrix and examples"
+description: "public, private, internal, protected — the matrix."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 # Class Accessibility Matrix Diagram
 
 ![Accessibility](./acess.png)

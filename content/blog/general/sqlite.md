@@ -1,11 +1,11 @@
 ---
-title: "Populate SQLite Database with Sample Data"
+title: "Seed SQLite"
 author: "PrashantUnity"
 weight: 100
 date: 2025-01-01
 lastmod: 2025-01-01
 dateString: January 2025  
-description: "Learn how to populate SQLite database with sample data using C#, Polyglot Notebook, and Faker.Net for generating realistic test data"
+description: "Sample data with Faker and notebooks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "sqlite.svg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","Sqlite"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD" ,"Sqlite"]
 ---
-
 # Required NuGet Packages
 
 ## Create .ipynb file

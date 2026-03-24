@@ -1,11 +1,11 @@
 ---
-title: "Mathematical Operations in C# | Chapter 4"
+title: "Math in C# (Ch. 4)"
 author: ["PrashantUnity"]
 weight: 104
 date: 2024-06-18T00:00:00-07:00
 lastmod: 2024-06-18T23:59:59-07:00
 dateString: June 2024  
-description: "Learn about mathematical operations, type conversions, and arithmetic operators in C# with practical examples and best practices"
+description: "Operators, casting, and numeric types."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url

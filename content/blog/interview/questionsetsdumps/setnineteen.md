@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET Core Hot Reload and Benefits Interview Questions - Set 19"
+title: "Hot reload & Core — Set 19"
 author: "PrashantUnity"
 weight: 229
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Easy-to-understand ASP.NET Core interview questions with clear explanations covering Hot Reload, benefits over classic ASP.NET, and modern development features"
+description: "Dev loop and ASP.NET Core vs classic."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### ASP.NET Core Overview
 ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, and internet-connected applications. It provides a unified approach to web development by combining the features of MVC (Model-View-Controller) and Web API into a single framework.
 

@@ -1,11 +1,11 @@
 ---
-title: "Linear Data C# | Chapter 9"
+title: "Linear structures (Ch. 9)"
 author: ["PrashantUnity"]
 weight: 109
 date: 2024-06-20T00:00:00-07:00
 lastmod: 2024-06-20T23:59:59-07:00
 dateString: June 2024  
-description: "Comprehensive guide to linear data structures in C# including arrays, lists, queues, stacks, and linked lists with practical examples and use cases"
+description: "Arrays, lists, queues, and stacks."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -16,7 +16,6 @@ tags: [ "NET","C Sharp", "Chapter 9","Linear Data"]
 keywords: [ "Code Fry Dev", "codefrydev", "CFD","NET","C Sharp","Chapter 9","Linear Data"]
 draft: false #make this false to publicly Available
 ---
-
 ## C# Linear Data Structures
 
 ### Arrays

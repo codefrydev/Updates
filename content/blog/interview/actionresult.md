@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET MVC ActionResult Types and Usage"
+title: "ActionResult types"
 author: "PrashantUnity"
 weight: 210
 date: 2024-08-03
 lastmod: 2024-10-22
 dateString: August 2024  
-description: "Learn about different ActionResult types in ASP.NET MVC including ViewResult, JsonResult, RedirectResult, and when to use each type"
+description: "View, Json, Redirect, and when to use each."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,8 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
-
 ## What is the difference between ‘ViewResult’ and ‘ActionResult’?
 
 In ASP.NET MVC, both `ViewResult` and `ActionResult` are classes that represent the result of an action method. The primary difference between them lies in their level of abstraction.

@@ -1,11 +1,11 @@
 ---
-title: "Dynamic Circle and Line Patterns in SkiaSharp"
+title: "Circles & lines in SkiaSharp"
 author: "PrashantUnity"
 weight: 104
 date: 2024-08-03
 lastmod: 2024-08-03
 dateString: August 2024  
-description: "Learn how to create dynamic geometric patterns with circles, points, and lines using SkiaSharp with mathematical calculations and trigonometry"
+description: "Patterns from points, circles, and trig."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [  "CSharp", "SkiaSharp","Polygon","Trigonometry"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Trigonometry","Polygon","Math"]
 ---
-
 ## Setting Up SkiaSharp
 
 ```csharp

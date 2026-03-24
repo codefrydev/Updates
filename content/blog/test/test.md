@@ -1,11 +1,11 @@
 ---
-title: "How To"
+title: "Hugo how-to"
 author: "PrashantUnity"
 weight: 1
 date: 2024-06-09T00:00:00-07:00
 lastmod: 2024-06-24T23:59:59-07:00
 dateString: June 2024  
-description: "Guide of How To Create Blog Post, Categories And Etc"
+description: "Create posts, bundles, and local preview."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "logo.jpg" # image path/url
@@ -86,12 +86,12 @@ For Video Implementation Use Below Snippet.
 template
 ```yaml
 ---
-title: "Name Of Page"
+title: "Section landing page"
 author: "Codefrydev"
 weight: 100
 date: 2024-06-10T11:57:15+05:30
 dateString: June 2024
-description: "Description Of Page" 
+description: "What readers get from this category."
 ---
 ```
 
@@ -99,11 +99,11 @@ description: "Description Of Page"
 
 ```yaml
 ---
-title: "Replace Me With Actual Title"
+title: "Your article title"
 author: ["Replace Author Name","Another Author Name"]
 weight: 100
 dateString: June 2024  
-description: "Guide of How TO Create Blog Post, Categories AND Etc"
+description: "A short subtitle; keep it under one line."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "logo.png" # image path/url

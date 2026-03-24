@@ -1,11 +1,11 @@
 ---
-title: "Getting Started with SkiaSharp Graphics Library"
+title: "SkiaSharp basics"
 author: "PrashantUnity"
 weight: 100
 date: 2024-06-14T00:00:00-07:00
 lastmod: 2024-06-14T23:59:59-07:00
 dateString: June 2024  
-description: "Complete beginner's guide to SkiaSharp - a cross-platform 2D graphics library for .NET with setup instructions and basic drawing examples"
+description: "Draw your first shapes and learn the 2D API."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [  "C sharp","Skia Sharp","Getting Started","Basic"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Skia Sharp","Getting Started","Basic"]
 ---
-
 ## Getting Started With SkiaSharp
 
 ### Requirements

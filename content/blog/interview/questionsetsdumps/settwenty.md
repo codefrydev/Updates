@@ -1,11 +1,11 @@
 ---
-title: "ASP.NET Core vs ASP.NET Interview Questions - Set 20"
+title: "Core vs ASP.NET — Set 20"
 author: "PrashantUnity"
 weight: 230
 date: 2024-08-03
 lastmod: 2024-10-25
 dateString: August 2024  
-description: "Step-by-step comparison of ASP.NET Core vs ASP.NET with beginner-friendly explanations covering cross-platform development, performance, and modern web development concepts"
+description: "Side-by-side platform comparison."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
 ---
-
 ### ASP.NET Core Overview
 ASP.NET Core is a modern, cross-platform framework for building high-performance, cloud-based, and internet-connected applications. It is designed to work on Windows, macOS, and Linux, making it versatile and flexible for various development scenarios.
 

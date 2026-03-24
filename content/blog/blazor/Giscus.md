@@ -1,11 +1,11 @@
 ---
-title: "Integrate Giscus Comments in Blazor Applications"
+title: "Giscus in Blazor"
 author: ["PrashantUnity"]
 weight: 106
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Learn how to integrate Giscus commenting system into Blazor applications for GitHub-based discussions and user engagement"
+description: "GitHub-backed comments on your WASM app."
 keywords: ["CFD","CodefryDev","Code Fry Dev","Giscus","NET","codefrydev","C sharp","blazor","GisCus"]
 
 cover:
@@ -13,9 +13,7 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "blazor" ,"GisCus"]
-
 ---
-
 ### Giscus Script Configuration
 
 > Be sure To Change Parameter value Based on you Generation from here https://giscus.app/

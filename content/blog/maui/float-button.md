@@ -1,11 +1,11 @@
 ---
-title: "Create a Floating Action Button in .NET MAUI"
+title: "Floating action button"
 author: "PrashantUnity"
 weight: 106
 date: 2025-06-19
 lastmod: 2024-06-19
 dateString: July 2025  
-description: "Learn how to create a floating action button positioned at the bottom right in .NET MAUI using AbsoluteLayout and Border controls"
+description: "Bottom-right FAB with AbsoluteLayout."
 #canonicalURL: "https://canonical.url/to/page"
 cover:
     image: "cover.jpg" # image path/url
@@ -15,7 +15,6 @@ cover:
 tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","absolute"]
 keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout"]
 ---
-
 ## Code Snippet
 
 ```xml

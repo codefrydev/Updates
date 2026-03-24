@@ -1,20 +1,19 @@
 ---
-title: "Common Blazor Code Snippets and Examples"
+title: "Blazor snippets"
 author: ["PrashantUnity"]
 weight: 200
 date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
-description: "Collection of useful Blazor code snippets including string interpolation, file uploads, version detection, and common development patterns" 
+description: "Uploads, versions, and everyday snippets."
 tags: ["blazor"]
 keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ]
 
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
-    #caption: "Optical Character Recognition"  #display caption under cover 
+    #caption: "Optical Character Recognition"  #display caption under cover
 ---
-
 ### String Interpolation
 
 ```csharp
