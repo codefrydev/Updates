@@ -1,3 +1,31 @@
-public
-resources
-*.DS_Store*
+# Hugo — generated output & image processor cache (recreated by `hugo`)
+/public/
+/resources/
+
+# Hugo build lock (local / CI artifact; do not commit)
+.hugo_build.lock
+
+# Dependencies (if you add npm tooling later)
+node_modules/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# macOS (any folder)
+**/.DS_Store
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor — uncomment to keep machine-specific settings out of the repo
+# .vscode/
+# .idea/
+
+# Logs & temp
+*.log
+*.tmp
+*~
