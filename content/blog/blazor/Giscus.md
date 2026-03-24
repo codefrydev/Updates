@@ -6,14 +6,13 @@ date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
 description: "Learn how to integrate Giscus commenting system into Blazor applications for GitHub-based discussions and user engagement"
-keywords: ["CFD","CodefryDev","Code Fry Dev","Giscus" ]
+keywords: ["CFD","CodefryDev","Code Fry Dev","Giscus","NET","codefrydev","C sharp","blazor","GisCus"]
 
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
 tags: [ "NET", "codefrydev", "C sharp", "CFD", "blazor" ,"GisCus"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","blazor" ,"GisCus"]
 
 ---
 

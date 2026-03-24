@@ -42,8 +42,6 @@ menu:
 
 params:
   math: true
-  customCSS:
-    - "css/custom.css"
   mainSections : ["blog","games","application"] # put parent directory to show in home pages
   images: ["android-chrome-512x512.png"]
   keywords: ["Blog", "CFD", "NET" ,"Tutorials","Design","Games"]
@@ -60,10 +58,9 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  hideDescriptionInList: false
+  hideSummary: false
   # for enchanced SEO
   env: production
   assets:
