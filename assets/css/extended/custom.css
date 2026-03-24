@@ -1,7 +1,5 @@
+/* Site extensions; Chroma/code blocks are styled by PaperMod (chroma-styles + chroma-mod). */
 .mermaid {
   text-align: center;
   margin: 2em 0;
-}
-.chroma {
-  background-color: unset;
 }
