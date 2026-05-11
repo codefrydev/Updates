@@ -468,3 +468,482 @@ A simple Organizational chart using tailwind css
 
 ```
 ![Organisation Chart](./org-chart.png)
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Organizational Chart</title>
+    
+    <!-- Importing Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Importing D3.js for data visualization -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- Importing Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Tailwind gray-100 */
+        }
+
+        .node {
+            cursor: pointer;
+        }
+
+        .node rect {
+            fill: #ffffff;
+            stroke: #e5e7eb; /* Tailwind gray-200 */
+            stroke-width: 1px;
+            rx: 8px; /* Rounded corners */
+        }
+
+        .node text {
+            font-size: 14px;
+        }
+
+        .node .name {
+            font-weight: 600;
+            fill: #111827; /* Tailwind gray-900 */
+        }
+
+        .node .title {
+            font-size: 12px;
+            fill: #6b7280; /* Tailwind gray-500 */
+        }
+
+        /* Styling for the profile picture circle */
+        .node circle {
+            fill: #e5e7eb;
+            stroke: #ffffff;
+            stroke-width: 2px;
+        }
+
+        /* SVG lines connecting the nodes */
+        .link {
+            fill: none;
+            stroke: #cbd5e1; /* Tailwind slate-300 */
+            stroke-width: 2px;
+        }
+
+        /* A subtle shadow for the cards */
+        .shadow-sm {
+            filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.05));
+        }
+        
+        #chart-container {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden; /* D3 handles zooming/panning */
+            background-color: #f3f4f6; /* Tailwind gray-100 */
+        }
+    </style>
+</head>
+<body class="m-0 p-0 overflow-hidden bg-gray-100">
+
+    <!-- Container for the D3 SVG -->
+    <div id="chart-container" class="relative cursor-grab active:cursor-grabbing">
+        <!-- D3 will inject the SVG here -->
+    </div>
+
+    <!-- Floating Reset Button -->
+    <button id="reset-zoom" class="fixed bottom-8 right-8 p-4 bg-blue-600 text-white rounded-full shadow-xl hover:bg-blue-700 hover:scale-105 transition-all duration-200 z-40 focus:outline-none" title="Reset View">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+        </svg>
+    </button>
+
+    <!-- Profile Modal -->
+    <div id="profile-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-gray-900 bg-opacity-50 backdrop-blur-sm transition-opacity">
+        <div class="bg-white rounded-xl shadow-2xl w-full max-w-md mx-4 overflow-hidden transform transition-all">
+            <!-- Modal Header -->
+            <div class="relative h-24 bg-gradient-to-r from-blue-500 to-indigo-600">
+                <button id="close-modal" class="absolute top-3 right-3 text-white hover:text-gray-200 focus:outline-none transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <!-- Modal Body -->
+            <div class="px-6 pt-16 pb-8 relative text-center">
+                <img id="modal-img" src="" alt="Profile" class="w-24 h-24 rounded-full border-4 border-white shadow-lg absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white object-cover">
+                <h3 id="modal-name" class="text-2xl font-bold text-gray-900 mb-1"></h3>
+                <p id="modal-title" class="text-sm font-medium text-blue-600 mb-4"></p>
+                <div class="space-y-3 text-sm text-gray-600 text-left bg-gray-50 p-4 rounded-lg">
+                    <p class="flex items-center"><svg class="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg> <span id="modal-email"></span></p>
+                    <p class="flex items-center"><svg class="w-5 h-5 mr-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg> <span id="modal-phone"></span></p>
+                    <div class="pt-3 border-t border-gray-200 mt-3">
+                        <h4 class="font-semibold text-gray-900 mb-1">About</h4>
+                        <p id="modal-bio" class="text-sm leading-relaxed text-gray-600"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mock data for the organizational chart
+        const orgData = {
+            name: "Sarah Jenkins",
+            title: "Chief Executive Officer",
+            img: "https://placehold.co/40x40/blue/white?text=SJ",
+            children: [
+                {
+                    name: "Marcus Chen",
+                    title: "Chief Technology Officer",
+                    img: "https://placehold.co/40x40/green/white?text=MC",
+                    children: [
+                        {
+                            name: "Alex Rivera",
+                            title: "VP of Engineering",
+                            img: "https://placehold.co/40x40/gray/white?text=AR",
+                            children: [
+                                { name: "Jordan Lee", title: "Frontend Lead", img: "https://placehold.co/40x40/gray/white?text=JL" },
+                                { name: "Casey Smith", title: "Backend Lead", img: "https://placehold.co/40x40/gray/white?text=CS" }
+                            ]
+                        },
+                        {
+                            name: "Priya Patel",
+                            title: "Head of Design",
+                            img: "https://placehold.co/40x40/gray/white?text=PP",
+                            children: [
+                                { name: "Sam Taylor", title: "UX Researcher", img: "https://placehold.co/40x40/gray/white?text=ST" },
+                                { name: "Riley Davis", title: "UI Designer", img: "https://placehold.co/40x40/gray/white?text=RD" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    name: "Elena Rodriguez",
+                    title: "Chief Operations Officer",
+                    img: "https://placehold.co/40x40/purple/white?text=ER",
+                    children: [
+                        {
+                            name: "David Kim",
+                            title: "VP of HR",
+                            img: "https://placehold.co/40x40/gray/white?text=DK",
+                            children: [
+                                { name: "Morgan White", title: "Recruiting Mgr", img: "https://placehold.co/40x40/gray/white?text=MW" }
+                            ]
+                        },
+                        {
+                            name: "Aisha Johnson",
+                            title: "Head of Legal",
+                            img: "https://placehold.co/40x40/gray/white?text=AJ"
+                        }
+                    ]
+                },
+                {
+                    name: "Thomas Wright",
+                    title: "Chief Financial Officer",
+                    img: "https://placehold.co/40x40/red/white?text=TW",
+                    children: [
+                         { name: "Linda Chen", title: "VP of Accounting", img: "https://placehold.co/40x40/gray/white?text=LC" }
+                    ]
+                }
+            ]
+        };
+
+        // Dimensions and setup
+        const container = document.getElementById('chart-container');
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        const margin = { top: 40, right: 90, bottom: 50, left: 90 };
+        
+        // Node dimensions
+        const nodeWidth = 220;
+        const nodeHeight = 70;
+
+        // Create the SVG container
+        const svg = d3.select("#chart-container")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Add zoom and pan capabilities
+        const zoom = d3.zoom()
+            .scaleExtent([0.5, 2])
+            .on("zoom", (event) => {
+                g.attr("transform", event.transform);
+            });
+
+        svg.call(zoom);
+
+        // Group for the chart elements
+        const g = svg.append("g");
+
+        // Create the tree layout
+        // We use a horizontal layout, so we swap width and height in the tree configuration
+        // and later in the coordinates.
+        // For a vertical layout (top to bottom), we keep it standard. Let's do top-to-bottom.
+        const treeMap = d3.tree().nodeSize([nodeWidth + 20, nodeHeight + 80]);
+
+        // Assigns parent, children, height, depth
+        let root = d3.hierarchy(orgData, (d) => d.children);
+        
+        // Center the root node horizontally
+        root.x0 = width / 2;
+        root.y0 = margin.top;
+
+        // Define a transition duration
+        const duration = 750;
+
+        // Counter for unique node IDs
+        let i = 0;
+
+        // Initial update
+        update(root);
+
+        // Center the view initially
+        function centerRoot() {
+             svg.transition().duration(duration).call(
+                zoom.transform,
+                d3.zoomIdentity.translate(width / 2, margin.top + 20).scale(1)
+            );
+        }
+        
+        // Call it right away
+        // Slight delay to ensure DOM is ready
+        setTimeout(centerRoot, 100);
+
+        // Reset view button logic
+        document.getElementById('reset-zoom').addEventListener('click', centerRoot);
+
+        function update(source) {
+            // Assigns the x and y position for the nodes
+            const treeData = treeMap(root);
+
+            // Compute the new tree layout
+            const nodes = treeData.descendants();
+            const links = treeData.descendants().slice(1);
+
+            // Normalize for fixed-depth (vertical spacing)
+            nodes.forEach((d) => {
+                d.y = d.depth * 140 + margin.top; // Vertical spacing between levels
+            });
+
+            // ****************** Nodes section ***************************
+
+            // Update the nodes...
+            const node = g.selectAll('g.node')
+                .data(nodes, (d) => d.id || (d.id = ++i));
+
+            // Enter any new nodes at the parent's previous position
+            const nodeEnter = node.enter().append('g')
+                .attr('class', 'node')
+                .attr("transform", (d) => `translate(${source.x0},${source.y0})`)
+                .on('click', (event, d) => showProfile(d));
+
+            // Add Card Background (Rectangle)
+            nodeEnter.append('rect')
+                .attr('class', 'shadow-sm')
+                .attr('width', nodeWidth)
+                .attr('height', nodeHeight)
+                .attr('x', -nodeWidth / 2) // Center the rect
+                .attr('y', -nodeHeight / 2)
+                .style("fill", (d) => d._children ? "#f9fafb" : "#ffffff"); // Slight tint if it has collapsed children
+
+            // Add Profile Picture (Circle + Image placeholder)
+            nodeEnter.append('circle')
+                .attr('r', 20)
+                .attr('cx', -nodeWidth / 2 + 30) // Position on the left
+                .attr('cy', 0);
+
+            // Add ClipPath for the image to make it round
+            nodeEnter.append("clipPath")
+                .attr("id", (d, i) => `clip-${d.id}`)
+                .append("circle")
+                .attr("r", 20)
+                .attr("cx", -nodeWidth / 2 + 30)
+                .attr("cy", 0);
+
+            // Add Image
+            nodeEnter.append("image")
+                .attr("xlink:href", d => d.data.img || "https://placehold.co/40x40/cccccc/ffffff?text=User")
+                .attr("x", -nodeWidth / 2 + 10)
+                .attr("y", -20)
+                .attr("width", 40)
+                .attr("height", 40)
+                .attr("clip-path", d => `url(#clip-${d.id})`);
+
+            // Add Name
+            nodeEnter.append('text')
+                .attr('class', 'name')
+                .attr('x', -nodeWidth / 2 + 65) // Position next to image
+                .attr('y', -5)
+                .text((d) => d.data.name);
+
+            // Add Title
+            nodeEnter.append('text')
+                .attr('class', 'title')
+                .attr('x', -nodeWidth / 2 + 65)
+                .attr('y', 15)
+                .text((d) => d.data.title);
+
+            // Add Expand/Collapse Indicator
+             nodeEnter.append('circle')
+                .attr('class', 'indicator hover:brightness-110 transition-all')
+                .attr('r', 8)
+                .attr('cx', 0)
+                .attr('cy', nodeHeight / 2)
+                .style("fill", "#3b82f6") // Tailwind blue-500
+                .style("stroke", "#ffffff")
+                .style("stroke-width", "2px")
+                .style("display", d => (d.children || d._children) ? "block" : "none")
+                .style("cursor", "pointer")
+                .on('click', (event, d) => {
+                    event.stopPropagation(); // Prevent triggering the card profile popup
+                    toggleChildren(event, d);
+                });
+
+            // UPDATE
+            const nodeUpdate = nodeEnter.merge(node);
+
+            // Transition to the proper position for the node
+            nodeUpdate.transition()
+                .duration(duration)
+                .attr("transform", (d) => `translate(${d.x},${d.y})`);
+
+            // Update the node attributes and style
+            nodeUpdate.select('rect')
+                .style("fill", (d) => d._children ? "#f8fafc" : "#ffffff") // Tailwind slate-50
+                .style("stroke", d => d._children ? "#94a3b8" : "#e5e7eb");
+
+            // Update Indicator
+            nodeUpdate.select('.indicator')
+                .style("fill", d => d._children ? "#3b82f6" : "#cbd5e1"); // Blue if collapsed, gray if expanded
+
+            // Remove any exiting nodes
+            const nodeExit = node.exit().transition()
+                .duration(duration)
+                .attr("transform", (d) => `translate(${source.x},${source.y})`)
+                .remove();
+
+            // On exit reduce the node rect size to 0
+            nodeExit.select('rect')
+                .attr('width', 0)
+                .attr('height', 0);
+
+            // On exit reduce the opacity of text labels
+            nodeExit.select('text')
+                .style('fill-opacity', 1e-6);
+
+            // ****************** Links section ***************************
+
+            // Update the links...
+            const link = g.selectAll('path.link')
+                .data(links, (d) => d.id);
+
+            // Enter any new links at the parent's previous position
+            const linkEnter = link.enter().insert('path', "g")
+                .attr("class", "link")
+                .attr('d', function(d){
+                    const o = {x: source.x0, y: source.y0};
+                    return diagonal(o, o);
+                });
+
+            // UPDATE
+            const linkUpdate = linkEnter.merge(link);
+
+            // Transition back to the parent element coordinate
+            linkUpdate.transition()
+                .duration(duration)
+                .attr('d', (d) => diagonal(d, d.parent));
+
+            // Remove any exiting links
+            const linkExit = link.exit().transition()
+                .duration(duration)
+                .attr('d', function(d) {
+                    const o = {x: source.x, y: source.y};
+                    return diagonal(o, o);
+                })
+                .remove();
+
+            // Store the old positions for transition
+            nodes.forEach((d) => {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+
+            // Creates a curved (diagonal) path from parent to the child nodes
+            // Modified for Top-to-Bottom layout
+            function diagonal(s, d) {
+                const path = `M ${s.x} ${s.y - nodeHeight/2}
+                        C ${(s.x + d.x) / 2} ${s.y - nodeHeight/2},
+                          ${(s.x + d.x) / 2} ${d.y + nodeHeight/2},
+                          ${d.x} ${d.y + nodeHeight/2}`;
+                return path;
+            }
+
+            // Toggle children on click
+            function toggleChildren(event, d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                } else {
+                    d.children = d._children;
+                    d._children = null;
+                }
+                update(d);
+            }
+        }
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+             const newWidth = container.clientWidth;
+             const newHeight = container.clientHeight;
+             svg.attr("width", newWidth).attr("height", newHeight);
+             
+             // Optionally re-center on resize
+             // centerRoot(); 
+        });
+
+        // Profile Modal Logic
+        const modal = document.getElementById('profile-modal');
+        const closeModalBtn = document.getElementById('close-modal');
+
+        function showProfile(d) {
+            const data = d.data;
+            
+            // Generate some mock extra data dynamically
+            const email = data.email || `${data.name.split(' ')[0].toLowerCase()}.${data.name.split(' ')[1]?.toLowerCase() || 'user'}@company.com`;
+            const phone = data.phone || `+1 (555) ${Math.floor(100 + Math.random() * 900)}-${Math.floor(1000 + Math.random() * 9000)}`;
+            const bio = data.bio || `Passionate professional focused on driving growth and excellence in the ${data.title} role. Over 10 years of experience in the industry.`;
+            const imgSrc = data.img || "https://placehold.co/40x40/cccccc/ffffff?text=User";
+            
+            // Get a higher res version of the placehold.co image for the modal
+            const hiResImg = imgSrc.replace('40x40', '120x120');
+
+            document.getElementById('modal-img').src = hiResImg;
+            document.getElementById('modal-name').textContent = data.name;
+            document.getElementById('modal-title').textContent = data.title;
+            document.getElementById('modal-email').textContent = email;
+            document.getElementById('modal-phone').textContent = phone;
+            document.getElementById('modal-bio').textContent = bio;
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeProfile() {
+            modal.classList.add('hidden');
+        }
+
+        closeModalBtn.addEventListener('click', closeProfile);
+        
+        // Close modal when clicking on the backdrop
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                closeProfile();
+            }
+        });
+
+    </script>
+</body>
+</html>
+```
+
+![Organisation Chart](./org-chart-d3.png)
