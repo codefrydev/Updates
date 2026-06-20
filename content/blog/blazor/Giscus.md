@@ -6,13 +6,13 @@ date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
 description: "GitHub-backed comments on your WASM app."
-keywords: ["CFD","CodefryDev","Code Fry Dev","Giscus","NET","codefrydev","C sharp","blazor","GisCus"]
+keywords: ["CFD","CodefryDev","Code Fry Dev","Giscus","NET","codefrydev","C Sharp","blazor","GisCus"]
 
 cover:
     image: "cover.jpg" # image path/url
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  #display caption under cover 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "blazor" ,"GisCus"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "blazor" ,"GisCus"]
 ---
 ### Giscus Script Configuration
 

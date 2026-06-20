@@ -12,8 +12,8 @@ cover:
     alt: "Google Drive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "C sharp", "HtmlAgilityPack","Google Drive","ID"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
+tags: [ "C Sharp", "HtmlAgilityPack","Google Drive","ID"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "HtmlAgilityPack","Google Drive","ID"]
 ---
 ## Overview
 Suppose you want to extract the ID of all items that reside in a folder of Google Drive. There are many ways to do this, like manually copying from each file or programmatically. I will guide you on how to do this using a program in C#   

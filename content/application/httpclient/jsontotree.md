@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","JSON"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","JSON"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","JSON"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","JSON"]
 ---
 # Handling Dynamic JSON with Variable Property Names
 

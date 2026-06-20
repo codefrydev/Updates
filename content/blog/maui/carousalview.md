@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "layout","Carousel"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "Carousel"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","maui" , "layout","Carousel"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","maui" , "Carousel"]
 ---
 ### \#\# 1. Create the Reusable Component Files 🧱
 

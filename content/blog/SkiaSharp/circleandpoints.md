@@ -12,8 +12,8 @@ cover:
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "CSharp", "SkiaSharp","Polygon","Trigonometry"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Trigonometry","Polygon","Math"]
+tags: [  "C Sharp", "SkiaSharp","Polygon","Trigonometry"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "SkiaSharp","Trigonometry","Polygon","Math"]
 ---
 ## Setting Up SkiaSharp
 

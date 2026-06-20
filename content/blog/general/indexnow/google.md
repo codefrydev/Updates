@@ -12,8 +12,8 @@ cover:
     alt: "Cover Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "C sharp","IndexNow","Google","SEO"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing","Google Index","SEO"]
+tags: [ "C Sharp","IndexNow","Google","SEO"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "Index","IndexNow","indexing","Google Index","SEO"]
 ---
 ## Google Cloud Console Setup
 

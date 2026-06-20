@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### 1. What's the difference between .NET and .NET Framework?
 - **.NET Framework**: A Windows-only framework for building web, desktop, and other applications. It has been around since the early 2000s and is deeply integrated with Windows.

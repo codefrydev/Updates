@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 1. **What is MVC?**  
    MVC (Model-View-Controller) is a design pattern used to separate an application into three main components: the Model, the View, and the Controller. This separation helps manage complex applications by separating the input logic, business logic, and UI logic while providing a clear structure for the development.

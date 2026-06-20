@@ -12,8 +12,8 @@ cover:
     alt: "Image TO PDF Basic Cover" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "C sharp","PdfSharp","PDF","Image TO PDF","polyglot"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "PdfSharp","PDF","Image TO PDF","polyglot"]
+tags: [  "C Sharp","PdfSharp","PDF","Image TO PDF","Polyglot"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "PdfSharp","PDF","Image TO PDF","polyglot"]
 ---
 ## Steps
 

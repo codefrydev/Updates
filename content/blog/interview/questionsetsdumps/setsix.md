@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 1. **What is MVC?**  
    MVC stands for **Model-View-Controller**, which is a software architectural pattern used to develop web applications. It separates an application into three main components:

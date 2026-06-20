@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls","entry"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","maui" , "controls"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","maui" , "controls","entry"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","maui" , "controls"]
 ---
 ## Implementation Steps
 

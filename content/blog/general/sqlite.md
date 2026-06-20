@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","Sqlite"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD" ,"Sqlite"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","Sqlite"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD" ,"Sqlite"]
 ---
 # Required NuGet Packages
 

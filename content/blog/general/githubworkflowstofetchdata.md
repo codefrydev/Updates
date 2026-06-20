@@ -12,8 +12,8 @@ cover:
     alt: "Google Drive Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "C sharp", "CICD","GitHub"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "CICD","GitHub"]
+tags: [ "C Sharp", "CICD","GitHub"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "CICD","GitHub"]
 ---
 ## Create a New Console Project
 

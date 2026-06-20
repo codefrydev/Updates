@@ -12,8 +12,8 @@ cover:
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "C sharp", "SkiaSharp","Generate LOGO","Skia"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Generate LOGO","Skia"]
+tags: [  "C Sharp", "SkiaSharp","Generate LOGO","Skia"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "SkiaSharp","Generate LOGO","Skia"]
 ---
 ## Creating Logos with SkiaSharp
 

@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### 1. What is ViewData?
 **ViewData** is a dictionary object in ASP.NET Core MVC used to pass data from a controller to a view. It is a type of key-value pair dictionary where the key is a string, and the value is an object. ViewData is useful for passing small amounts of data between a controller and a view but lacks type safety and requires typecasting.

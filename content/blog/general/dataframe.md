@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Table","Polyglotnotebook","Dataframe"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","Table","Dataframe"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "Table","Polyglotnotebook","Dataframe"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","Table","Dataframe"]
 hideMeta: true
 ---
 ## Setup Polyglot Notebook Environment

@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","middleware"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","middleware"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","middleware"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","middleware"]
 ---
 ### How does middleware differ from HTTP modules in ASP.NET?
 

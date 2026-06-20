@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Excel","List"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "Excel","List"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 hideMeta: true
 ---
 # Creating Excel File from List<T> With Different Sheet With Naming

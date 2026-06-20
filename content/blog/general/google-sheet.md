@@ -12,8 +12,8 @@ cover:
     alt: "Google Sheets Integration" # alt text
     #caption: "Google Sheets CRUD Service"  display caption under cover 
 
-tags: [ "Google Sheets", "C#", ".NET", "CRUD", "Google APIs", "codefrydev", "CFD"]
-keywords: [ "Google Sheets", "C#", ".NET", "CRUD", "Google APIs", "Generic Service", "Type Mapping", "codefrydev", "CFD"]
+tags: [ "Google Sheets", "C Sharp", "NET", "CRUD", "Google APIs", "codefrydev", "CFD"]
+keywords: [ "Google Sheets", "C Sharp", "NET", "CRUD", "Google APIs", "Generic Service", "Type Mapping", "codefrydev", "CFD"]
 hideMeta: true
 ---
 ## Overview

@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### What is .NET Core?
 .NET Core is a free, open-source, cross-platform framework developed by Microsoft. It is designed to be a high-performance, modular, and scalable platform for building applications that can run on Windows, macOS, and Linux. It supports the development of console applications, web apps, APIs, and microservices.

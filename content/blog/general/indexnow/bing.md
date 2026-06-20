@@ -12,8 +12,8 @@ cover:
     alt: "Cover Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "C sharp", "Bing","IndexNow"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Index","IndexNow","indexing","Bing Index","SEO"]
+tags: [ "C Sharp", "Bing","IndexNow"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "Index","IndexNow","indexing","Bing Index","SEO"]
 ---
 ## Implementation Steps
 

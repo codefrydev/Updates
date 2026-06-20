@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "YouTube API", "YouTube Data API", "Video Management", "API Integration", "Programming", "Software Development" ]
 ---
 ## YouTube Data API Sample in .NET Interactive Notebooks
 

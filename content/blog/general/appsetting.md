@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","appsetting"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","appsetting"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","appsetting"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","appsetting"]
 ---
 ## Reading Configuration from appsettings.json
 

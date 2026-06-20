@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD","adonet"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD","adonet"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD","adonet"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD","adonet"]
 ---
 ### 1. What is ADO.NET?
 

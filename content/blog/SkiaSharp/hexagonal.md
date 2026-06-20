@@ -12,8 +12,8 @@ cover:
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "CSharp", "SkiaSharp","Hexagon","Hexagonal Grid"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Hexagon","Hexagonal Grid","Skia"]
+tags: [  "C Sharp", "SkiaSharp","Hexagon","Hexagonal Grid"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "SkiaSharp","Hexagon","Hexagonal Grid","Skia"]
 ---
 ## Concept
 

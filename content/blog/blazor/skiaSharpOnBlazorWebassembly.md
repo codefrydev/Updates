@@ -6,8 +6,8 @@ date: 2024-07-12T00:00:00-07:00
 lastmod: 2024-07-19T23:59:59-07:00
 dateString: July 2024
 description: "Canvas rendering in the browser."
-tags: ["blazor","Skiasharp"]
-keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ,"Skiasharp"]
+tags: ["blazor","SkiaSharp"]
+keywords: ["CFD","CodefryDev","Code Fry Dev","Csharp","blazor","webassembly" ,"SkiaSharp"]
 
 cover:
     image: "cover.jpg" # image path/url

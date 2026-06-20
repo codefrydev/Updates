@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "C sharp", "Polyglot","Html","Dispaly"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Html in Polyglot Notebook","Dispaly"]
+tags: [ "C Sharp", "Polyglot","Html","Dispaly"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "Html in Polyglot Notebook","Dispaly"]
 ---
 ## Display HTML Content in Polyglot Notebook
 

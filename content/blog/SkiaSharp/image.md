@@ -12,8 +12,8 @@ cover:
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "C sharp", "SkiaSharp","Use Image","Skia","Image"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Use Image","Skia","Import Image"]
+tags: [  "C Sharp", "SkiaSharp","Use Image","Skia","Image"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "SkiaSharp","Use Image","Skia","Import Image"]
 ---
 ## Requirements
 

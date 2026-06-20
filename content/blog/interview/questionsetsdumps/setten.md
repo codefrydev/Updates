@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 1. **What is ASP.NET MVC?**  
    ASP.NET MVC (Model-View-Controller) is a web application framework developed by Microsoft. It implements the MVC pattern to separate an application into three main components: Model (data and business logic), View (user interface), and Controller (handles user input and updates the Model). This separation helps in managing complexity, improving testability, and making code more maintainable.

@@ -12,8 +12,8 @@ cover:
     alt: "Generate Thumbnail" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [  "CSharp", "SkiaSharp","Hexagon","Trigonometry table"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "SkiaSharp","Trigonometry table","Trigonometry","Math"]
+tags: [  "C Sharp", "SkiaSharp","Hexagon","Trigonometry table"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "SkiaSharp","Trigonometry table","Trigonometry","Math"]
 ---
 ## Trigonometry Table Generation
 

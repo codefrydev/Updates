@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### ASP.NET Core Overview
 ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, and internet-connected applications. It provides a unified approach to web development by combining the features of MVC (Model-View-Controller) and Web API into a single framework.

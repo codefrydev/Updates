@@ -12,7 +12,7 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Download File","Downloader","httpclient"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "Download File","Downloader","httpclient"]
 draft: true
 ---
 ## Some Of Common Commands

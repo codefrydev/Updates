@@ -1,4 +1,4 @@
-baseURL: "https://codefrydev.in/updates/"
+baseURL: "https://codefrydev.in/Updates/"
 languageCode: en-US
 title: Code Fry Dev
 theme: PaperMod
@@ -14,19 +14,19 @@ menu:
       weight: 10
     - identifier: blog
       name: NET
-      url: /blog
+      url: /blog/
       weight: 12
     - identifier: search
       name: Search
-      url: /search
+      url: /search/
       weight: 50
     - identifier: tags
       name: Tag
-      url: /tags
+      url: /tags/
       weight: 60
     - identifier: archives
       name: ARC
-      url: /archives
+      url: /archives/
       weight: 61
 
 params:

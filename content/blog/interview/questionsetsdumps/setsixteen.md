@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### 1. What is ASP.NET Core?
 ASP.NET Core is a modern, open-source, cross-platform framework for building web applications. It is designed to provide a lightweight, high-performance framework that is suitable for building cloud-based applications, such as web apps, IoT apps, and mobile backends. ASP.NET Core allows developers to create robust web applications that can run on Windows, macOS, and Linux.

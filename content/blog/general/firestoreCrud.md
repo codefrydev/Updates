@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "Firestore","Firebase","Google","CRUD","Crud"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "Firestore","Firebase","Google","CRUD","Crud"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "Firestore","Firebase","Google","CRUD","CRUD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "Firestore","Firebase","Google","CRUD","CRUD"]
 ---
 ## Overview
 

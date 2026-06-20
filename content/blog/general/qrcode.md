@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD", "QRCode","QR Code","Generate","Generate QR Code"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD", "QRCode","QR Code","Generate","Generate QR Code"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD", "QRCode","Generate","Generate QR Code"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD", "QRCode","QR Code","Generate","Generate QR Code"]
 ---
 ## Generate QR Code in .NET Applications
 

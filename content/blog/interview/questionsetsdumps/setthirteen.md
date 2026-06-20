@@ -12,8 +12,8 @@ cover:
     alt: "Download Logo" # alt text
     #caption: "Optical Character Recognition"  display caption under cover 
 
-tags: [ "NET", "codefrydev", "C sharp", "CFD"]
-keywords: [ "NET", "codefrydev", "C sharp", "CFD"]
+tags: [ "NET", "codefrydev", "C Sharp", "CFD"]
+keywords: [ "NET", "codefrydev", "C Sharp", "CFD"]
 ---
 ### ASP.NET MVC Core Overview
 ASP.NET MVC Core, often referred to simply as ASP.NET Core, is a cross-platform, high-performance framework for building modern, cloud-based, and internet-connected applications. It combines the features of ASP.NET MVC and ASP.NET Web API into a single programming model. ASP.NET Core is open-source and can run on Windows, macOS, and Linux.
