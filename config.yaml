@@ -12,18 +12,10 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: application
-      name: App
-      url: /application
-      weight: 11
     - identifier: blog
       name: NET
       url: /blog
       weight: 12
-    - identifier: games
-      name: Game
-      url: /games
-      weight: 13
     - identifier: search
       name: Search
       url: /search
